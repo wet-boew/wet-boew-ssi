@@ -1,0 +1,5 @@
+<div id="cn-centre-col" <!--#if expr="${pg-html5} = '1'"-->role="main"<!--#endif-->><div id="cn-centre-col-inner">
+<!-- MainContentStart -->
+<!--#if expr="${cn-centre-header-file}"--><!--#include virtual="${cn-centre-header-file}"--><!--#endif-->
+<!--#if expr="${pg-lang2}"--><h1 id="cn-cont"><!--#echo encoding="none" var="pg-title-${pg-lang1}"--> / <span lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->><!--#echo encoding="none" var="pg-title-${pg-lang2}"--></span></h1>
+<!--#else--><h1 id="cn-cont"><!--#echo encoding="none" var="pg-title-${pg-lang1}"--></h1><!--#endif-->

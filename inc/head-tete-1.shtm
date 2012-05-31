@@ -1,0 +1,32 @@
+<title><!--#echo encoding="none" var="pg-title-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> | <!--#echo encoding="none" var="pg-title-${pg-lang2}"--><!--#endif--></title>
+
+<!--#if expr="${pg-html5} = '0'"--><link rel="schema.dcterms" href="http://purl.org/dc/terms/" /><!--#endif-->
+
+<!--#if expr="(${pg-modified} = '') || (${pg-modified} = 'YYYY-MM-DD') || (${pg-modified} = 'AAAA-MM-JJ') || (${pg-modified} = '9999-12-31')"--><!--#set var="pg-modified" value="${pg-issued}"--><!--#endif-->
+<meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
+<!--#if expr="${pg-lang2}"--><meta name="dcterms.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif--> content="<!--#echo encoding='none' var='pg-title-${pg-lang2}'-->" /><!--#endif-->
+
+<!--#if expr="${pg-html5} = '1'"-->
+<meta name="dcterms.issued" title="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
+<meta name="dcterms.modified" title="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
+<meta name="dcterms.language" title="ISO639-2" content="<!--#echo encoding='none' var='pg-lang1'-->" />
+<!--#if expr="${pg-lang2}"--><meta name="dcterms.language" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" title="ISO639-2" content="<!--#echo encoding='none' var='pg-lang2'-->" /><!--#endif-->
+<!--#else-->
+<meta name="dcterms.issued" scheme="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
+<meta name="dcterms.modified" scheme="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
+<meta name="dcterms.language" scheme="ISO639-2" content="<!--#echo encoding='none' var='pg-lang1'-->" />
+<!--#if expr="${pg-lang2}"--><meta name="dcterms.language" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif--> scheme="ISO639-2" content="<!--#echo encoding='none' var='pg-lang2'-->" /><!--#endif-->
+<!--#endif-->
+
+<link href="/css/base.css" rel="stylesheet" type="text/css" />
+<!--[if IE 8]><link href="/css/base-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 7]><link href="/css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 6]><link href="/css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<script>
+/* <![CDATA[ */
+	if(typeof(params) == "undefined") {
+		var params = {};
+	}
+/* ]]> */
+</script>

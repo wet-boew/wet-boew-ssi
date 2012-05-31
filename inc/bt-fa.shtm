@@ -1,0 +1,21 @@
+<!--#config errmsg=""-->
+<!--#set var="np-show" value="1"-->
+<!--#include virtual="/${cn-bt-fa-filename}?np=1"-->
+<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
+<!--#if expr="$1"-->
+<!--#include virtual="/${1}${cn-bt-fa-filename}?np=1"-->
+<!--#endif-->
+<!--#if expr="$2"-->
+<!--#include virtual="/${1}${2}${cn-bt-fa-filename}?np=1"-->
+<!--#endif-->
+<!--#if expr="$3"-->
+<!--#include virtual="/${1}${2}${3}${cn-bt-fa-filename}?np=1"-->
+<!--#endif-->
+<!--#if expr="$4"-->
+<!--#include virtual="/${1}${2}${3}${4}${cn-bt-fa-filename}?np=1"-->
+<!--#endif-->
+<!--#if expr="$5"-->
+<!--#include virtual="/${1}${2}${3}${4}${5}${cn-bt-fa-filename}?np=1"-->
+<!--#endif-->
+<!--#endif-->
+<li><!--#echo encoding='none' var="pg-title-${pg-lang1}"--></li>
