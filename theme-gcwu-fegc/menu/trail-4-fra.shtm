@@ -1,0 +1,6 @@
+<h4 class="col-head"><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> href="#">Restez branchés</a></h4>
+<ul>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="#">YouTube</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="#">Twitter</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> href="#">Flux</a></li>
+</ul>

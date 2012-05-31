@@ -1,0 +1,43 @@
+<!--#if expr="${np-show} != 1"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<!--#endif-->
+<!--#set var="np-title-eng" value="Welcome"-->
+<!--#set var="np-title-fra" value="Bienvenue"-->
+<!--#set var="np-link-eng" value="/theme-gc-intranet/shtm/2col-megamenu-theme-gc-intranet-eng.shtm"-->
+<!--#set var="np-link-fra" value="/theme-gc-intranet/shtm/2col-megamenu-theme-gc-intranet-fra.shtm"-->
+<!--#set var="np-lang1" value="eng"-->
+<!--#set var="np-lang2" value="fra"-->
+<!--#set var="np-issued" value="2011-10-31"-->
+<!--#set var="np-modified" value="YYYY-MM-DD"-->
+<!--#set var="np-html5" value="1"-->
+<!--#if expr="${np-show} != 1"-->
+<!--#include virtual="/inc/sp-pe-vars.shtm"-->
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="dcterms.description" lang="fr" content="French description / Description en français" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="description" lang="fr" content="French description / Description en français" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="keywords" lang="fr" content="French keywords / Mots-clés en français" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.creator" lang="fr" content="French name of the content author / Nom en français de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<meta name="dcterms.subject" title="scheme" lang="fr" content="French subject terms / Termes de sujet en français" />
+<!--#include virtual="/theme-gc-intranet/inc/sp-pe/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/inc/1col.shtm"-->
+<!--#include virtual="/theme-gc-intranet/inc/sp-pe/header-entete.shtm"-->
+<!--#include virtual="/inc/centre-1.shtm"-->
+<!--#include virtual="/theme-gc-intranet/inc/sp-pe/cont.shtm"-->
+<!--#include virtual="/inc/centre-2.shtm"-->
+<!--#include virtual="/theme-gc-intranet/inc/sp-pe/trail-arr.shtm"-->
+</body>
+</html>
+<!--#else-->
+<!--#include virtual="/inc/np.shtm"-->
+<!--#endif-->

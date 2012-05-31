@@ -1,0 +1,33 @@
+<!-- Site title begins / Début du titre du site -->
+<div id="cn-site-title">
+<div id="cn-site-title-left" class="span-3 margin-bottom-none"><!--#echo encoding='none' var="cn-site-title-${pg-lang1}"--></div>
+<div class="span-2 margin-bottom-none"></div>
+<div id="cn-site-title-right" class="span-3 margin-bottom-none" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->><!--#echo encoding='none' var="cn-site-title-${pg-lang2}"--></div>
+<div class="clear"></div>
+</div>
+<!-- Site title ends / Fin du titre du site -->
+
+<!-- Language selection links begin / Début des liens de sélection de langue -->
+<div id="cn-lang-links"><!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><h2><!--#echo encoding='none' var='cn-langselect-${pg-lang1}'--> / <span lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->><!--#echo encoding='none' var='cn-langselect-${pg-lang2}'--></span></span></h2>
+<div class="span-6 grid-12 margin-bottom-none">
+<ul id="cn-ef-lang-links">
+<li><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang1}'--></a></div></li>
+<li lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang2}'--></a></div></li>
+</ul>
+</div>
+<div id="cn-wmms" class="span-2 margin-bottom-none"><div id="cn-wmms-inner"><div id="fip-pcim-wmms" title="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='cn-wmms-${pg-lang2}'-->"><img src="/theme-gc-intranet/fip-pcim/images/wmms.gif" width="126" height="30"  alt="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='cn-wmms-${pg-lang2}'-->" /></div></div></div>
+<div class="clear"></div>
+<!--#if expr="${pg-lang3}"-->
+<div class="clear"></div>
+<div class="span-8 grid-12 margin-bottom-none">
+<ul id="cn-other-lang-links">
+<li lang="<!--#echo encoding='none' var='cn-meta-${pg-lang3}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang3}'-->"<!--#endif-->><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang3}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang3}'--></a></div></li>
+<!--#if expr="${pg-lang4}"--><li lang="<!--#echo encoding='none' var='cn-meta-${pg-lang4}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang4}'-->"<!--#endif-->><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang4}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang4}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang5}"--><li lang="<!--#echo encoding='none' var='cn-meta-${pg-lang5}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang5}'-->"<!--#endif-->><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang5}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang5}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang6}"--><li lang="<!--#echo encoding='none' var='cn-meta-${pg-lang6}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang6}'-->"<!--#endif-->><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang6}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang6}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang7}"--><li lang="<!--#echo encoding='none' var='cn-meta-${pg-lang7}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang7}'-->"<!--#endif-->><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang7}'-->"><!--#echo encoding='none' var='cn-lang-text-${pg-lang7}'--></a></div></li><!--#endif-->
+</ul>
+</div>
+<!--#endif-->
+<!--#if expr="${pg-html5} = '1'"--></nav><!--#endif--></div>
+<!-- Language selection links end / Fin des liens de sélection de langue -->

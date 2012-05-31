@@ -1,0 +1,5 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<div id="cn-foot-base">
+<h3><!--#echo encoding='none' var='cn-footertext-${pg-lang1}'--></h3>
+</div>
+<!--#include virtual="/inc/body-corps-2b.shtm"-->

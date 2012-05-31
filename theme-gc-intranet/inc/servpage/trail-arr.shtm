@@ -1,0 +1,9 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<div id="cn-tc" class="span-8">
+<ul>
+<li class="cn-tc-left"><div class="span-4 row-start"><a href="<!--#echo encoding='none' var='cn-terms-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='cn-terms-text-${pg-lang1}'--></a></div></li>
+<li class="cn-tc-right" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->><div class="span-4 row-end"><a href="<!--#echo encoding='none' var='cn-terms-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='cn-terms-text-${pg-lang2}'--></a></div></li>
+</ul>
+<div class="clear"></div>
+</div>
+<!--#include virtual="/inc/body-corps-2b.shtm"-->

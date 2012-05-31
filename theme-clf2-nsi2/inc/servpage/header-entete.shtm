@@ -1,0 +1,4 @@
+<!--#include virtual="/inc/body-corps-1a.shtm"-->
+<div id="cn-sig"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/<!--#echo encoding='none' var='cn-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="372" height="20" alt="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='cn-sig-${pg-lang2}'-->" title="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='cn-sig-${pg-lang2}'-->" /></div>
+<div id="cn-wmms"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='cn-wmms-${pg-lang2}'-->" title="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='cn-wmms-${pg-lang2}'-->" /></div>
+<!--#include virtual="/inc/body-corps-1b.shtm"-->

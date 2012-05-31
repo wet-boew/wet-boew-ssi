@@ -1,0 +1,1 @@
+<!--#if expr="${pg-isapp} = '1'"--><!--#include virtual="/theme-gc-intranet/inc/cont/appversion.shtm"--><!--#else--><!--#include virtual="/theme-gc-intranet/inc/cont/datemod.shtm"--><!--#endif-->

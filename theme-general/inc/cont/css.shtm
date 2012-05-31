@@ -1,0 +1,10 @@
+<!--#include virtual="/theme-general/inc/config.shtm"-->
+<!--#include virtual="/inc/head-tete-1.shtm"-->
+<!-- CSSStart-->
+<link href="/theme-general/css/theme-general.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7]><link href="/theme-general/css/theme-general-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 6]><link href="/theme-general/css/theme-general-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!-- CSSEnd-->
+<!--#include virtual="/inc/head-tete-2.shtm"-->
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->

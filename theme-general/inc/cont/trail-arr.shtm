@@ -1,0 +1,20 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<div id="cn-cmb"><!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><h3><!--#echo encoding="none" var="cn-cmb-${pg-lang1}"--></h3>
+<ul>
+<li id="cn-cmb1"><a href="<!--#echo encoding='none' var='cn-cmb1-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb1-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb1-text-${pg-lang1}'--></a></li>
+<li id="cn-cmb2"><a href="<!--#echo encoding='none' var='cn-cmb2-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb2-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb2-text-${pg-lang1}'--></a></li>
+<li id="cn-cmb3"><a href="<!--#echo encoding='none' var='cn-cmb3-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb3-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb3-text-${pg-lang1}'--></a></li>
+<li id="cn-cmb4"><a rel="external" href="<!--#echo encoding='none' var='cn-cmb4-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb4-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb4-text-${pg-lang1}'--></a></li>
+</ul>
+<!--#if expr="${pg-html5} = '1'"--></nav><!--#endif--></div>
+
+<div id="cn-in-pd"><h3><!--#echo encoding='none' var='cn-pd-${pg-lang1}'--></h3>
+<div id="cn-sig"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/sig-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="372" height="20" alt="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" /></div>
+<div id="cn-toppage-foot"><a href="#cn-tphp" title="<!--#echo encoding='none' var='cn-toppage-foot-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-toppage-foot-text-${pg-lang1}'--></a></div>
+<div id="cn-in-pd-links">
+<ul>
+<li id="cn-inotices-link"><a href="<!--#echo encoding='none' var='cn-inotices-link-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='cn-inotices-link-text-${pg-lang1}'--></a></li>
+</ul>
+</div>
+</div>
+<!--#include virtual="/inc/body-corps-2b.shtm"-->

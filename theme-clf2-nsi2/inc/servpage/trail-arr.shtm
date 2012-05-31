@@ -1,0 +1,18 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<div id="cn-in-pd">
+<ul>
+<li id="cn-inotices-link-left">
+<dl class="cn-doc-dates"<!--#if expr="${pg-html5} = '1'"--> role="contentinfo"<!--#endif-->>
+<dt><!--#echo encoding="none" var="cn-doc-dates-${pg-lang1}"--></dt><dd><span><!--#if expr="${pg-html5} = '1'"--><time><!--#endif--><!--#echo encoding="none" var="pg-modified"--><!--#if expr="${pg-html5} = '1'"--></time><!--#endif--></span></dd>
+</dl>
+<a href="<!--#echo encoding='none' var='cn-inotices-link-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='cn-inotices-link-text-${pg-lang1}'--></a><br />
+</li>
+<li id="cn-inotices-link-right" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->>
+<dl class="cn-doc-dates"<!--#if expr="${pg-html5} = '1'"--> role="contentinfo"<!--#endif-->>
+<dt><!--#echo encoding="none" var="cn-doc-dates-${pg-lang2}"--></dt><dd><span><!--#if expr="${pg-html5} = '1'"--><time><!--#endif--><!--#echo encoding="none" var="pg-modified"--><!--#if expr="${pg-html5} = '1'"--></time><!--#endif--></span></dd>
+</dl>
+<a href="<!--#echo encoding='none' var='cn-inotices-link-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='cn-inotices-link-text-${pg-lang2}'--></a>
+</li>
+</ul>
+</div>
+<!--#include virtual="/inc/body-corps-2b.shtm"-->

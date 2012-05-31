@@ -1,0 +1,26 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><div id="cn-sft"><h3><!--#echo encoding='none' var='cn-sitefooter-${pg-lang1}'--></h3><div id="cn-sft-inner">
+<div id="cn-ft-tctr">
+<ul>
+<li class="terms"><a href="<!--#echo encoding='none' var='cn-terms-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='cn-terms-text-${pg-lang1}'--></a></li>
+<li class="trans"><a href="<!--#echo encoding='none' var='cn-trans-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-trans-text-${pg-lang1}'--></a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-1-${pg-lang1}.shtm"--></div></section>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-2-${pg-lang1}.shtm"--></div></section>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-3-${pg-lang1}.shtm"--></div></section>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-4-${pg-lang1}.shtm"--></div></section>
+</div></div><!--#if expr="${pg-html5} = '1'"--></nav><!--#endif-->
+
+<!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><div id="cn-gcft"><h3><!--#echo encoding='none' var='cn-gcfooter-${pg-lang1}'--></h3><div id="cn-gcft-inner"><div id="fip-pcim-gcft">
+<ul>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-trail1-href-${pg-lang1}'-->"><span><!--#echo encoding='none' var='cn-trail1-text-${pg-lang1}'--></span><br /><!--#echo encoding='none' var='cn-trail1-textsub-${pg-lang1}'--></a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-trail2-href-${pg-lang1}'-->"><span><!--#echo encoding='none' var='cn-trail2-text-${pg-lang1}'--></span><br /><!--#echo encoding='none' var='cn-trail2-textsub-${pg-lang1}'--></a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-trail3-href-${pg-lang1}'-->"><span><!--#echo encoding='none' var='cn-trail3-text-${pg-lang1}'--></span><br /><!--#echo encoding='none' var='cn-trail3-textsub-${pg-lang1}'--></a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-trail4-href-${pg-lang1}'-->"><span><!--#echo encoding='none' var='cn-trail4-text-${pg-lang1}'--></span><br /><!--#echo encoding='none' var='cn-trail4-textsub-${pg-lang1}'--></a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-trail5-href-${pg-lang1}'-->"><span><!--#echo encoding='none' var='cn-trail5-text-${pg-lang1}'--></span><br /><!--#echo encoding='none' var='cn-trail5-textsub-${pg-lang1}'--></a></li>
+<li id="cn-ft-ca"><div><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-trail-canada-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-trail-canada-text-${pg-lang1}'--></a></div></li>
+</ul>
+</div></div></div><!--#if expr="${pg-html5} = '1'"--></nav><!--#endif-->
+<!--#include virtual="/inc/body-corps-2b.shtm"-->
