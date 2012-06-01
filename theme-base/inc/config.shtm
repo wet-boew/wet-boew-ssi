@@ -1,0 +1,7 @@
+<!--#include virtual="/inc/config.shtm"-->
+<!--#set var="cn-theme-folder" value="theme-base"-->
+<!--#set var="cn-bt-fa-filename" value="index.shtm"-->
+<!--#set var="cn-headertext-eng" value="Header (Base)"-->
+<!--#set var="cn-headertext-fra" value="En-tête (Base)"-->
+<!--#set var="cn-footertext-eng" value="Footer (Base)"-->
+<!--#set var="cn-footertext-fra" value="Pied de page (Base)"-->

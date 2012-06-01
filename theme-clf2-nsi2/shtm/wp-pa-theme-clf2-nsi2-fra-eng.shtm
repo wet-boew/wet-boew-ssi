@@ -1,0 +1,43 @@
+<!--#if expr="${np-show} != 1"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<!--#endif-->
+<!--#set var="np-lang1" value="fra"-->
+<!--#set var="np-lang2" value="eng"-->
+<!--#set var="np-title-eng" value="Web Template"-->
+<!--#set var="np-title-fra" value="Modéle de page Web"-->
+<!--#set var="np-link-eng" value="/theme-clf2-nsi2/shtm/3col-theme-clf2-nsi2-eng.shtm"-->
+<!--#set var="np-link-fra" value="/theme-clf2-nsi2/shtm/3col-theme-clf2-nsi2-fra.shtm"-->
+<!--#set var="np-issued" value="2010-08-09"-->
+<!--#set var="np-modified" value="YYYY-MM-DD"-->
+<!--#set var="np-html5" value="1"-->
+<!--#if expr="${np-show} != 1"-->
+<!--#include virtual="/inc/sp-pe-vars.shtm"-->
+<meta name="dcterms.description" lang="en" content="English description / Description en anglais" />
+<meta name="dcterms.description" content="French description / Description en français" />
+<meta name="description" lang="en" content="English description / Description en anglais" />
+<meta name="description" content="French description / Description en français" />
+<meta name="keywords" lang="en" content="English keywords / Mots-clés en anglais" />
+<meta name="keywords" content="French keywords / Mots-clés en français" />
+<meta name="dcterms.creator" lang="en" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.creator" content="French name of the content author / Nom en français de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" lang="en" content="English subject terms / Termes de sujet en anglais" />
+<meta name="dcterms.subject" title="scheme" content="French subject terms / Termes de sujet en français" />
+<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/inc/1col.shtm"-->
+<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/header-entete.shtm"-->
+<!--#include virtual="/inc/centre-1.shtm"-->
+<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/cont.shtm"-->
+<!--#include virtual="/inc/centre-2.shtm"-->
+<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/trail-arr.shtm"-->
+</body>
+</html>
+<!--#else-->
+<!--#include virtual="/inc/np.shtm"-->
+<!--#endif-->

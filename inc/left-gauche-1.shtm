@@ -1,0 +1,5 @@
+
+<div id="cn-left-col"><div id="cn-left-col-inner"><!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><h2 id="cn-nav"><!--#echo encoding="none" var="cn-left-col-${pg-lang1}"--></h2>
+<div class="cn-left-col-default">
+<!-- SideNavLeftStart -->
+<!--#if expr="${cn-left-header-file}"--><!--#include virtual="${cn-left-header-file}"--><!--#endif-->

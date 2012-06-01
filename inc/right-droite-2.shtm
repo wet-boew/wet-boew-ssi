@@ -1,0 +1,4 @@
+<!--#if expr="${cn-right-footer-file}"--><!--#include virtual="${cn-right-footer-file}"--><!--#endif-->
+<!-- SuppContentEnd -->
+</div>
+<!--#if expr="${pg-html5} = '1'"--></section><!--#endif--></div></div>

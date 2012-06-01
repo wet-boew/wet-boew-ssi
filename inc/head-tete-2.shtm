@@ -1,0 +1,11 @@
+<!--#if expr="${cn-head-footer-file}"--><!--#include virtual="${cn-head-footer-file}"--><!--#endif-->
+
+<!--#if expr="${pg-nojquery} = ''"-->
+<script src="/js/lib/jquery.min.js"<!--#if expr="${pg-html5} = '0'"--> type="text/javascript"<!--#endif-->></script>
+<script src="/js/pe-ap.js"<!--#if expr="${pg-html5} = '0'"--> type="text/javascript"<!--#endif--> id="progressive"></script>
+<script<!--#if expr="${pg-html5} = '0'"--> type="text/javascript"<!--#endif-->>
+/* <![CDATA[ */
+PE.progress(params);
+/* ]]> */
+</script>
+<!--#endif-->

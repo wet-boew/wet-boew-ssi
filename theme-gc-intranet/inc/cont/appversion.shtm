@@ -1,0 +1,9 @@
+	<!--#if expr="${pg-lang2}"--><!--#else-->
+	<!-- Date Modified begins / Début de la date de modification -->
+	<dl id="cn-doc-dates" role="contentinfo">
+		<dt><!--#echo encoding='none' var='cn-doc-version-${pg-lang1}'--></dt>
+		<dd><!--#echo encoding="none" var="pg-version"--></dd>
+	</dl>
+	<div class="clear"></div>
+	<!-- Date Modified ends / Fin de la date de modification -->
+	<!--#endif-->

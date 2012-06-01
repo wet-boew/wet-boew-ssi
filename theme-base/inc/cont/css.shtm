@@ -1,0 +1,8 @@
+<!--#include virtual="/theme-base/inc/config.shtm"-->
+<!--#include virtual="/inc/head-tete-1.shtm"-->
+<!-- <link rel="shortcut icon" href="/favicon.ico" /> -->
+<!-- CSSStart-->
+<!-- CSSEnd -->
+<!--#include virtual="/inc/head-tete-2.shtm"-->
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->

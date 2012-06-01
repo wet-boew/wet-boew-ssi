@@ -1,0 +1,12 @@
+<!--#include virtual="/inc/body-corps-1a.shtm"-->
+<ul id="cn-lang-links">
+<li><a href="<!--#echo encoding='none' var='cn-cmblang-href-${pg-lang1}'-->" lang="<!--#echo encoding='none' var='cn-langalt-${pg-lang1}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-langalt-${pg-lang1}'-->"<!--#endif--> title="<!--#echo encoding='none' var='cn-cmblang-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmblang-text-${pg-lang1}'--></a></li>
+</ul>
+<div id="cn-wmms"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'-->" /></div>
+<div id="cn-banner"<!--#if expr="${pg-html5} = '1'"--> role="banner"<!--#endif-->><p id="cn-banner-text"><!--#echo encoding="none" var="cn-banner-text-${pg-lang1}"--></p></div>
+<div id="cn-bcrumb"><!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><h2><!--#echo encoding="none" var="cn-bcrumb-${pg-lang1}"--></h2>
+<ol>
+<!--#include virtual="/inc/bt-fa.shtm"-->
+</ol>
+<!--#if expr="${pg-html5} = '1'"--></nav><!--#endif--></div>
+<!--#include virtual="/inc/body-corps-1b.shtm"-->

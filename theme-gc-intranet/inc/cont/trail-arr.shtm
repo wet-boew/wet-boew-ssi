@@ -1,0 +1,14 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><div id="cn-sft"><h3><!--#echo encoding='none' var='cn-sitefooter-${pg-lang1}'--></h3><div id="cn-sft-inner">
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-1-${pg-lang1}.shtm"--></div></section>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-2-${pg-lang1}.shtm"--></div></section>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-3-${pg-lang1}.shtm"--></div></section>
+<section><div class="span-2"><!--#include virtual="/${cn-theme-folder}/menu/trail-4-${pg-lang1}.shtm"--></div></section>
+<div id="cn-ft-tctr">
+<ul>
+<li class="terms"><a href="<!--#echo encoding='none' var='cn-terms-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='cn-terms-text-${pg-lang1}'--></a></li>
+<li class="trans"><a href="<!--#echo encoding='none' var='cn-trans-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-trans-text-${pg-lang1}'--></a></li>
+</ul>
+</div>
+</div></div><!--#if expr="${pg-html5} = '1'"--></nav><!--#endif-->
+<!--#include virtual="/inc/body-corps-2b.shtm"-->

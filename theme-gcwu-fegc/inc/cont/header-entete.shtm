@@ -1,0 +1,34 @@
+<!--#include virtual="/inc/body-corps-1a.shtm"-->
+<!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif--><div id="cn-gcnb"><h2><!--#echo encoding='none' var='cn-gcnavbar-${pg-lang1}'--></h2><div id="cn-gcnb-inner"><div id="fip-pcim-gcnb">
+<div id="cn-sig"><div id="cn-sig-inner"><div id="fip-pcim-sig-<!--#echo encoding='none' var='pg-lang1'-->" title="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/fip-pcim/images/<!--#echo encoding='none' var='cn-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="214" height="20" alt="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" /></div></div></div>
+<ul>
+<li id="cn-gcnb1"><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-gcnb1-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-gcnb1-text-${pg-lang1}'--></a></li>
+<li id="cn-gcnb2"><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-gcnb2-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-gcnb2-text-${pg-lang1}'--></a></li>
+<li id="cn-gcnb3"><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> rel="external" href="<!--#echo encoding='none' var='cn-gcnb3-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-gcnb3-text-${pg-lang1}'--></a></li>
+<li id="cn-gcnb-lang"><a href="<!--#echo encoding='none' var='cn-cmblang-href-${pg-lang1}'-->" lang="<!--#echo encoding='none' var='cn-langalt-${pg-lang1}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-langalt-${pg-lang1}'-->"<!--#endif-->><!--#echo encoding='none' var='cn-cmblang-text-${pg-lang1}'--></a></li>
+</ul>
+</div></div></div><!--#if expr="${pg-html5} = '1'"--></nav><!--#endif-->
+
+<div id="cn-banner" role="banner"><div id="cn-banner-inner">
+<div id="cn-wmms"><div id="cn-wmms-inner"><div id="fip-pcim-wmms" title="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'-->"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/fip-pcim/images/wmms.gif" width="126" height="30"  alt="<!--#echo encoding='none' var='cn-wmms-${pg-lang1}'-->" /></div></div></div>
+
+<div id="cn-site-title"><p id="cn-site-title-inner"><a href="<!--#echo encoding='none' var='cn-banner-href-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-site-title-${pg-lang1}'--></a></p></div>
+
+<!--#if expr="${pg-nosearch} != ''"--><!--#else--><!--#if expr="${pg-html5} = '1'"--><section role="search"><!--#endif--><div id="cn-search-box"><h2><!--#echo encoding='none' var='cn-search-${pg-lang1}'--></h2>
+<!--#if expr="${cn-search-file}"--><!--#include virtual="${cn-search-file}"--><!--#endif-->
+</div><!--#if expr="${pg-html5} = '1'"--></section><!--#endif-->
+<!--#endif-->
+</div></div>
+
+<!--#if expr="${pg-html5} = '1'"--><nav role="navigation"><!--#endif-->
+<div id="cn-psnb"><h2><!--#echo encoding='none' var='cn-sitenav-${pg-lang1}'--></h2><div id="cn-psnb-inner"><!--#include virtual="${cn-menuprim}-${pg-lang1}.shtm"--></div></div>
+
+<!--#if expr="${pg-bcrumb-hide} != '1'"--><div id="cn-bc"><h2><!--#echo encoding='none' var='cn-bcrumb-${pg-lang1}'--></h2><div id="cn-bc-inner">
+<ol>
+<!--#set var="pg-html5-orig" value="${pg-html5}"-->
+<!--#include virtual="/inc/bt-fa.shtm"-->
+<!--#set var="pg-html5" value="${pg-html5-orig}"-->
+</ol>
+</div></div><!--#endif-->
+<!--#if expr="${pg-html5} = '1'"--></nav><!--#endif-->
+<!--#include virtual="/inc/body-corps-1b.shtm"-->

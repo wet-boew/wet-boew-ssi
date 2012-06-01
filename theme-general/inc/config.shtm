@@ -1,0 +1,56 @@
+<!--#include virtual="/inc/config.shtm"-->
+<!--#set var="cn-theme-folder" value="theme-general"-->
+<!--#set var="cn-bt-fa-filename" value="index.shtm"-->
+<!--#set var="cn-sig-eng" value="Government of Canada"-->
+<!--#set var="cn-sig-fra" value="Gouvernement du Canada"-->
+<!--#set var="cn-sig-image" value="sig"-->
+<!--#set var="cn-wmms-eng" value="Symbol of the Government of Canada"-->
+<!--#set var="cn-wmms-fra" value="Symbole du gouvernement du Canada"-->
+<!--#set var="cn-banner-text-eng" value="Banner Text"-->
+<!--#set var="cn-banner-text-fra" value="Texte de la bannière"-->
+<!--#set var="cn-bcrumb-eng" value="Breadcrumb trail"-->
+<!--#set var="cn-bcrumb-fra" value="Fil d'Ariane"-->
+<!--#set var="cn-cmb-eng" value="Common menu bar"-->
+<!--#set var="cn-cmb-fra" value="Barre de menu commune"-->
+<!--#set var="cn-cmblang-href-eng" value="#"-->
+<!--#set var="cn-cmblang-href-fra" value="#"-->
+<!--#set var="cn-cmblang-title-eng" value="Français - Version française de cette page"-->
+<!--#set var="cn-cmblang-title-fra" value="English - English version of the Web page"-->
+<!--#set var="cn-cmblang-text-eng" value="Français"-->
+<!--#set var="cn-cmblang-text-fra" value="English"-->
+<!--#set var="cn-cmb1-href-eng" value="#"-->
+<!--#set var="cn-cmb1-href-fra" value="#"-->
+<!--#set var="cn-cmb1-title-eng" value="Contact Us - Important contact information"-->
+<!--#set var="cn-cmb1-title-fra" value="Contactez-nous - Coordonnées importantes"-->
+<!--#set var="cn-cmb1-text-eng" value="Contact Us"-->
+<!--#set var="cn-cmb1-text-fra" value="Contactez-nous"-->
+<!--#set var="cn-cmb2-href-eng" value="#"-->
+<!--#set var="cn-cmb2-href-fra" value="#"-->
+<!--#set var="cn-cmb2-title-eng" value="Help - Information about using the Web site"-->
+<!--#set var="cn-cmb2-title-fra" value="Aide - Renseignements sur la façon d'utiliser le site Web"-->
+<!--#set var="cn-cmb2-text-eng" value="Help"-->
+<!--#set var="cn-cmb2-text-fra" value="Aide"-->
+<!--#set var="cn-cmb3-href-eng" value="#"-->
+<!--#set var="cn-cmb3-href-fra" value="#"-->
+<!--#set var="cn-cmb3-title-eng" value="Site Map - Site Map for the Web site"-->
+<!--#set var="cn-cmb3-title-fra" value="Plan de site - Plan de site du site Web"-->
+<!--#set var="cn-cmb3-text-eng" value="Site Map"-->
+<!--#set var="cn-cmb3-text-fra" value="Plan de site"-->
+<!--#set var="cn-cmb4-href-eng" value="http://www.canada.gc.ca/home.html"-->
+<!--#set var="cn-cmb4-href-fra" value="http://www.canada.gc.ca/accueil.html"-->
+<!--#set var="cn-cmb4-title-eng" value="canada.gc.ca - Government of Canada Web site"-->
+<!--#set var="cn-cmb4-title-fra" value="canada.gc.ca - Site Web du gouvernement du Canada"-->
+<!--#set var="cn-cmb4-text-eng" value="canada.gc.ca"-->
+<!--#set var="cn-cmb4-text-fra" value="canada.gc.ca"-->
+<!--#set var="cn-toppage-foot-title-eng" value="Return to Top of Page"-->
+<!--#set var="cn-toppage-foot-title-fra" value="Retourner au haut de la page"-->
+<!--#set var="cn-toppage-foot-text-eng" value="Top of Page"-->
+<!--#set var="cn-toppage-foot-text-fra" value="Haut de la page"-->
+<!--#set var="cn-inotices-link-href-eng" value="#"-->
+<!--#set var="cn-inotices-link-href-fra" value="#"-->
+<!--#set var="cn-inotices-link-text-eng" value="Important Notices"-->
+<!--#set var="cn-inotices-link-text-fra" value="Avis importants"-->
+<!--#set var="cn-pd-eng" value="Important Notices"-->
+<!--#set var="cn-pd-fra" value="Avis importants"-->
+<!--#set var="cn-langalt-eng" value="fr"-->
+<!--#set var="cn-langalt-fra" value="en"-->

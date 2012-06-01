@@ -1,0 +1,4 @@
+</div></div>
+
+<div id="cn-foot"><div id="cn-foot-inner"><!--#if expr="${pg-html5} = '1'"--><footer><!--#endif-->	<h2<!--#if expr="${is-left-gauche} = ''"--> id="cn-nav"<!--#endif-->><!--#echo encoding="none" var="cn-foot-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif-->><!--#echo encoding="none" var="cn-foot-${pg-lang2}"--></span><!--#endif--></h2>
+<!-- FooterStart -->

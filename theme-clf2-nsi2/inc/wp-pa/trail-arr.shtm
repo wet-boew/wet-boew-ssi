@@ -1,0 +1,6 @@
+<!--#include virtual="/inc/body-corps-2a.shtm"-->
+<ul id="cn-in-links">
+<li><a href="<!--#echo encoding='none' var='cn-inotices-link-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='cn-inotices-link-text-${pg-lang1}'--></a></li>
+<li lang="<!--#echo encoding='none' var='cn-langalt-${pg-lang1}'-->"<!--#if expr="${pg-html5} = '0'"--> xml:lang="<!--#echo encoding='none' var='cn-langalt-${pg-lang1}'-->"<!--#endif-->><a href="<!--#echo encoding='none' var='cn-inotices-link-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='cn-inotices-link-text-${pg-lang2}'--></a></li>
+</ul>
+<!--#include virtual="/inc/body-corps-2b.shtm"-->

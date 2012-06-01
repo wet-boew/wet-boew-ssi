@@ -1,0 +1,69 @@
+<!--#include virtual="/inc/config.shtm"-->
+<!--#set var="cn-theme-folder" value="theme-gc-intranet"-->
+<!--#set var="cn-fip-theme-folder" value="theme-gcwu-fegc"-->
+<!--#set var="cn-bt-fa-filename" value="index.shtm"-->
+<!--#set var="cn-centre-footer-file" value="/${cn-theme-folder}/inc/cont/centre-footer.shtm"-->
+<!--#set var="cn-gcnavbar-eng" value="Intranet navigation bar"-->
+<!--#set var="cn-gcnavbar-fra" value="Barre de navigation d'intranet"-->
+<!--#set var="cn-sig-eng" value="Government of Canada"-->
+<!--#set var="cn-sig-fra" value="Gouvernement du Canada"-->
+<!--#set var="cn-sig-image" value="sig"-->
+<!--#set var="cn-gcnb1-href-eng" value="#"-->
+<!--#set var="cn-gcnb1-href-fra" value="#"-->
+<!--#set var="cn-gcnb1-text-eng" value="lien personnalisé"-->
+<!--#set var="cn-gcnb1-text-fra" value="lien personnalisé"-->
+<!--#set var="cn-gcnb2-href-eng" value="#"-->
+<!--#set var="cn-gcnb2-href-fra" value="#"-->
+<!--#set var="cn-gcnb2-text-eng" value="lien personnalisé"-->
+<!--#set var="cn-gcnb2-text-fra" value="lien personnalisé"-->
+<!--#set var="cn-gcnb3-href-eng" value="#"-->
+<!--#set var="cn-gcnb3-href-fra" value="#"-->
+<!--#set var="cn-gcnb3-text-eng" value="lien personnalisé"-->
+<!--#set var="cn-gcnb3-text-fra" value="lien personnalisé"-->
+<!--#set var="cn-cmblang-href-eng" value="#"-->
+<!--#set var="cn-cmblang-href-fra" value="#"-->
+<!--#set var="cn-cmblang-title-eng" value="Français - Version française de cette page"-->
+<!--#set var="cn-cmblang-title-fra" value="English - English version of the Web page"-->
+<!--#set var="cn-cmblang-title-site-eng" value="English - English version of the Web site"-->
+<!--#set var="cn-cmblang-title-site-fra" value="Français - Version française de ce site Web"-->
+<!--#set var="cn-cmblang-text-eng" value="Français"-->
+<!--#set var="cn-cmblang-text-fra" value="English"-->
+<!--#set var="cn-wmms-eng" value="Symbol of the Government of Canada"-->
+<!--#set var="cn-wmms-fra" value="Symbole du gouvernement du Canada"-->
+<!--#set var="cn-site-title-eng" value="Site title"-->
+<!--#set var="cn-site-title-fra" value="Titre du site"-->
+<!--#set var="cn-banner-href-eng" value="#"-->
+<!--#set var="cn-banner-href-fra" value="#"-->
+<!--#set var="cn-domain-eng" value="[www.]mainsite-siteprimaire.gc.ca"-->
+<!--#set var="cn-domain-fra" value="[www.]siteprimaire-mainsite.gc.ca"-->
+<!--#set var="cn-search-eng" value="Search"-->
+<!--#set var="cn-search-fra" value="Recherche"-->
+<!--#set var="cn-search-label-eng" value="Search Web site"-->
+<!--#set var="cn-search-label-fra" value="Recherchez le site Web"-->
+<!--#set var="cn-search-file" value="/${cn-theme-folder}/inc/cont/search.shtm"-->
+<!--#set var="cn-sitenav-eng" value="Site navigation bar"-->
+<!--#set var="cn-sitenav-fra" value="Barre de navigation du site"-->
+<!--#set var="cn-menuprim" value="/${cn-theme-folder}/menu/prim-megamenu"-->
+<!--#set var="cn-bcrumb-eng" value="Breadcrumb trail"-->
+<!--#set var="cn-bcrumb-fra" value="Fil d'Ariane"-->
+<!--#set var="cn-doc-dates-eng" value="Date modified:"-->
+<!--#set var="cn-doc-dates-fra" value="Date de modification&nbsp;:"-->
+<!--#set var="cn-doc-version-eng" value="Version:"-->
+<!--#set var="cn-doc-version-fra" value="Version&nbsp;:"-->
+<!--#set var="cn-sitefooter-eng" value="Site footer"-->
+<!--#set var="cn-sitefooter-fra" value="Pied de page du site"-->
+<!--#set var="cn-gcfooter-eng" value="Government of Canada footer"-->
+<!--#set var="cn-gcfooter-fra" value="Pied de page du gouvernement du Canada"-->
+<!--#set var="cn-terms-href-eng" value="#"-->
+<!--#set var="cn-terms-href-fra" value="#"-->
+<!--#set var="cn-terms-text-eng" value="Terms and conditions"-->
+<!--#set var="cn-terms-text-fra" value="Avis"-->
+<!--#set var="cn-trans-href-eng" value="#"-->
+<!--#set var="cn-trans-href-fra" value="#"-->
+<!--#set var="cn-trans-text-eng" value="Transparency"-->
+<!--#set var="cn-trans-text-fra" value="Transparence"-->
+<!--#set var="cn-langselect-eng" value="Language selection links"-->
+<!--#set var="cn-langselect-fra" value="Liens de sélection de langue"-->
+<!--#set var="cn-langalt-eng" value="fr"-->
+<!--#set var="cn-langalt-fra" value="en"-->
+<!--#set var="cn-hidebtarrow" value="1"-->
