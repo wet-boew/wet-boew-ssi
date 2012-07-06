@@ -1,0 +1,5 @@
+
+<div id="cn-right-col" <!--#if expr="${pg-html5} = '1'"-->role="complementary"<!--#endif-->><div id="cn-right-col-inner"><!--#if expr="${pg-html5} = '1'"--><section><!--#endif--><h2><!--#echo encoding="none" var="cn-right-col-${pg-lang1}"--></h2>
+<div class="cn-right-col-default">
+<!-- SuppContentStart -->
+<!--#if expr="${cn-right-header-file}"--><!--#include virtual="${cn-right-header-file}"--><!--#endif-->
