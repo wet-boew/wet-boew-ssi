@@ -1,0 +1,26 @@
+<!--#set var="cn-meta-eng" value="en"-->
+<!--#set var="cn-meta-fra" value="fr"-->
+<!--#set var="cn-meta-deu" value="de"-->
+<!--#set var="cn-meta-spa" value="es"-->
+<!--#set var="cn-meta-ita" value="it"-->
+<!--#set var="cn-meta-por" value="pt"-->
+<!--#set var="cn-meta-rus" value="ru"-->
+<!--#set var="cn-lang-text-eng" value="English"-->
+<!--#set var="cn-lang-text-fra" value="Français"-->
+<!--#set var="cn-lang-text-deu" value="Deutsch"-->
+<!--#set var="cn-lang-text-spa" value="Español"-->
+<!--#set var="cn-lang-text-ita" value="Italiano"-->
+<!--#set var="cn-lang-text-por" value="Português"-->
+<!--#set var="cn-lang-text-rus" value="&amp;#1056;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081;"-->
+<!--#set var="cn-sh-link-1-eng" value="Skip to main content"-->
+<!--#set var="cn-sh-link-1-fra" value="Passer au contenu principal"-->
+<!--#set var="cn-sh-link-2-eng" value="Skip to side navigation"-->
+<!--#set var="cn-sh-link-2-fra" value="Passer à la navigation latérale"-->
+<!--#set var="cn-sh-link-3-eng" value="Skip to footer"-->
+<!--#set var="cn-sh-link-3-fra" value="Passer au pied de page"-->
+<!--#set var="cn-left-col-eng" value="Side navigation (left column)"-->
+<!--#set var="cn-left-col-fra" value="Navigation latérale (colonne gauche)"-->
+<!--#set var="cn-right-col-eng" value="Supplemental content (right column)"-->
+<!--#set var="cn-right-col-fra" value="Contenu supplémentaire (colonne droite)"-->
+<!--#set var="cn-foot-eng" value="Footer"-->
+<!--#set var="cn-foot-fra" value="Pied de page"-->
