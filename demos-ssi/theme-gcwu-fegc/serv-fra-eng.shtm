@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<!--#set var="pg-lang1" value="fra"-->
+<!--#set var="pg-lang2" value="eng"-->
+<!--#set var="pg-title-eng" value="SSI Variant - Message - WET 3.0"-->
+<!--#set var="pg-title-fra" value="Variante pour SSI - message - BOEW 3.0"-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#set var="pg-html5" value="1"-->
+
+<meta name="robots" content="none" />
+
+<!--#include virtual="/demos-ssi/theme-gcwu-fegc/inc/servpage/css.shtm"-->
+
+</head>
+<body>
+
+<!--#include virtual="/demos-ssi/inc/1col.shtm"-->
+<!--#include virtual="/demos-ssi/theme-gcwu-fegc/inc/servpage/header-entete.shtm"-->
+<!--#include virtual="/demos-ssi/inc/centre-1.shtm"-->
+
+<div class="span-4"><section><h2>Titre du message (h2)</h2>
+<p>Message message message message message message message message message message message message message message message message message message message message.</p>
+<ul>
+<li><a href="../../docs/index-fra.html">Accueil</a></li>
+<li><a href="#">Contactez-nous</a></li>
+</ul>
+</section></div>
+<div class="span-4" lang="en"><section><h2>Message title (h2)</h2>
+<p>Message message message message message message message message message message message message message message message message message message message message.</p>
+<ul>
+<li><a href="../../docs/index-eng.html">Home</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</section></div>
+<div  id="gcwu-bar" class="span-8"></div>
+<div class="clear"></div>
+
+<!--#include virtual="/demos-ssi/inc/centre-2.shtm"-->
+<!--#include virtual="/demos-ssi/theme-gcwu-fegc/inc/servpage/trail-arr.shtm"-->
+</body>
+</html>

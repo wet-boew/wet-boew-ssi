@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*!
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+@media screen{
+/* -----Build Include Section Start----- */
+@import url('includes/util-screen.css');
+/* -----Build Include Section End----- */
+}
+
+@media print{
+/* -----Build Include Section Start----- */
+@import url('includes/util-print.css');
+/* -----Build Include Section End----- */
+}
