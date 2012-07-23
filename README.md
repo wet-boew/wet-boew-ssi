@@ -6,7 +6,7 @@ This feature adapts the HTML5 core markup structure for use with Server side   i
 
 Benefits
 
- *Helps to minimize the duplication of content and code (such as titles and   dates) 
+ * Helps to minimize the duplication of content and code (such as titles and   dates) 
  *Provides central control of the left and right columns 
  *Improves consistency by separating content from the template code    
  *Automates the breadcrumb trail 
