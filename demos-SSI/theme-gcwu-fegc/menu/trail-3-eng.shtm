@@ -1,7 +1,0 @@
-<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> href="#">Contact us</a></h4>
-<address>
-<ul>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> href="#">Phone numbers</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> <!--#if expr="${pg-html5} = '1'"-->target="_blank"<!--#else-->class="wet-newwindow"<!--#endif--><!--#endif--> href="#">Office locations</a></li>
-</ul>
-</address>
