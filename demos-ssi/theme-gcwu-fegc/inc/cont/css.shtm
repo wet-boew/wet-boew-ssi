@@ -1,26 +1,19 @@
 <!--#include virtual="/demos-ssi/theme-gcwu-fegc/inc/config.shtm"-->
 <!--#include virtual="/demos-ssi/inc/head-tete-1.shtm"-->
-<link rel="shortcut icon" href="/theme-gcwu-fegc/fip-pcim/images/favicon.ico" />
+<link rel="shortcut icon" href="/build/theme-gcwu-fegc/images/favicon.ico" />
 
-<script src="../../build/js/jquery.min.js"></script>
-<link rel="stylesheet" href="../../build/grids/css/util-min.css" />
+<script src="/build/js/jquery.min.js"></script>
+<link rel="stylesheet" href="/build/grids/css/util-min.css" />
 
 <!--[if lte IE 8]>
-<script src="../../build/js/polyfills/html5shiv-min.js"></script>
-<link rel="stylesheet" href="../../build/js/css/pe-ap-ie-min.css" />
-<link rel="stylesheet" href="../../build/theme-gcwu-fegc/css/theme-ie-min.css" />
+<script src="/build/js/polyfills/html5shiv-min.js"></script>
+<link rel="stylesheet" href="/build/js/css/pe-ap-ie-min.css" />
+<link rel="stylesheet" href="/build/theme-gcwu-fegc/css/theme-ie-min.css" />
 <![endif]-->
 <!--[if gt IE 8]><!-->
-<link rel="stylesheet" href="../../build/js/css/pe-ap-min.css" />
-<link rel="stylesheet" href="../../build/theme-gcwu-fegc/css/theme-min.css" />
+<link rel="stylesheet" href="/build/js/css/pe-ap-min.css" />
+<link rel="stylesheet" href="/build/theme-gcwu-fegc/css/theme-min.css" />
 <!--<![endif]-->
 <!--#include virtual="/demos-ssi/inc/head-tete-2.shtm"-->
 <!-- CustomScriptsCSSStart -->
-<style>
-.gcwu-minister-in{background:#eee url(images/bg-minister-bottom.gif) no-repeat right bottom;}
-.gcwu-minister p{background:#fff url(images/bg-minister-top.gif) no-repeat right top;}
-#gcwu-video .mediaplayer{line-height:0;}
-#gcwu-video ul.mp-downloadable{position:absolute;clip:rect(1px, 1px, 1px, 1px);height:1px;width:1px;overflow:hidden;}
-#gcwu-video div.background-dark{background:#eee !important;color:#000;padding-bottom:10px;}
-</style>
 <!-- CustomScriptsCSSEnd -->

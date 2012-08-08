@@ -12,8 +12,6 @@ www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
 <!--#set var="pg-modified" value="YYYY-MM-DD"-->
 <!--#set var="pg-html5" value="1"-->
 
-<link rel="shortcut icon" href="../../build/theme-gcwu-fegc/images/favicon.ico" />
-
 <meta name="dcterms.description" content="English description/Description en anglais" />
 <meta name="description" content="English description/Description en anglais" />
 <meta name="keywords" content="English keywords/Mots-clés en anglais" />

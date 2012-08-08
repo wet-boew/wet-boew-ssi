@@ -14,7 +14,7 @@ www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
 <!--#set var="pg-issued" value="2010-08-09"-->
 <!--#set var="pg-modified" value="YYYY-MM-DD"-->
 <!--#set var="pg-html5" value="1"-->
-<link rel="shortcut icon" href="../../build/theme-gcwu-fegc/images/favicon.ico" />
+ 
 <meta name="dcterms.description" content="English description/Description en anglais" />
 <meta name="description" content="English description/Description en anglais" />
 <meta name="keywords" content="English keywords/Mots-clés en anglais" />
@@ -61,9 +61,9 @@ www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
 
 <div id="gcwu-connect" class="span-6"><section><h2>Restez branchés</h2>
 <ul>
-<li><a href="#"><img class="image-actual" src="../../build/theme-gcwu-fegc/images/sl_twitter.png" alt="Twitter" title="Twitter" /></a></li>
-<li><a href="#"><img class="image-actual" src="../../build/theme-gcwu-fegc/images/sl_youtube.png" alt="YouTube" title="YouTube" /></a></li>
-<li><a href="#"><img class="image-actual" src="../../build/theme-gcwu-fegc/images/sl_feeds.png" alt="Flux" title="Flux" /></a></li>
+<li><a href="#"><img class="image-actual" src="/build/theme-gcwu-fegc/images/sl_twitter.png" alt="Twitter" title="Twitter" /></a></li>
+<li><a href="#"><img class="image-actual" src="/build/theme-gcwu-fegc/images/sl_youtube.png" alt="YouTube" title="YouTube" /></a></li>
+<li><a href="#"><img class="image-actual" src="/build/theme-gcwu-fegc/images/sl_feeds.png" alt="Flux" title="Flux" /></a></li>
 </ul>
 </section></div>
 </div>

@@ -1,4 +1,4 @@
-<!--#if expr="${cn-centre-footer-file}"--><!--#include virtual="${cn-centre-footer-file}"--><!--#endif-->
+<!--#if expr="${gc-centre-footer-file}"--><!--#include virtual="${gc-centre-footer-file}"--><!--#endif-->
 <!-- MainContentEnd -->
 
 </div></div>
