@@ -8,16 +8,16 @@
 <!--#set var="gc-sig-eng" value="Government of Canada"-->
 <!--#set var="gc-sig-fra" value="Gouvernement du Canada"-->
 <!--#set var="gc-sig-image" value="sig"-->
-<!--#set var="gc-gcnb1-href-eng" value="http://www.canada.gc.ca/home.html"-->
-<!--#set var="gc-gcnb1-href-fra" value="http://www.canada.gc.ca/accueil.html"-->
+<!--#set var="gc-gcnb1-href-eng" value="http://www.canada.gc.ca/menu-eng.html"-->
+<!--#set var="gc-gcnb1-href-fra" value="http://www.canada.gc.ca/menu-fra.html"-->
 <!--#set var="gc-gcnb1-text-eng" value="Canada.gc.ca"-->
 <!--#set var="gc-gcnb1-text-fra" value="Canada.gc.ca"-->
 <!--#set var="gc-gcnb2-href-eng" value="http://www.servicecanada.gc.ca/eng/home.shtml"-->
 <!--#set var="gc-gcnb2-href-fra" value="http://www.servicecanada.gc.ca/fra/accueil.shtml"-->
 <!--#set var="gc-gcnb2-text-eng" value="Services"-->
 <!--#set var="gc-gcnb2-text-fra" value="Services"-->
-<!--#set var="gc-gcnb3-href-eng" value="http://www.canada.gc.ca/depts/major/depind-eng.html"-->
-<!--#set var="gc-gcnb3-href-fra" value="http://www.canada.gc.ca/depts/major/depind-fra.html"-->
+<!--#set var="gc-gcnb3-href-eng" value="http://www.canada.gc.ca/aboutgov-ausujetgouv/depts/menu-eng.html"-->
+<!--#set var="gc-gcnb3-href-fra" value="http://www.canada.gc.ca/aboutgov-ausujetgouv/depts/menu-fra.html"-->
 <!--#set var="gc-gcnb3-text-eng" value="Departments"-->
 <!--#set var="gc-gcnb3-text-fra" value="Ministères"-->
 <!--#set var="gc-cmblang-href-eng" value="#"-->
@@ -41,8 +41,8 @@
 <!--#set var="gc-search-label-eng" value="Search Web site"-->
 <!--#set var="gc-search-label-fra" value="Recherchez le site Web"-->
 <!--#set var="gc-search-file" value="/${gc-theme-folder}/inc/cont/search.shtm"-->
-<!--#set var="gc-sitenav-eng" value="Site navigation bar"-->
-<!--#set var="gc-sitenav-fra" value="Barre de navigation du site"-->
+<!--#set var="gc-sitenav-eng" value="<span>Site </span>menu"-->
+<!--#set var="gc-sitenav-fra" value="Menu<span> du site</span>"-->
 <!--#set var="gc-menuprim" value="/demos-ssi/menu/prim-megamenu"-->
 <!--#set var="gc-bcrumb-eng" value="Breadcrumb trail"-->
 <!--#set var="gc-bcrumb-fra" value="Fil d'Ariane"-->
@@ -86,14 +86,14 @@
 <!--#set var="gc-trail4-text-fra" value="Emplois"-->
 <!--#set var="gc-trail4-textsub-eng" value="jobbank.gc.ca"-->
 <!--#set var="gc-trail4-textsub-fra" value="guichetemplois.gc.ca"-->
-<!--#set var="gc-trail5-href-eng" value="http://actionplan.gc.ca/eng/index.asp"-->
-<!--#set var="gc-trail5-href-fra" value="http://www.plandaction.gc.ca"-->
+<!--#set var="gc-trail5-href-eng" value="http://actionplan.gc.ca/en"-->
+<!--#set var="gc-trail5-href-fra" value="http://plandaction.gc.ca/fr"-->
 <!--#set var="gc-trail5-text-eng" value="Economy"-->
 <!--#set var="gc-trail5-text-fra" value="Économie"-->
 <!--#set var="gc-trail5-textsub-eng" value="actionplan.gc.ca"-->
 <!--#set var="gc-trail5-textsub-fra" value="plandaction.gc.ca"-->
-<!--#set var="gc-trail-canada-href-eng" value="http://www.canada.gc.ca/home.html"-->
-<!--#set var="gc-trail-canada-href-fra" value="http://www.canada.gc.ca/accueil.html"-->
+<!--#set var="gc-trail-canada-href-eng" value="http://www.canada.gc.ca/menu-eng.html"-->
+<!--#set var="gc-trail-canada-href-fra" value="http://www.canada.gc.ca/menu-fra.html"-->
 <!--#set var="gc-trail-canada-text-eng" value="Canada.gc.ca"-->
 <!--#set var="gc-trail-canada-text-fra" value="Canada.gc.ca"-->
 <!--#set var="gc-langselect-eng" value="Language selection links"-->

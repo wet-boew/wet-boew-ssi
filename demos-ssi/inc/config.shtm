@@ -14,13 +14,13 @@
 <!--#set var="gcwu-lang-text-rus" value="&amp;#1056;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081;"-->
 <!--#set var="gcwu-sh-link-1-eng" value="Skip to main content"-->
 <!--#set var="gcwu-sh-link-1-fra" value="Passer au contenu principal"-->
-<!--#set var="gcwu-sh-link-2-eng" value="Skip to side navigation"-->
-<!--#set var="gcwu-sh-link-2-fra" value="Passer à la navigation latérale"-->
+<!--#set var="gcwu-sh-link-2-eng" value="Skip to secondary menu"-->
+<!--#set var="gcwu-sh-link-2-fra" value="Passer au menu secondaire"-->
 <!--#set var="gcwu-sh-link-3-eng" value="Skip to footer"-->
 <!--#set var="gcwu-sh-link-3-fra" value="Passer au pied de page"-->
-<!--#set var="gcwu-left-col-eng" value="Side navigation (left column)"-->
-<!--#set var="gcwu-left-col-fra" value="Navigation latérale (colonne gauche)"-->
-<!--#set var="gcwu-right-col-eng" value="Supplemental content (right column)"-->
-<!--#set var="gcwu-right-col-fra" value="Contenu supplémentaire (colonne droite)"-->
+<!--#set var="gcwu-left-col-eng" value="Secondary menu"-->
+<!--#set var="gcwu-left-col-fra" value="Menu secondaire"-->
+<!--#set var="gcwu-right-col-eng" value="Supplemental content"-->
+<!--#set var="gcwu-right-col-fra" value="Contenu supplémentaire"-->
 <!--#set var="gcwu-foot-eng" value="Footer"-->
 <!--#set var="gcwu-foot-fra" value="Pied de page"-->

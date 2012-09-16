@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8" />
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
 <!--#set var="pg-lang1" value="eng"-->
 <!--#set var="pg-title-eng" value="SSI Variant - Application Template - WET 3.0"-->
 <!--#set var="pg-issued" value="2011-10-31"-->
