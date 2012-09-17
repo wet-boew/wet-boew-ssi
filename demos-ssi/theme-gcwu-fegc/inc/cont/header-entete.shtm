@@ -21,7 +21,11 @@
 </div></div>
 
 <nav role="navigation">
-<div id="gcwu-psnb"><h2><!--#echo encoding='none' var='gc-sitenav-${pg-lang1}'--></h2><div id="gcwu-psnb-in"><!--#include virtual="${gc-menuprim}-${pg-lang1}.shtm"--></div></div>
+<div id="gcwu-psnb"><h2><!--#echo encoding='none' var='gc-sitenav-${pg-lang1}'--></h2>
+<div id="gcwu-psnb-in"><div class="wet-boew-menubar mb-mega"><div>
+<ul class="mb-menu" data-ajax-replace="<!--#echo encoding='none' var='gc-menuprim-${pg-lang1}'-->">
+
+<!--#include virtual="/demos-ssi/menu/basemenu-${pg-lang1}.shtm"-->
 
 <!--#if expr="${pg-bcrumb-hide} != '1'"--><div id="gcwu-bc"><h2><!--#echo encoding='none' var='gc-bcrumb-${pg-lang1}'--></h2><div id="gcwu-bc-in">
 <ol>

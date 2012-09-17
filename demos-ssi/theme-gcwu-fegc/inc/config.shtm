@@ -43,7 +43,8 @@
 <!--#set var="gc-search-file" value="/${gc-theme-folder}/inc/cont/search.shtm"-->
 <!--#set var="gc-sitenav-eng" value="<span>Site </span>menu"-->
 <!--#set var="gc-sitenav-fra" value="Menu<span> du site</span>"-->
-<!--#set var="gc-menuprim" value="/demos-ssi/menu/prim-megamenu"-->
+<!--#set var="gc-menuprim-eng" value="/demos/includes/menu-eng.inc"-->
+<!--#set var="gc-menuprim-fra" value="/demos/includes/menu-fra.inc"-->
 <!--#set var="gc-bcrumb-eng" value="Breadcrumb trail"-->
 <!--#set var="gc-bcrumb-fra" value="Fil d'Ariane"-->
 <!--#set var="gc-doc-dates-eng" value="Date modified:"-->
