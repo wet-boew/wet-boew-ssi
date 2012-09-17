@@ -32,6 +32,11 @@
 <!--#set var="gc-wmms-fra" value="Symbole du gouvernement du Canada"-->
 <!--#set var="gc-site-title-eng" value="SSI Variant"-->
 <!--#set var="gc-site-title-fra" value="Variante pour SSI"-->
+<!--#set var="gc-site-title-deu" value="Titel einer Website"-->
+<!--#set var="gc-site-title-spa" value="Título del sitio"-->
+<!--#set var="gc-site-title-ita" value="Titolo del sito"-->
+<!--#set var="gc-site-title-por" value="Título do site"-->
+<!--#set var="gc-site-title-rus" value="Название Вебсайта"-->
 <!--#set var="gc-banner-href-eng" value="#"-->
 <!--#set var="gc-banner-href-fra" value="#"-->
 <!--#set var="gc-domain-eng" value="[www.]mainsite-siteprimaire.gc.ca"-->
@@ -57,8 +62,18 @@
 <!--#set var="gc-gcfooter-fra" value="Pied de page du gouvernement du Canada"-->
 <!--#set var="gc-terms-href-eng" value="#"-->
 <!--#set var="gc-terms-href-fra" value="#"-->
+<!--#set var="gc-terms-href-deu" value="#"-->
+<!--#set var="gc-terms-href-spa" value="#"-->
+<!--#set var="gc-terms-href-ita" value="#"-->
+<!--#set var="gc-terms-href-por" value="#"-->
+<!--#set var="gc-terms-href-rus" value="#"-->
 <!--#set var="gc-terms-text-eng" value="Terms and conditions"-->
 <!--#set var="gc-terms-text-fra" value="Avis"-->
+<!--#set var="gc-terms-text-deu" value="Begriffe und gewöhnt"-->
+<!--#set var="gc-terms-text-spa" value="Condiciones"-->
+<!--#set var="gc-terms-text-ita" value="Condiziona"-->
+<!--#set var="gc-terms-text-por" value="Condiciona"-->
+<!--#set var="gc-terms-text-rus" value="Сроки и условия"-->
 <!--#set var="gc-trans-href-eng" value="#"-->
 <!--#set var="gc-trans-href-fra" value="#"-->
 <!--#set var="gc-trans-text-eng" value="Transparency"-->

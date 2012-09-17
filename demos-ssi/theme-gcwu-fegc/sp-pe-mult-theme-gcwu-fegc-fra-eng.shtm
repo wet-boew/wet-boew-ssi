@@ -10,15 +10,24 @@
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
 <!--#endif-->
+<!--#set var="np-lang1" value="fra"-->
+<!--#set var="np-lang2" value="eng"-->
+<!--#set var="np-lang3" value="deu"-->
+<!--#set var="np-lang4" value="spa"-->
+<!--#set var="np-lang5" value="ita"-->
+<!--#set var="np-lang6" value="por"-->
+<!--#set var="np-lang7" value="rus"-->
 <!--#set var="np-title-eng" value="Welcome"-->
 <!--#set var="np-title-fra" value="Bienvenue"-->
 <!--#set var="np-link-eng" value="cont-eng.shtm"-->
 <!--#set var="np-link-fra" value="cont-fra.shtm"-->
-<!--#set var="np-lang1" value="fra"-->
-<!--#set var="np-lang2" value="eng"-->
+<!--#set var="np-link-deu" value="#"-->
+<!--#set var="np-link-spa" value="#"-->
+<!--#set var="np-link-ita" value="#"-->
+<!--#set var="np-link-por" value="#"-->
+<!--#set var="np-link-rus" value="#"-->
 <!--#set var="np-issued" value="2011-10-31"-->
 <!--#set var="np-modified" value="YYYY-MM-DD"-->
-<!--#set var="np-html5" value="1"-->
 <!--#if expr="${np-show} != 1"-->
 <!--#include virtual="/demos-ssi/inc/sp-pe-vars.shtm"-->
 <meta name="dcterms.description" content="English description / Description en anglais" />

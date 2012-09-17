@@ -3,6 +3,23 @@
 <div id="gcwu-title-left" class="span-3 margin-bottom-none"><!--#echo encoding='none' var="gc-site-title-${pg-lang1}"--></div>
 <div class="span-2 margin-bottom-none"></div>
 <div id="gcwu-title-right" class="span-3 margin-bottom-none" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang2}"--></div>
+<!--#if expr="${pg-lang3}"-->
+<div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang3}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang3}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang4}"-->
+<div class="span-2 margin-bottom-none"></div>
+<div class="gcwu-alt-title-right span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang4}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang4}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang5}"-->
+<div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang5}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang5}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang6}"-->
+<div class="span-2 margin-bottom-none"></div>
+<div class="gcwu-alt-title-right span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang6}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang6}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang7}"-->
+<div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang7}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang7}"--></div>
+<!--#endif-->
 <div class="clear"></div>
 </div>
 <!-- Site title ends / Fin du titre du site -->
