@@ -17,7 +17,7 @@ wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Lice
 <!--#set var="pg-modified" value="YYYY-MM-DD"-->
 <!--#set var="pg-html5" value="1"-->
 
-<meta name="robots" content="none" />
+ <meta name="robots" content="noindex, nofollow, noarchive" />
 
 <!--#include virtual="/demos-ssi/theme-gcwu-fegc/inc/servpage/css.shtm"-->
 
