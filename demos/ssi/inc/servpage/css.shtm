@@ -1,0 +1,22 @@
+<!--#include virtual="/demos/ssi/inc/config.shtm"-->
+<!--#include virtual="/inc/head-tete-1.shtm"-->
+<link rel="shortcut icon" href="/build/theme-gcwu-fegc/images/favicon.ico" />
+<!-- CSSStart-->
+
+<script src="/build/js/jquery.min.js"></script>
+<!--[if lte IE 8]>
+<script src="/build/js/polyfills/html5shiv-min.js"></script>
+<link rel="stylesheet" href="/build/grids/css/util-ie-min.css" />
+<link rel="stylesheet" href="/build/js/css/pe-ap-ie-min.css" />
+<link rel="stylesheet" href="/build/theme-gcwu-fegc/css/theme-serv-ie-min.css" />
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="/build/grids/css/util-min.css" />
+<link rel="stylesheet" href="/build/js/css/pe-ap-min.css" />
+<link rel="stylesheet" href="/build/theme-gcwu-fegc/css/theme-serv-min.css" />
+<!--<![endif]-->
+<noscript><link rel="stylesheet" href="/build/theme-gcwu-fegc/css/theme-ns-min.css" /></noscript>
+ 
+<!--#include virtual="/inc/head-tete-2.shtm"-->
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->
