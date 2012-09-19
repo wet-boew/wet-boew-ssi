@@ -45,23 +45,24 @@ wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Lice
 
 <h3>Minimum Requirements</h3>
 <ul>
-  <li><a href="https://github.com/wet-boew/wet-boew/downloads">WET 3.0 framework</a></li>
+  <li>Build folder from WET 3.0</li>
   <li>Server Side Includes installed on a web server</li>
 </ul>
 <h3>How to install the files</h3>
 
-<p>Make sure that you have the WET 3.0 build folder in your root directory.</p>
-<p>Copy the following directories into a folder created in the root.  In the SSI example available, this folder is called "SSI-demos". This demos folder should have the following folders:</p>
+<p>Make sure that you have the WET 3.0 build folder in your root directory. Copy the following directories to the root:</p>
 <ul>
   <li>inc\</li>
-  <li>theme-gcwu-fegc\</li>
+  <li>demos\ssi</li>
   </ul>
-<p>"inc" is a folder with your global include files that are unrelated to a specific theme. </p>
-<p>Another &quot;inc&quot; folder for theme-specific includes is under the theme-gcwu-fegc folder, as well as a folder for main &quot;menu&quot; based includes. Final, the folder with your shtml pages is located here.</p>
+<p>"inc" is a folder with your global include files.</p>
+<p>Another "inc" folder for page specific includes is under the demos\ssi folder, as well as a folder for main "menu" based includes. Also,shtm pages are located here.</p>
 <ul>
-  <li>theme-gcwu-fegc\inc</li>
-  <li>theme-gcwu-fegc\menu</li>
-  <li>theme-gcwu-fegc\shtml</li>
+  <li>demos\ssi</li>
+  <li>demos\ssi\inc</li>
+  <li>demos\ssi\menu</li>
+  <li>demos\ssi\menu-left-gauche
+</li>
 </ul>
 
 <!--#include virtual="/inc/centre-2.shtm"-->
