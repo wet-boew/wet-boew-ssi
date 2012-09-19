@@ -1,4 +1,0 @@
-<!--#if expr="${cn-left-footer-file}"--><!--#include virtual="${cn-left-footer-file}"--><!--#endif-->
-<!-- SideNavLeftEnd -->
-</div>
-</nav></div></div>

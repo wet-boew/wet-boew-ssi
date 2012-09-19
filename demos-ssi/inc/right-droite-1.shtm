@@ -1,5 +1,0 @@
-
-<div id="gcwu-right-col" role="complementary"><div id="gcwu-right-col-inner"><section><h2><!--#echo encoding="none" var="gcwu-right-col-${pg-lang1}"--></h2>
-<div class="gcwu-right-col-default">
-<!-- SuppContentStart -->
-<!--#if expr="${cn-right-header-file}"--><!--#include virtual="${cn-right-header-file}"--><!--#endif-->

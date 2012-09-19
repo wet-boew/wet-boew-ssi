@@ -1,4 +1,0 @@
-<!--#if expr="${cn-right-footer-file}"--><!--#include virtual="${cn-right-footer-file}"--><!--#endif-->
-<!-- SuppContentEnd -->
-</div>
-</section></div></div>

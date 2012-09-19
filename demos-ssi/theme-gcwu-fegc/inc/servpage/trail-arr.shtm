@@ -1,9 +1,0 @@
-<!--#include virtual="/demos-ssi/inc/body-corps-2a.shtm"-->
-<div id="gcwu-tc" class="span-8">
-<ul>
-<li class="gcwu-tc-left"><div class="span-4 row-start"><a href="<!--#echo encoding='none' var='gc-terms-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='gc-terms-text-${pg-lang1}'--></a></div></li>
-<li class="cn-tc-right" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><div class="span-4 row-end"><a href="<!--#echo encoding='none' var='gc-terms-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='gc-terms-text-${pg-lang2}'--></a></div></li>
-</ul>
-<div class="clear"></div>
-</div>
-<!--#include virtual="/demos-ssi/inc/body-corps-2b.shtm"-->
