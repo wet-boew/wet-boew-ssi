@@ -16,4 +16,3 @@
 <!--#if expr="${np-link-rus}"--><!--#set var="pg-link-rus" value="${np-link-rus}"--><!--#endif-->
 <!--#if expr="${np-issued}"--><!--#set var="pg-issued" value="${np-issued}"--><!--#endif-->
 <!--#if expr="${np-modified}"--><!--#set var="pg-modified" value="${np-modified}"--><!--#endif-->
-<!--#if expr="${np-html5}"--><!--#set var="pg-html5" value="${np-html5}"--><!--#endif-->

@@ -18,8 +18,8 @@ wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Lice
 <!--#set var="np-lang2" value="fra"-->
 <!--#set var="np-issued" value="2011-10-31"-->
 <!--#set var="np-modified" value="YYYY-MM-DD"-->
-<!--#set var="np-html5" value="1"-->
 <!--#if expr="${np-show} != 1"-->
+
 <!--#include virtual="/inc/sp-pe-vars.shtm"-->
 <meta name="dcterms.description" content="English description / Description en anglais" />
 <meta name="dcterms.description" lang="fr" content="French description / Description en français" />

@@ -43,8 +43,8 @@
 <!--#set var="gc-domain-fra" value="[www.]siteprimaire-mainsite.gc.ca"-->
 <!--#set var="gc-search-eng" value="Search"-->
 <!--#set var="gc-search-fra" value="Recherche"-->
-<!--#set var="gc-search-label-eng" value="Search Web site"-->
-<!--#set var="gc-search-label-fra" value="Recherchez le site Web"-->
+<!--#set var="gc-search-label-eng" value="Search website"-->
+<!--#set var="gc-search-label-fra" value="Recherchez le site web"-->
 <!--#set var="gc-search-file" value="/${gc-theme-folder}/inc/cont/search.shtm"-->
 <!--#set var="gc-sitenav-eng" value="<span>Site </span>menu"-->
 <!--#set var="gc-sitenav-fra" value="Menu<span> du site</span>"-->
