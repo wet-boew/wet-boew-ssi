@@ -1,5 +1,5 @@
-<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">About us</a></h4>
+<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">About us</a></h4>
 <ul>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Our Mandate</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Our Minister</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Our Mandate</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Our Minister</a></li>
 </ul>
