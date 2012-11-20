@@ -1,6 +1,6 @@
-<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Stay connected</a></h4>
+<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Stay connected</a></h4>
 <ul>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> rel="external" href="#">YouTube</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> rel="external" href="#">Twitter</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Feeds</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> rel="external" href="#">YouTube</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> rel="external" href="#">Twitter</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Feeds</a></li>
 </ul>

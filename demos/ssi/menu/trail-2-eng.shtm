@@ -1,6 +1,6 @@
-<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">News</a></h4>
+<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">News</a></h4>
 <ul>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">News releases</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Media advisories</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Multimedia</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">News releases</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Media advisories</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Multimedia</a></li>
 </ul>
