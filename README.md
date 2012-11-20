@@ -18,6 +18,7 @@ This feature adapts the HTML5 core markup structure for use with Server side inc
 
 * Build folder from WET 3.0
 * Server Side Includes installed on a web server
+* Apache 2.x Web Server
 
 ##How to install the files
 
