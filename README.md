@@ -2,7 +2,7 @@
 
 ## Overview
 
-This feature adapts the HTML5 core markup structure for use with Server side includes (SSI).
+This feature adapts the HTML5 core markup structure for use with Server side includes (SSI) on an Apache web server.
 
 ##Benefits
 
