@@ -1,9 +1,0 @@
-<div id="wb-skip">
-<ul id="wb-tphp">
-<li id="wb-skip1"><a href="#wb-cont"><!--#echo encoding="none" var="gcwu-sh-link-1-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding="none" var="gcwu-sh-link-1-${pg-lang2}"--></span><!--#endif--></a></li>
-<li id="wb-skip2"><!--#if expr="${is-left-gauche} = 1 || ${is-right-droite} = 1"--><a href="#wb-nav"><!--#echo encoding="none" var="gcwu-sh-link-2-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding="none" var="gcwu-sh-link-2-${pg-lang2}"--></span><!--#endif--></a><!--#else--><a href="#wb-nav"><!--#echo encoding="none" var="gcwu-sh-link-3-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding="none" var="gcwu-sh-link-3-${pg-lang2}"--></span><!--#endif--></a><!--#endif--></li>
-</ul>
-</div>
-
-<div id="wb-head"><div id="wb-head-in"><header>
-<!-- HeaderStart -->

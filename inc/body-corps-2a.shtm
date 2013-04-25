@@ -1,4 +1,0 @@
-</div></div>
-
-<div id="wb-foot"><div id="wb-foot-in"><footer>	<h2<!--#if expr="${is-left-gauche} = ''"--> id="wb-nav"<!--#endif-->><!--#echo encoding="none" var="gc-sitefooter-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding="none" var="gc-sitefooter-${pg-lang2}"--></span><!--#endif--></h2>
-<!-- FooterStart -->

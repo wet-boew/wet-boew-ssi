@@ -1,4 +1,0 @@
-<div id="wb-sup" role="complementary"><div id="wb-sup-in"><section><h2><!--#echo encoding="none" var="gcwu-right-col-${pg-lang1}"--></h2>
-<div class="wb-sup-def">
-<!-- SuppContentStart -->
-<!--#if expr="${gcwu-right-header-file}"--><!--#include virtual="${gcwu-right-header-file}"--><!--#endif-->

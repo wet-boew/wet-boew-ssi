@@ -1,3 +1,0 @@
-<!--#if expr="${gc-centre-footer-file}"--><!--#include virtual="${gc-centre-footer-file}"--><!--#endif-->
-<!-- MainContentEnd -->
-</div></div>
