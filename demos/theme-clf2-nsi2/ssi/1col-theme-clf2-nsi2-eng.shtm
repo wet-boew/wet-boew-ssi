@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
+<!--#set var="pg-lang1" value="eng"-->
+<!--#set var="pg-title-eng" value="SSI Variant - 1 column - CLF 2.0 Theme"-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<meta name="description" content="English description / Description en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<!--#include virtual="/dist/theme-clf2-nsi2/shtm/cont/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/dist/shtm/1col.shtm"-->
+<!--#include virtual="/dist/theme-clf2-nsi2/shtm/cont/header-entete.shtm"-->
+<!--#include virtual="/dist/shtm/centre-1.shtm"-->
+<div class="cn-toppage"><a href="#wb-tphp" title="Return to Top of Page">Top of Page</a></div>
+<section><h2>Heading level&#160;2 (h2)</h2>
+	<div class="cn-toppage"><a href="#wb-tphp" title="Return to Top of Page">Top of Page</a></div>
+	<section><h3>Heading level&#160;3 (h3)</h3>
+		<div class="cn-toppage"><a href="#wb-tphp" title="Return to Top of Page">Top of Page</a></div>
+		<section><h4>Heading level&#160;4 (h4)</h4>
+			<div class="cn-toppage"><a href="#wb-tphp" title="Return to Top of Page">Top of Page</a></div>
+			<section><h5>Heading level&#160;5 (h5)</h5>
+				<div class="cn-toppage"><a href="#wb-tphp" title="Return to Top of Page">Top of Page</a></div>
+				<section><h6>Heading level&#160;6 (h6)</h6>
+					<p>CONTENT (a mix of text and images or graphics is expected)</p>
+				</section>
+			</section>
+		</section>
+	</section>
+</section>
+<!--#include virtual="/dist/shtm/centre-2.shtm"-->
+<!--#include virtual="/dist/theme-clf2-nsi2/shtm/cont/trail-arr.shtm"-->
+</body>
+</html>

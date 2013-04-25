@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
+<!--#set var="pg-lang1" value="eng"-->
+<!--#set var="pg-title-eng" value="SSI Variant - Content page - Secondary menu 1 - GC Web Usability Intranet theme"-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<meta name="description" content="English description / Description en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" /> 
+<!--#include virtual="/dist/theme-gcwu-intranet/shtm/cont/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/dist/shtm/2col.shtm"-->
+<!--#include virtual="/dist/theme-gcwu-intranet/shtm/cont/header-entete.shtm"-->
+<!--#include virtual="/dist/shtm/centre-1.shtm"-->
+<h2>Overview</h2>	
+<p>This feature adapts the HTML5 core markup structure for use with Server side   includes (SSI).</p>
+<h3>Benefits</h3>
+<ul>
+  <li>Helps to minimize the duplication of content and code (such as titles and   dates)</li>
+  <li>Provides central control of the left and right columns</li>
+  <li>Improves consistency by separating content from the template code</li>   
+  <li>Automates the breadcrumb trail</li>
+  <li>Conforms to WCAG 2.0 AA</li>
+  <li>Uses WAI-ARIA to enhance accessibility</li>
+  <li>Supports Firefox, Opera, Safari, Chrome, and IE 7+ </li>
+</ul>
+<h3>Minimum Requirements</h3>
+<ul>
+  <li>Build folder from WET 3.0</li>
+  <li>Server Side Includes installed on a web server</li>
+</ul>
+<h3>How to install the files</h3>
+<p>Make sure that you have the WET 3.0 build folder in your root directory. Copy the following directories to the root:</p>
+<ul>
+  <li>inc\</li>
+  <li>demos\ssi</li>
+  </ul>
+<p>"inc" is a folder with your global include files.</p>
+<p>Another "inc" folder for page specific includes is under the demos\ssi folder, as well as a folder for main "menu" based includes. Also,shtm pages are located here.</p>
+<ul>
+  <li>demos\ssi</li>
+  <li>demos\ssi\inc</li>
+  <li>demos\ssi\menu</li>
+  <li>demos\ssi\menu-left-gauche
+</li>
+</ul>
+<!--#include virtual="/dist/shtm/centre-2.shtm"-->
+<!--#include virtual="/dist/shtm/left-gauche-1.shtm"-->
+<!--#include virtual="/demos/theme-gcwu-intranet/ssi/menu-left-gauche/left-gauche-eng.shtm"-->
+<!--#include virtual="/dist/shtm/left-gauche-2.shtm"-->
+<!--#include virtual="/dist/theme-gcwu-intranet/shtm/cont/trail-arr.shtm"-->
+</body>
+</html>

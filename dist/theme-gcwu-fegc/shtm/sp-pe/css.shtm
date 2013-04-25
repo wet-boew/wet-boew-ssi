@@ -1,0 +1,23 @@
+<!--#include virtual="/dist/theme-gcwu-fegc/shtm/config.shtm"-->
+<!--#include virtual="/dist/shtm/head-tete-1.shtm"-->
+<link rel="shortcut icon" href="/dist/theme-gcwu-fegc/images/favicon.ico" />
+
+<!--[if lte IE 8]>
+<script src="/dist/js/jquery-ie.min.js"></script>
+<script src="/dist/js/polyfills/html5shiv-min.js"></script>
+<link rel="stylesheet" href="/dist/grids/css/util-ie-min.css" />
+<link rel="stylesheet" href="/dist/js/css/pe-ap-ie-min.css" />
+<link rel="stylesheet" href="/dist/theme-gcwu-fegc/css/theme-sp-pe-ie-min.css" />
+<noscript><link rel="stylesheet" href="/dist/theme-gcwu-fegc/css/theme-ns-ie-min.css" /></noscript>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<script src="/dist/js/jquery.min.js"></script>
+<link rel="stylesheet" href="/dist/grids/css/util-min.css" />
+<link rel="stylesheet" href="/dist/js/css/pe-ap-min.css" />
+<link rel="stylesheet" href="/dist/theme-gcwu-fegc/css/theme-sp-pe-min.css" />
+<noscript><link rel="stylesheet" href="/dist/theme-gcwu-fegc/css/theme-ns-min.css" /></noscript>
+<!--<![endif]-->
+
+<!--#include virtual="/dist/shtm/head-tete-2.shtm"-->
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->
