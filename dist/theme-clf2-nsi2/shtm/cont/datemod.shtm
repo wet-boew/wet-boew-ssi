@@ -1,0 +1,5 @@
+<!--#if expr="${pg-lang2}"--><!--#else-->
+<dl id="cn-doc-dates" role="contentinfo">
+<dt><!--#echo encoding='none' var='gc-doc-dates-${pg-lang1}'--></dt><dd><span><time><!--#echo encoding="none" var="pg-modified"--></time></span></dd>
+</dl>
+<!--#endif-->

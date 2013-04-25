@@ -1,0 +1,49 @@
+<div id="gcwu-title">
+<div id="gcwu-title-left" class="span-3 margin-bottom-none"><!--#echo encoding='none' var="gc-site-title-${pg-lang1}"--></div>
+<div class="span-2 margin-bottom-none"></div>
+<div id="gcwu-title-right" class="span-3 margin-bottom-none" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang2}"--></div>
+<!--#if expr="${pg-lang3}"-->
+<div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang3}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang3}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang4}"-->
+<div class="span-2 margin-bottom-none"></div>
+<div class="gcwu-alt-title-right span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang4}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang4}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang5}"-->
+<div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang5}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang5}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang6}"-->
+<div class="span-2 margin-bottom-none"></div>
+<div class="gcwu-alt-title-right span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang6}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang6}"--></div>
+<!--#endif-->
+<!--#if expr="${pg-lang7}"-->
+<div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang7}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang7}"--></div>
+<!--#endif-->
+<div class="clear"></div>
+</div>
+
+<!-- Language selection links begin / Début des liens de sélection de langue -->
+<div id="gcwu-lang"><nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span></span></h2>
+<div class="span-6 grid-12 margin-bottom-none">
+<ul id="gcwu-ef-lang">
+<li><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang1}'--></a></div></li>
+<li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang2}'--></a></div></li>
+</ul>
+</div>
+<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-intranet/images/wmms.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml" role="img" width="126" height="30">
+	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->"><img src="/dist/theme-gcwu-intranet/images/wmms.gif" width="126" height="30" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
+</object></div></div>
+<div class="clear"></div>
+<!--#if expr="${pg-lang3}"-->
+<div class="clear"></div>
+<div class="span-8 grid-12 margin-bottom-none">
+<ul id="gcwu-other-lang">
+<li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang3}'-->"><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang3}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang3}'--></a></div></li>
+<!--#if expr="${pg-lang4}"--><li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang4}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang4}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang4}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang5}"--><li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang5}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang5}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang5}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang6}"--><li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang6}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang6}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang6}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang7}"--><li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang7}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang7}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang7}'--></a></div></li><!--#endif-->
+</ul>
+</div>
+<!--#endif-->
+</nav></div>
