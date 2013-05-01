@@ -9,10 +9,10 @@
 </div></div>
 <div id="gcwu-gcnb-fip">
 <div id="gcwu-sig"><div id="gcwu-sig-in"><object data="/dist/theme-gcwu-intranet/images/sig-<!--#echo encoding='none' var='pg-lang1'-->.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->" type="image/svg+xml" width="237" height="24">
-	<div id="gcwu-sig-eng" title="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->"><img src="/dist/theme-gcwu-intranet/images/<!--#echo encoding='none' var='gc-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="214" height="20" alt="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->" /></div>
+	<div id="gcwu-sig-eng" title="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->"><img src="/dist/theme-gcwu-intranet/images/<!--#echo encoding='none' var='gc-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.png" width="214" height="20" alt="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->" /></div>
 </object></div></div>
 <div id="gcwu-wmms"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-intranet/images/wmms.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->" type="image/svg+xml" width="128" height="32">
-	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->"><img src="/dist/theme-gcwu-intranet/images/wmms.gif" width="126" height="30" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->" /></div>
+	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->"><img src="/dist/theme-gcwu-intranet/images/wmms.png" width="126" height="30" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->" /></div>
 </object></div></div>
 </div></div></div></nav>
 <div id="gcwu-bnr" role="banner"><div id="gcwu-bnr-in">
