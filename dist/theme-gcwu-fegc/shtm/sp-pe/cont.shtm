@@ -1,7 +1,35 @@
+<!--#if expr="${np-show} != 1"-->
+<!--#include virtual="/dist/shtm/config.shtm"-->
+<!--#include virtual="/dist/shtm/sp-pe-vars.shtm"-->
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang1}'-->" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang1}'-->" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang1}'-->" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
+<meta name="dcterms.creator" content="<!--#echo encoding='none' var='np-creator-${pg-lang1}'-->" />
+<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='np-subject-${pg-lang1}'-->" />
+<!--#if expr="${pg-lang2}"-->
+<meta name="dcterms.creator" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='np-creator-${pg-lang2}'-->" />
+<meta name="dcterms.subject" title="scheme" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='np-subject-${pg-lang2}'-->" />
+<!--#endif-->
+<!--#include virtual="/dist/theme-gcwu-fegc/shtm/sp-pe/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/dist/shtm/1col.shtm"-->
+<!--#include virtual="/dist/theme-gcwu-fegc/shtm/sp-pe/header-entete.shtm"-->
+<!--#include virtual="/dist/shtm/centre-1.shtm"-->
+
 <div id="gcwu-title">
 <div id="gcwu-title-left" class="span-3 margin-bottom-none"><!--#echo encoding='none' var="gc-site-title-${pg-lang1}"--></div>
 <div class="span-2 margin-bottom-none"></div>
+<!--#if expr="${pg-lang2}"-->
 <div id="gcwu-title-right" class="span-3 margin-bottom-none" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang2}"--></div>
+<!--#endif-->
 <!--#if expr="${pg-lang3}"-->
 <div class="gcwu-alt-title-left span-3 margin-bottom-none"  lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang3}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang3}"--></div>
 <!--#endif-->
@@ -23,15 +51,15 @@
 </div>
 
 <!-- Language selection links begin / Début des liens de sélection de langue -->
-<div id="gcwu-lang"><nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span></span></h2>
+<div id="gcwu-lang"><nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span><!--#endif--></h2>
 <div class="span-6 grid-12 margin-bottom-none">
 <ul id="gcwu-ef-lang">
 <li><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang1}'--></a></div></li>
-<li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang2}'--></a></div></li>
+<!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang2}'--></a></div></li><!--#endif-->
 </ul>
 </div>
-<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-fegc/images/wmms.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml" role="img" width="126" height="30">
-	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->"><img src="/dist/theme-gcwu-fegc/images/wmms.png" width="126" height="30" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
+<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-fegc/images/wmms.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml">
+	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->"><img src="/dist/theme-gcwu-fegc/images/wmms.png" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
 </object></div></div>
 <div class="clear"></div>
 <!--#if expr="${pg-lang3}"-->
@@ -47,3 +75,24 @@
 </div>
 <!--#endif-->
 </nav></div>
+
+<!--#if expr="${pg-lang2}"-->
+<!--#else-->
+<div class="span-8 margin-top-large">
+<!--#if expr="${pg-lang1} = 'eng'"-->
+<p>Under the <a href="http://laws.justice.gc.ca/en/O-3.01/index.html"><em>Official Languages Act</em></a>, this office provides to the public in English only. You will find general information in both official languages on our <a href="<!--#echo encoding='none' var='gc-banner-href-eng'-->">primary web site</a>.</p>
+<p lang="fr">Aux termes de la <a href="http://lois.justice.gc.ca/fr/O-3.01/index.html"><em>Loi sur les langues officielles</em></a>, ce bureau n'offre des services au public qu'en anglais. Vous trouverez des renseignements généraux dans les deux langues officielles sur notre <a href="<!--#echo encoding='none' var='gc-banner-href-fra'-->">site principale</a>.</p>
+<!--#else-->
+<p>Aux termes de la <a href="http://lois.justice.gc.ca/fr/O-3.01/index.html"><em>Loi sur les langues officielles</em></a>, ce bureau n'offre des services au public qu'en anglais. Vous trouverez des renseignements généraux dans les deux langues officielles sur notre <a href="<!--#echo encoding='none' var='gc-banner-href-fra'-->">site principale</a>.</p>
+<p lang="en">Under the <a href="http://laws.justice.gc.ca/en/O-3.01/index.html"><em>Official Languages Act</em></a>, this office provides to the public in French only. You will find general information in both official languages on our <a href="<!--#echo encoding='none' var='gc-banner-href-eng'-->">primary web site</a>.</p>
+<!--#endif-->
+</div>
+<!--#endif-->
+
+<!--#include virtual="/dist/shtm/centre-2.shtm"-->
+<!--#include virtual="/dist/theme-gcwu-fegc/shtm/sp-pe/trail-arr.shtm"-->
+</body>
+</html>
+<!--#else-->
+<!--#include virtual="/dist/shtm/np.shtm"-->
+<!--#endif-->
