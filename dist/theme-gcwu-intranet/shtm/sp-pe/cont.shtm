@@ -23,16 +23,14 @@
 </div>
 
 <!-- Language selection links begin / Début des liens de sélection de langue -->
-<div id="gcwu-lang"><nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span></span></h2>
+<div id="gcwu-lang"><nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span></h2>
 <div class="span-6 grid-12 margin-bottom-none">
 <ul id="gcwu-ef-lang">
 <li><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang1}'--></a></div></li>
 <li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang2}'--></a></div></li>
 </ul>
 </div>
-<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-intranet/images/wmms.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml" role="img" width="126" height="30">
-	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->"><img src="/dist/theme-gcwu-intranet/images/wmms.png" width="126" height="30" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
-</object></div></div>
+<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-intranet/images/wmms-blk.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml" tabindex="-1" role="img"><img src="/dist/theme-gcwu-intranet/images/wmms.png" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></object></div></div>
 <div class="clear"></div>
 <!--#if expr="${pg-lang3}"-->
 <div class="clear"></div>
