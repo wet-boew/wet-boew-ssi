@@ -8,7 +8,7 @@
 </object></div></div>
 <div class="clear"></div>
 <div id="gcwu-title-left" class="span-4 row-start"><a href="<!--#echo encoding='none' var='gc-banner-href-${pg-lang1}'-->"><!--#echo encoding='none' var='gc-site-title-${pg-lang1}'--></a></div>
-<div id="gcwu-title-right" class="span-4 row-end" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><a href="home-accueil-fra.html"><!--#echo encoding='none' var='gc-site-title-${pg-lang2}'--></a></div>
+<div id="gcwu-title-right" class="span-4 row-end" lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><a href="home-accueil-fra.html"><!--#echo encoding='none' var='gc-site-title-${pg-lang2}'--></a></div>
 <div class="clear"></div>
 </div>
 <!--#include virtual="/dist/shtm/body-corps-1b.shtm"-->

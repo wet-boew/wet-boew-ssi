@@ -1,26 +1,28 @@
-<!--#set var="gcwu-meta-eng" value="en"-->
-<!--#set var="gcwu-meta-fra" value="fr"-->
-<!--#set var="gcwu-meta-deu" value="de"-->
-<!--#set var="gcwu-meta-spa" value="es"-->
-<!--#set var="gcwu-meta-ita" value="it"-->
-<!--#set var="gcwu-meta-por" value="pt"-->
-<!--#set var="gcwu-meta-rus" value="ru"-->
-<!--#set var="gcwu-lang-text-eng" value="English"-->
-<!--#set var="gcwu-lang-text-fra" value="Français"-->
-<!--#set var="gcwu-lang-text-deu" value="Deutsch"-->
-<!--#set var="gcwu-lang-text-spa" value="Español"-->
-<!--#set var="gcwu-lang-text-ita" value="Italiano"-->
-<!--#set var="gcwu-lang-text-por" value="Português"-->
-<!--#set var="gcwu-lang-text-rus" value="&amp;#1056;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081;"-->
-<!--#set var="gcwu-sh-link-1-eng" value="Skip to main content"-->
-<!--#set var="gcwu-sh-link-1-fra" value="Passer au contenu principal"-->
-<!--#set var="gcwu-sh-link-2-eng" value="Skip to secondary menu"-->
-<!--#set var="gcwu-sh-link-2-fra" value="Passer au menu secondaire"-->
-<!--#set var="gcwu-sh-link-3-eng" value="Skip to footer"-->
-<!--#set var="gcwu-sh-link-3-fra" value="Passer au pied de page"-->
-<!--#set var="gcwu-left-col-eng" value="Secondary menu"-->
-<!--#set var="gcwu-left-col-fra" value="Menu secondaire"-->
-<!--#set var="gcwu-right-col-eng" value="Supplemental content"-->
-<!--#set var="gcwu-right-col-fra" value="Contenu supplémentaire"-->
-<!--#set var="gcwu-foot-eng" value="Footer"-->
-<!--#set var="gcwu-foot-fra" value="Pied de page"-->
+<!--#set var="wb-welcome-eng" value="Welcome"-->
+<!--#set var="wb-welcome-fra" value="Bienvenue"-->
+<!--#set var="wb-meta-eng" value="en"-->
+<!--#set var="wb-meta-fra" value="fr"-->
+<!--#set var="wb-meta-deu" value="de"-->
+<!--#set var="wb-meta-spa" value="es"-->
+<!--#set var="wb-meta-ita" value="it"-->
+<!--#set var="wb-meta-por" value="pt"-->
+<!--#set var="wb-meta-rus" value="ru"-->
+<!--#set var="wb-lang-text-eng" value="English"-->
+<!--#set var="wb-lang-text-fra" value="Français"-->
+<!--#set var="wb-lang-text-deu" value="Deutsch"-->
+<!--#set var="wb-lang-text-spa" value="Español"-->
+<!--#set var="wb-lang-text-ita" value="Italiano"-->
+<!--#set var="wb-lang-text-por" value="Português"-->
+<!--#set var="wb-lang-text-rus" value="&amp;#1056;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081;"-->
+<!--#set var="wb-sh-link-1-eng" value="Skip to main content"-->
+<!--#set var="wb-sh-link-1-fra" value="Passer au contenu principal"-->
+<!--#set var="wb-sh-link-2-eng" value="Skip to secondary menu"-->
+<!--#set var="wb-sh-link-2-fra" value="Passer au menu secondaire"-->
+<!--#set var="wb-sh-link-3-eng" value="Skip to footer"-->
+<!--#set var="wb-sh-link-3-fra" value="Passer au pied de page"-->
+<!--#set var="wb-left-col-eng" value="Secondary menu"-->
+<!--#set var="wb-left-col-fra" value="Menu secondaire"-->
+<!--#set var="wb-right-col-eng" value="Supplemental content"-->
+<!--#set var="wb-right-col-fra" value="Contenu supplémentaire"-->
+<!--#set var="wb-foot-eng" value="Footer"-->
+<!--#set var="wb-foot-fra" value="Pied de page"-->

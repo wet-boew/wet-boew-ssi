@@ -1,8 +1,8 @@
-<!--#set var="np-title-eng" value="Welcome"-->
-<!--#set var="np-link-eng" value="cont-eng.shtm"-->
-<!--#set var="np-lang1" value="eng"-->
-<!--#set var="np-issued" value="2011-10-31"-->
-<!--#set var="np-modified" value="YYYY-MM-DD"-->
-<!--#set var="np-creator-eng" value="English name of the content author / Nom en anglais de l'auteur du contenu"-->
-<!--#set var="np-subject-eng" value="English subject terms / Termes de sujet en anglais"-->
+<!--#set var="sp-title-eng" value="Site title"-->
+<!--#set var="sp-link-eng" value="cont-eng.shtm"-->
+<!--#set var="sp-lang1" value="eng"-->
+<!--#set var="sp-issued" value="2011-10-31"-->
+<!--#set var="sp-modified" value="YYYY-MM-DD"-->
+<!--#set var="sp-creator-eng" value="English name of the content author / Nom en anglais de l'auteur du contenu"-->
+<!--#set var="sp-subject-eng" value="English subject terms / Termes de sujet en anglais"-->
 <!--#include virtual="/dist/theme-gcwu-intranet/shtm/sp-pe/cont.shtm"-->
