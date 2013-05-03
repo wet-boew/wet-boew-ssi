@@ -1,5 +1,5 @@
 <div id="wb-main" role="main"><div id="wb-main-in">
 <!-- MainContentStart -->
 <!--#if expr="${gcwu-centre-header-file}"--><!--#include virtual="${gcwu-centre-header-file}"--><!--#endif-->
-<!--#if expr="${pg-lang2}"--><h1 id="wb-cont"><!--#echo encoding="none" var="pg-title-${pg-lang1}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding="none" var="pg-title-${pg-lang2}"--></span></h1>
-<!--#else--><h1 id="wb-cont"><!--#echo encoding="none" var="pg-title-${pg-lang1}"--></h1><!--#endif-->
+<!--#if expr="${pg-lang2}"--><h1 id="wb-cont"><!--#if expr="${is-sp} = '1'"--><!--#echo encoding="none" var="wb-welcome-${pg-lang1}"--><!--#else--><!--#echo encoding="none" var="pg-title-${pg-lang1}"--><!--#endif--> / <span lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><!--#if expr="${is-sp} = '1'"--><!--#echo encoding="none" var="wb-welcome-${pg-lang2}"--><!--#else--><!--#echo encoding="none" var="pg-title-${pg-lang2}"--><!--#endif--></span></h1>
+<!--#else--><h1 id="wb-cont"><!--#if expr="${is-sp} = '1'"--><!--#echo encoding="none" var="wb-welcome-${pg-lang1}"--><!--#else--><!--#echo encoding="none" var="pg-title-${pg-lang1}"--><!--#endif--></h1><!--#endif-->

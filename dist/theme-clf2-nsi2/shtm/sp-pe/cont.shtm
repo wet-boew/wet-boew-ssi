@@ -2,20 +2,20 @@
 <!--#include virtual="/dist/shtm/config.shtm"-->
 <!--#include virtual="/dist/shtm/sp-pe-vars.shtm"-->
 <!DOCTYPE html>
-<!--[if IE 7]> <html lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang1}'-->" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]> <html lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang1}'-->" class="no-js ie8"> <![endif]-->
+<!--[if IE 7]> <html lang="<!--#echo encoding='none' var='wb-meta-${pg-lang1}'-->" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="<!--#echo encoding='none' var='wb-meta-${pg-lang1}'-->" class="no-js ie8"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang1}'-->" class="no-js">
+<html lang="<!--#echo encoding='none' var='wb-meta-${pg-lang1}'-->" class="no-js">
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
-<meta name="dcterms.creator" content="<!--#echo encoding='none' var='np-creator-${pg-lang1}'-->" />
-<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='np-subject-${pg-lang1}'-->" />
+<meta name="dcterms.creator" content="<!--#echo encoding='none' var='sp-creator-${pg-lang1}'-->" />
+<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='sp-subject-${pg-lang1}'-->" />
 <!--#if expr="${pg-lang2}"-->
-<meta name="dcterms.creator" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='np-creator-${pg-lang2}'-->" />
-<meta name="dcterms.subject" title="scheme" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='np-subject-${pg-lang2}'-->" />
+<meta name="dcterms.creator" lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='sp-creator-${pg-lang2}'-->" />
+<meta name="dcterms.subject" title="scheme" lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='sp-subject-${pg-lang2}'-->" />
 <!--#endif-->
 <!--#include virtual="/dist/theme-clf2-nsi2/shtm/sp-pe/css.shtm"-->
 </head>
@@ -27,14 +27,14 @@ wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Lice
 <div id="cn-msg-space" role="banner">
 <div id="cn-upper-msg"></div>
 <div id="cn-lower-msg">
-<p id="cn-left-msg"><!--#echo encoding='none' var="gc-site-title-${pg-lang1}"--></p>
-<!--#if expr="${pg-lang2}"--><p id="cn-right-msg" lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var="gc-site-title-${pg-lang2}"--></p><!--#endif-->
+<p id="cn-left-msg"><!--#echo encoding='none' var="pg-title-${pg-lang1}"--></p>
+<!--#if expr="${pg-lang2}"--><p id="cn-right-msg" lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><!--#echo encoding='none' var="pg-title-${pg-lang2}"--></p><!--#endif-->
 </div>
 </div>
-<nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span><!--#endif--></h2>
+<nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span><!--#endif--></h2>
 <ul id="cn-ef-lang-links">
-<li><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang1}'--></a></li>
-<!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='gcwu-meta-${pg-lang2}'-->"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='gcwu-lang-text-${pg-lang2}'--></a></li><!--#endif-->
+<li><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang1}'--></a></li>
+<!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang2}'--></a></li><!--#endif-->
 </ul>
 <div id="cn-wmms"><img src="/dist/theme-clf2-nsi2/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
 </nav>
