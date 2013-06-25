@@ -10,7 +10,7 @@
 <head>
 <meta charset="utf-8" />
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
+wet-boew.github.com/wet-boew/License-eng.html / wet-boew.github.com/wet-boew/Licence-fra.html -->
 <meta name="dcterms.creator" content="<!--#echo encoding='none' var='sp-creator-${pg-lang1}'-->" />
 <meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='sp-subject-${pg-lang1}'-->" />
 <!--#if expr="${pg-lang2}"-->
