@@ -39,12 +39,12 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 
 <h3>Minimum Requirements</h3>
 <ul>
-  <li>Build folder from WET 3.0</li>
+  <li>Build folder from WET 3.1.2</li>
   <li>Server Side Includes installed on a web server</li>
 </ul>
 <h3>How to install the files</h3>
 
-<p>Make sure that you have the WET 3.0 build folder in your root directory. Copy the following directories to the root:</p>
+<p>Make sure that you have the WET 3.1.2 build folder in your root directory. Copy the following directories to the root:</p>
 <ul>
   <li>inc\</li>
   <li>demos\ssi</li>

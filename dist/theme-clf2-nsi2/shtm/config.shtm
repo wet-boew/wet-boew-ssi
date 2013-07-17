@@ -1,5 +1,19 @@
 <!--#include virtual="/dist/shtm/config.shtm"-->
 <!--#include virtual="/dist/shtm/lang-inc.htm"-->
+<!--#set var="siteroot-title-eng" value="SSI Variant (CLF2)"-->
+<!--#set var="siteroot-title-fra" value="Variante pour SSI (NSI2)"-->
+<!--#set var="siteroot-title-deu" value="Titel einer Website (CLF2)"-->
+<!--#set var="siteroot-title-spa" value="Título del sitio (CLF2)"-->
+<!--#set var="siteroot-title-ita" value="Titolo del sito (CLF2)"-->
+<!--#set var="siteroot-title-por" value="Título do site (CLF2)"-->
+<!--#set var="siteroot-title-rus" value="Название Вебсайта (CLF2)"-->
+<!--#set var="siteroot-href-eng" value="/demos/theme-clf2-nsi2/ssi/3col-theme-clf2-nsi2-eng.shtm"-->
+<!--#set var="siteroot-href-fra" value="/demos/theme-clf2-nsi2/ssi/3col-theme-clf2-nsi2-fra.shtm"-->
+<!--#set var="siteroot-href-deu" value="#"-->
+<!--#set var="siteroot-href-spa" value="#"-->
+<!--#set var="siteroot-href-ita" value="#"-->
+<!--#set var="siteroot-href-por" value="#"-->
+<!--#set var="siteroot-href-rus" value="#"-->
 <!--#set var="gc-bt-fa-filename" value="index.shtm"-->
 <!--#set var="gc-sig-eng" value="Government of Canada"-->
 <!--#set var="gc-sig-fra" value="Gouvernement du Canada"-->
@@ -46,13 +60,6 @@
 <!--#set var="gc-cmb6-text-fra" value="canada.gc.ca"-->
 <!--#set var="gc-wmms-eng" value="Symbol of the Government of Canada"-->
 <!--#set var="gc-wmms-fra" value="Symbole du gouvernement du Canada"-->
-<!--#set var="gc-site-title-eng" value="SSI Variant"-->
-<!--#set var="gc-site-title-fra" value="Variante pour SSI"-->
-<!--#set var="gc-site-title-deu" value="Titel einer Website"-->
-<!--#set var="gc-site-title-spa" value="Título del sitio"-->
-<!--#set var="gc-site-title-ita" value="Titolo del sito"-->
-<!--#set var="gc-site-title-por" value="Título do site"-->
-<!--#set var="gc-site-title-rus" value="Название Вебсайта"-->
 <!--#set var="gc-domain-eng" value="[www.]mainsite-siteprimaire.gc.ca"-->
 <!--#set var="gc-domain-fra" value="[www.]siteprimaire-mainsite.gc.ca"-->
 <!--#set var="gc-bcrumb-eng" value="Breadcrumb trail"-->
@@ -67,10 +74,10 @@
 <!--#set var="gc-toppage-foot-title-fra" value="Retourner au haut de la page"-->
 <!--#set var="gc-toppage-foot-text-eng" value="Top of Page"-->
 <!--#set var="gc-toppage-foot-text-fra" value="Haut de la page"-->
-<!--#set var="gc-inotices-link-href-eng" value="#"-->
-<!--#set var="gc-inotices-link-href-fra" value="#"-->
-<!--#set var="gc-inotices-link-text-eng" value="Important Notices"-->
-<!--#set var="gc-inotices-link-text-fra" value="Avis importants"-->
+<!--#set var="gc-inotices-href-eng" value="#"-->
+<!--#set var="gc-inotices-href-fra" value="#"-->
+<!--#set var="gc-inotices-text-eng" value="Important Notices"-->
+<!--#set var="gc-inotices-text-fra" value="Avis importants"-->
 <!--#set var="gc-langselect-eng" value="Language selection links"-->
 <!--#set var="gc-langselect-fra" value="Liens de sélection de langue"-->
 <!--#set var="gc-langalt-eng" value="fr"-->

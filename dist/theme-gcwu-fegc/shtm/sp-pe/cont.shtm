@@ -1,4 +1,7 @@
-<!--#if expr="${np-show} != 1"-->
+<!--#if expr="${np-show} = 1"-->
+<!--#include virtual="/dist/shtm/np.shtm"-->
+<!--#elif expr="${subsite-show} = 1"-->
+<!--#else-->
 <!--#include virtual="/dist/shtm/config.shtm"-->
 <!--#include virtual="/dist/shtm/sp-pe-vars.shtm"-->
 <!DOCTYPE html>
@@ -54,8 +57,8 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <div id="gcwu-lang"><nav role="navigation"><h2><!--#echo encoding='none' var='gc-langselect-${pg-lang1}'--><!--#if expr="${pg-lang2}"--> / <span lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><!--#echo encoding='none' var='gc-langselect-${pg-lang2}'--></span><!--#endif--></h2>
 <div class="span-6 grid-12 margin-bottom-none">
 <ul id="gcwu-ef-lang">
-<li><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang1}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang1}'--></a></div></li>
-<!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang2}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang2}'--></a></div></li><!--#endif-->
+<li><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang1}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang1}'--></a></div></li>
+<!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang2}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang2}'--></a></div></li><!--#endif-->
 </ul>
 </div>
 <div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-fegc/images/wmms-blk.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml">
@@ -66,11 +69,11 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <div class="clear"></div>
 <div class="span-8 grid-12 margin-bottom-none">
 <ul id="gcwu-other-lang">
-<li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang3}'-->"><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang3}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang3}'--></a></div></li>
-<!--#if expr="${pg-lang4}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang4}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang4}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang4}'--></a></div></li><!--#endif-->
-<!--#if expr="${pg-lang5}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang5}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang5}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang5}'--></a></div></li><!--#endif-->
-<!--#if expr="${pg-lang6}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang6}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang6}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang6}'--></a></div></li><!--#endif-->
-<!--#if expr="${pg-lang7}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang7}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-link-${pg-lang7}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang7}'--></a></div></li><!--#endif-->
+<li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang3}'-->"><div class="span-2 row-start margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang3}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang3}'--></a></div></li>
+<!--#if expr="${pg-lang4}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang4}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang4}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang4}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang5}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang5}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang5}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang5}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang6}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang6}'-->"><div class="span-2 margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang6}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang6}'--></a></div></li><!--#endif-->
+<!--#if expr="${pg-lang7}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang7}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang7}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang7}'--></a></div></li><!--#endif-->
 </ul>
 </div>
 <!--#endif-->
@@ -80,11 +83,11 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!--#else-->
 <div class="span-8 margin-top-large">
 <!--#if expr="${pg-lang1} = 'eng'"-->
-<p>Under the <a href="http://laws.justice.gc.ca/en/O-3.01/index.html"><em>Official Languages Act</em></a>, this office provides to the public in English only. You will find general information in both official languages on our <a href="<!--#echo encoding='none' var='gc-banner-href-eng'-->">primary web site</a>.</p>
-<p lang="fr">Aux termes de la <a href="http://lois.justice.gc.ca/fr/O-3.01/index.html"><em>Loi sur les langues officielles</em></a>, ce bureau n'offre des services au public qu'en anglais. Vous trouverez des renseignements généraux dans les deux langues officielles sur notre <a href="<!--#echo encoding='none' var='gc-banner-href-fra'-->">site principale</a>.</p>
+<p>Under the <a href="http://laws.justice.gc.ca/en/O-3.01/index.html"><em>Official Languages Act</em></a>, this office provides to the public in English only. You will find general information in both official languages on our <a href="<!--#echo encoding='none' var='siteroot-href-eng'-->">primary web site</a>.</p>
+<p lang="fr">Aux termes de la <a href="http://lois.justice.gc.ca/fr/O-3.01/index.html"><em>Loi sur les langues officielles</em></a>, ce bureau n'offre des services au public qu'en anglais. Vous trouverez des renseignements généraux dans les deux langues officielles sur notre <a href="<!--#echo encoding='none' var='siteroot-href-fra'-->">site principale</a>.</p>
 <!--#else-->
-<p>Aux termes de la <a href="http://lois.justice.gc.ca/fr/O-3.01/index.html"><em>Loi sur les langues officielles</em></a>, ce bureau n'offre des services au public qu'en anglais. Vous trouverez des renseignements généraux dans les deux langues officielles sur notre <a href="<!--#echo encoding='none' var='gc-banner-href-fra'-->">site principale</a>.</p>
-<p lang="en">Under the <a href="http://laws.justice.gc.ca/en/O-3.01/index.html"><em>Official Languages Act</em></a>, this office provides to the public in French only. You will find general information in both official languages on our <a href="<!--#echo encoding='none' var='gc-banner-href-eng'-->">primary web site</a>.</p>
+<p>Aux termes de la <a href="http://lois.justice.gc.ca/fr/O-3.01/index.html"><em>Loi sur les langues officielles</em></a>, ce bureau n'offre des services au public qu'en anglais. Vous trouverez des renseignements généraux dans les deux langues officielles sur notre <a href="<!--#echo encoding='none' var='siteroot-href-fra'-->">site principale</a>.</p>
+<p lang="en">Under the <a href="http://laws.justice.gc.ca/en/O-3.01/index.html"><em>Official Languages Act</em></a>, this office provides to the public in French only. You will find general information in both official languages on our <a href="<!--#echo encoding='none' var='siteroot-href-eng'-->">primary web site</a>.</p>
 <!--#endif-->
 </div>
 <!--#endif-->
@@ -93,6 +96,4 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!--#include virtual="/dist/theme-gcwu-fegc/shtm/sp-pe/trail-arr.shtm"-->
 </body>
 </html>
-<!--#else-->
-<!--#include virtual="/dist/shtm/np.shtm"-->
 <!--#endif-->
