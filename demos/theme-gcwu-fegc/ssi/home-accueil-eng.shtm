@@ -21,63 +21,40 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!--#include virtual="/dist/shtm/1col.shtm"-->
 <!--#include virtual="/dist/theme-gcwu-fegc/shtm/cont/header-entete.shtm"-->
 <!--#include virtual="/dist/shtm/centre-1.shtm"-->
-<div id="gcwu-content">
-<div id="gcwu-headlines" class="span-3"><section><h2>Headlines</h2>
-<ul class="wet-boew-zebra">
-<li><section><h3><a href="#">Headline 1</a></h3>
-<p>Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. <a href="#">Read&#160;more<span class="wb-invisible"> - Headline 1</span></a></p>
-</section></li>
-<li><section><h3><a href="#">Headline 2</a></h3>
-<p>Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. <a href="#">Read&#160;more<span class="wb-invisible"> - Headline 2</span></a></p>
-</section></li>
-<li><section><h3><a href="#">Headline 3</a></h3>
-<p>Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. <a href="#">Read&#160;more<span class="wb-invisible"> - Headline 3</span></a></p>
-</section></li>
-</ul>
-</section></div>
-
-<div id="gcwu-video" class="span-3"><section><h2>Videos</h2>
-<div id="gcwu-bg-dark">
-<img class="posterimg" src="../images/video.jpg" alt="Sample video player" title="Sample video player" />
-<p><strong>Video title</strong></p>
-<p>Short description of the current video.</p>
-</div>
+<h2>Overview</h2>	
+<p>This feature adapts the HTML5 core markup structure for use with Server side   includes (SSI).</p>
+<h3>Benefits</h3>
 <ul>
-<li><a href="#">Multimedia Help</a></li>
-<li><a href="#">Transcripts and Alternative Formats</a></li>
+  <li>Helps to minimize the duplication of content and code (such as titles and   dates)</li>
+  <li>Provides central control of the left and right columns</li>
+  <li>Improves consistency by separating content from the template code</li>   
+  <li>Automates the breadcrumb trail</li>
+  <li>Conforms to WCAG 2.0 AA</li>
+  <li>Uses WAI-ARIA to enhance accessibility</li>
+  <li>Supports Firefox, Opera, Safari, Chrome, and IE 7+ </li>
 </ul>
-</section></div>
 
-<div id="gcwu-connect" class="span-6"><section><h2>Stay connected</h2>
+<h3>Minimum Requirements</h3>
 <ul>
-<li><a href="#"><img class="image-actual" src="/dist/theme-gcwu-fegc/images/sl_twitter.png" alt="Twitter" title="Twitter" /></a></li>
-<li><a href="#"><img class="image-actual" src="/dist/theme-gcwu-fegc/images/sl_youtube.png" alt="YouTube" title="YouTube" /></a></li>
-<li><a href="#"><img class="image-actual" src="/dist/theme-gcwu-fegc/images/sl_feeds.png" alt="Feeds" title="Feeds" /></a></li>
+  <li>Build folder from WET 3.1.2</li>
+  <li>Server Side Includes installed on a web server</li>
 </ul>
-</section></div></div>
+<h3>How to install the files</h3>
 
-<aside role="complementary"><div id="gcwu-aside"><h2>Supplemental content</h2>
-<section><div id="gcwu-priorities"><h3>Priorities</h3><div id="gcwu-priorities-inner">
+<p>Make sure that you have the WET 3.1.2 build folder in your root directory. Copy the following directories to the root:</p>
 <ul>
-<li><img src="../images/prio1-eng.png" width="220" height="70" alt="Priority 1" title="Priority 1" /></li>
-<li><img src="../images/prio2-eng.png" width="220" height="70" alt="Priority 2" title="Priority 2" /></li>
-<li><img src="../images/prio3-eng.png" width="220" height="70" alt="Priority 3" title="Priority 3" /></li>
-</ul>
-</div></div></section>
-
-<section><div class="gcwu-minister"><h3>Meet the Minister</h3><div class="gcwu-minister-in">
-<div class="gcwu-minister-img"><img src="../images/minister.JPG" width="99" height="149" alt="The&#160;Honourable minister name" /></div>
-<div class="gcwu-minister-info">
-<p>The&#160;Honourable<br /><strong>minister name</strong></p>
+  <li>inc\</li>
+  <li>demos\ssi</li>
+  </ul>
+<p>"inc" is a folder with your global include files.</p>
+<p>Another "inc" folder for page specific includes is under the demos\ssi folder, as well as a folder for main "menu" based includes. Also,shtm pages are located here.</p>
 <ul>
-<li><a href="#">About the minister</a></li>
-<li><a href="#">His portfolio</a></li>
+  <li>demos\ssi</li>
+  <li>demos\ssi\inc</li>
+  <li>demos\ssi\menu</li>
+  <li>demos\ssi\menu-left-gauche
+</li>
 </ul>
-</div>
-</div></div></section>
-</div></aside>
-<div class="clear"></div>
-
 <!--#include virtual="/dist/shtm/centre-2.shtm"-->
 <!--#include virtual="/dist/theme-gcwu-fegc/shtm/cont/trail-arr.shtm"-->
 </body>

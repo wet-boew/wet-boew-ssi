@@ -4,7 +4,7 @@
 <div id="cn-toppage-foot"><a href="#wb-tphp" title="<!--#echo encoding='none' var='gc-toppage-foot-title-${pg-lang1}'-->"><!--#echo encoding='none' var='gc-toppage-foot-text-${pg-lang1}'--></a></div>
 <div id="cn-in-pd-links">
 <ul>
-<li id="cn-inotices-link"><a href="<!--#echo encoding='none' var='gc-inotices-link-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-link-text-${pg-lang1}'--></a></li>
+<li id="cn-inotices-link"><a href="<!--#echo encoding='none' var='gc-inotices-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-text-${pg-lang1}'--></a></li>
 </ul>
 </div>
 </div>

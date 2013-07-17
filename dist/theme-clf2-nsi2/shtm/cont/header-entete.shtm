@@ -1,11 +1,12 @@
 <!--#include virtual="/dist/shtm/body-corps-1a.shtm"-->
+<!--#include virtual="/dist/shtm/subsite.shtm"-->
 <!-- HeaderStart -->
 <div id="cn-sig"><img src="/dist/theme-clf2-nsi2/images/sig-eng.gif" width="372" height="20" alt="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->" title="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'-->" /></div>
 <div id="cn-wmms"><img src="/dist/theme-clf2-nsi2/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'-->" /></div>
 
 <div id="cn-leaf"></div>
 <div id="cn-banner" role="banner">
-<p id="cn-banner-text"><!--#echo encoding='none' var='gc-site-title-${pg-lang1}'--></p>
+<p id="cn-banner-text"><!--#echo encoding='none' var='siteroot-title-${pg-lang1}'--></p>
 <p><!--#echo encoding='none' var='gc-domain-${pg-lang1}'--></p>
 </div>
 

@@ -1,5 +1,19 @@
 <!--#include virtual="/dist/shtm/config.shtm"-->
 <!--#include virtual="/dist/shtm/lang-inc.htm"-->
+<!--#set var="siteroot-title-eng" value="SSI Variant (GCWU)"-->
+<!--#set var="siteroot-title-fra" value="Variante pour SSI (FEGC)"-->
+<!--#set var="siteroot-title-deu" value="Titel einer Website (GCWU)"-->
+<!--#set var="siteroot-title-spa" value="Título del sitio (GCWU)"-->
+<!--#set var="siteroot-title-ita" value="Titolo del sito (GCWU)"-->
+<!--#set var="siteroot-title-por" value="Título do site (GCWU)"-->
+<!--#set var="siteroot-title-rus" value="Название Вебсайта (GCWU)"-->
+<!--#set var="siteroot-href-eng" value="/demos/theme-gcwu-fegc/ssi/home-accueil-eng.shtm"-->
+<!--#set var="siteroot-href-fra" value="/demos/theme-gcwu-fegc/ssi/home-accueil-fra.shtm"-->
+<!--#set var="siteroot-href-deu" value="#"-->
+<!--#set var="siteroot-href-spa" value="#"-->
+<!--#set var="siteroot-href-ita" value="#"-->
+<!--#set var="siteroot-href-por" value="#"-->
+<!--#set var="siteroot-href-rus" value="#"-->
 <!--#set var="gc-theme-folder" value="/dist/theme-gcwu-fegc/shtm/"-->
 <!--#set var="gc-build-folder" value="/dist/"-->
 <!--#set var="gc-menu-folder" value="/dist/theme-gcwu-fegc/menu/"-->
@@ -32,15 +46,6 @@
 <!--#set var="gc-cmblang-text-fra" value="English"-->
 <!--#set var="gc-wmms-eng" value="Symbol of the Government of Canada"-->
 <!--#set var="gc-wmms-fra" value="Symbole du gouvernement du Canada"-->
-<!--#set var="gc-site-title-eng" value="SSI Variant"-->
-<!--#set var="gc-site-title-fra" value="Variante pour SSI"-->
-<!--#set var="gc-site-title-deu" value="Titel einer Website"-->
-<!--#set var="gc-site-title-spa" value="Título del sitio"-->
-<!--#set var="gc-site-title-ita" value="Titolo del sito"-->
-<!--#set var="gc-site-title-por" value="Título do site"-->
-<!--#set var="gc-site-title-rus" value="Название Вебсайта"-->
-<!--#set var="gc-banner-href-eng" value="#"-->
-<!--#set var="gc-banner-href-fra" value="#"-->
 <!--#set var="gc-domain-eng" value="[www.]mainsite-siteprimaire.gc.ca"-->
 <!--#set var="gc-domain-fra" value="[www.]siteprimaire-mainsite.gc.ca"-->
 <!--#set var="gc-search-eng" value="Search"-->

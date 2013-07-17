@@ -5,13 +5,13 @@
 <dl role="contentinfo">
 <dt><!--#echo encoding='none' var='gc-doc-dates-${pg-lang1}'--></dt><dd><span><time><!--#echo encoding="none" var="pg-modified"--></time></span></dd>
 </dl>
-<a href="<!--#echo encoding='none' var='gc-inotices-link-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-link-text-${pg-lang1}'--></a><br />
+<a href="<!--#echo encoding='none' var='gc-inotices-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-text-${pg-lang1}'--></a><br />
 </li>
 <li id="cn-inotices-link-right" lang="fr">
 <dl role="contentinfo">
 <dt><!--#echo encoding='none' var='gc-doc-dates-${pg-lang2}'--></dt><dd><span><time><!--#echo encoding="none" var="pg-modified"--></time></span></dd>
 </dl>
-<a href="<!--#echo encoding='none' var='gc-inotices-link-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-link-text-${pg-lang2}'--></a>
+<a href="<!--#echo encoding='none' var='gc-inotices-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-text-${pg-lang2}'--></a>
 </li>
 </ul>
 </div>

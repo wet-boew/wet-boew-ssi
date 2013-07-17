@@ -1,7 +1,7 @@
 <!--#set var="sp-title-eng" value="Site title"-->
 <!--#set var="sp-title-fra" value="Titre du site"-->
-<!--#set var="sp-link-eng" value="cont-eng.shtm"-->
-<!--#set var="sp-link-fra" value="cont-fra.shtm"-->
+<!--#set var="sp-href-eng" value="cont-eng.shtm"-->
+<!--#set var="sp-href-fra" value="cont-fra.shtm"-->
 <!--#set var="sp-lang1" value="fra"-->
 <!--#set var="sp-lang2" value="eng"-->
 <!--#set var="sp-issued" value="2011-10-31"-->
