@@ -2,5 +2,5 @@
 <ul>
 <li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> rel="external" href="#">YouTube</a></li>
 <li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> rel="external" href="#">Twitter</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Flux</a></li>
+<li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="#">Fils de nouvelles</a></li>
 </ul>
