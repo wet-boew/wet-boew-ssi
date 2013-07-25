@@ -62,7 +62,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 </ul>
 </div>
 <div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-fegc/images/wmms-blk.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml">
-	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->"><img src="/dist/theme-gcwu-fegc/images/wmms.png" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
+	<div id="gcwu-wmms-fip" title="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->"><img src="/dist/theme-gcwu-fegc/images/wmms-alt.png" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></div>
 </object></div></div>
 <div class="clear"></div>
 <!--#if expr="${pg-lang3}"-->

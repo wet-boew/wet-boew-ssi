@@ -61,7 +61,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><div class="span-2 row-end margin-bottom-none"><a href="<!--#echo encoding='none' var='pg-href-${pg-lang2}'-->"><!--#echo encoding='none' var='wb-lang-text-${pg-lang2}'--></a></div></li><!--#endif-->
 </ul>
 </div>
-<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-intranet/images/wmms-blk.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml" tabindex="-1"><img src="/dist/theme-gcwu-intranet/images/wmms.png" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></object></div></div>
+<div id="gcwu-wmms" class="span-2 margin-bottom-none"><div id="gcwu-wmms-in"><object data="/dist/theme-gcwu-intranet/images/wmms-blk.svg" role="img" aria-label="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" type="image/svg+xml" tabindex="-1"><img src="/dist/theme-gcwu-intranet/images/wmms-alt.png" alt="<!--#echo encoding='none' var='gc-wmms-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-wmms-${pg-lang2}'-->" /></object></div></div>
 <div class="clear"></div>
 <!--#if expr="${pg-lang3}"-->
 <div class="clear"></div>
