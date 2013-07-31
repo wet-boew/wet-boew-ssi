@@ -1,7 +1,7 @@
 <!--#config errmsg=""-->
 <!--#set var="np-show" value="1"-->
 <!--#include virtual="/${gc-bt-fa-filename}?np=1"-->
-<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
+<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
 <!--#if expr="$1"-->
 <!--#include virtual="/${1}${gc-bt-fa-filename}?np=1"-->
 <!--#endif-->
