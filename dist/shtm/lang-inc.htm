@@ -1,14 +1,14 @@
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions -->
-<!--#if expr="${REQUEST_URI} = /^(.*)-eng\.(.*)$/"-->
-<!--#set var="pg-altlangurl" value="${1}-fra.${2}"-->
-<!--#elif expr="${REQUEST_URI} = /^(.*)_e\.(.*)$/"-->
-<!--#set var="pg-altlangurl" value="${1}_f.${2}"-->
-<!--#elif expr="${REQUEST_URI} = /^(.*)-fra\.(.*)$/"-->
-<!--#set var="pg-altlangurl" value="${1}-eng.${2}"-->
-<!--#elif expr="${REQUEST_URI} = /^(.*)_f\.(.*)$/"-->
-<!--#set var="pg-altlangurl" value="${1}_e.${2}"-->
+<!--#if expr="${REQUEST_URI} = /^(.*)-eng\.h(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}-fra.h${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)_e\.h(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}_f.h${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)-fra\.h(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}-eng.h${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)_f\.h(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}_e.h${2}"-->
 <!--#else-->
 <!--#set var="pg-altlangurl" value="#"-->
 <!--#endif-->
