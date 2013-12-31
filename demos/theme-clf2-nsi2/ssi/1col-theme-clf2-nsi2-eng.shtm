@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
-<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
-<!--[if gt IE 8]><!-->
+<!--#include virtual="/dist/shtm/html-1-eng.shtm"-->
 <html lang="en" class="no-js">
-<!--<![endif]-->
+<!--#include virtual="/dist/shtm/html-2.shtm"-->
 <head>
 <meta charset="utf-8" />
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
