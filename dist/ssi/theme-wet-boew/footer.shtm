@@ -1,0 +1,16 @@
+		</main>
+		<!--#include virtual="${pg-sec}"-->
+	</div>
+</div>
+<footer role="contentinfo" id="wb-info" class="container visible-md visible-lg">
+	<nav role="navigation" class="row">
+		<!--#include virtual="/dist/ssi/theme-wet-boew/components/footer-site-${pg-lang1}.shtm"-->		
+	</nav>
+</footer>
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+<script src="/dist-wet-boew/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/dist-wet-boew/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
