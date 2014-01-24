@@ -1,3 +1,0 @@
-<!--#include virtual="/dist/shtm/body-corps-1a.shtm"-->
-<div id="gcwu-sig" class="span-8"><div id="gcwu-sig-in"><object data="/dist/theme-gcwu-intranet/images/sig-blk-<!--#echo encoding='none' var='pg-lang1'-->.svg" role="img" tabindex="-1" aria-label="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-sig-${pg-lang2}'-->" type="image/svg+xml"><img src="/dist/theme-gcwu-intranet/images/<!--#echo encoding='none' var='gc-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.png" class="image-actual" alt="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-sig-${pg-lang2}'-->" /></object></div></div>
-<!--#include virtual="/dist/shtm/body-corps-1b.shtm"-->
