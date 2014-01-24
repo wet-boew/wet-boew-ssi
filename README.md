@@ -17,8 +17,7 @@ This feature adapts the HTML5 core markup structure for use with Server side inc
 ##Minimum Requirements
 
 * dist folder from WET v4.0
-* Server Side Includes installed on a web server
-* Apache 2.x Web Server
+* Server Side Includes installed on an Apache 2.x Web Server
 
 ##How to install the files
 
