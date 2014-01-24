@@ -1,0 +1,41 @@
+<!--#set var="wb-header-sitemenu-en" value="Site menu"-->
+<!--#set var="wb-header-sitemenu-fr" value="Menu du site"-->
+<!--#set var="wb-header-youarehere-en" value="You are here:"-->
+<!--#set var="wb-header-youarehere-fr" value="Vous êtes dans :"-->
+<!--#include virtual="/dist/ssi/header-skip.shtm"-->
+<header role="banner">
+	<div id="wb-bnr">
+		<div id="wb-bar">
+			<div class="container">
+				<div class="row">
+					<!--#include virtual="/dist/ssi/theme-wet-boew/components/header-topbar-${pg-lang1}.shtm"-->
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!--#include virtual="/dist/ssi/theme-wet-boew/components/header-titlesearch-${pg-lang1}.shtm"-->
+			</div>
+		</div>
+	</div>
+	<nav role="navigation" id="wb-sm" data-ajax-fetch="/dist-wet-boew/ajax/sitemenu-<!--#echo encoding='none' var='pg-lang1'-->.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+		<div class="container nvbar">
+			<h2><!--#echo encoding='none' var='wb-header-sitemenu-${pg-lang1}'--></h2>
+			<div class="row">
+				<!--#include virtual="/dist/ssi/theme-wet-boew/nav/sitemenu-${pg-lang1}.shtm"-->
+			</div>
+		</div>
+	</nav>
+	<nav role="navigation" id="wb-bc" property="breadcrumb">
+		<h2><!--#echo encoding='none' var='wb-header-youarehere-${pg-lang1}'--></h2>
+		<div class="container">
+			<div class="row">
+				<!--#include virtual="/dist/ssi/header-breadcrumb.shtm"-->
+			</div>
+		</div>
+	</nav>
+</header>
+<div class="container">
+	<div class="row">
+		<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
+			<h1 id="wb-cont" property="name"><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></h1>

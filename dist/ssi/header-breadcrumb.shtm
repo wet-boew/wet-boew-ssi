@@ -1,0 +1,9 @@
+<ol class="breadcrumb">
+	<li>
+		<a href="./index-en.html">Home</a>
+	</li>
+	<li>
+		<a href="./demos/theme-gcwu-fegc/index-en.html">GCWU theme</a>
+	</li>
+	<li><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></li>
+</ol>

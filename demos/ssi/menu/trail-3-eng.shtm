@@ -1,7 +1,0 @@
-<h4 class="gcwu-col-head"><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Contact us</a></h4>
-<address>
-<ul>
-<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Phone numbers</a></li>
-<li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="#">Office locations</a></li>
-</ul>
-</address>

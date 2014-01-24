@@ -1,1 +1,0 @@
-<!--#if expr="$DOCUMENT_URI = ${np-link-eng} || $DOCUMENT_URI = ${np-link-fra}"--><!--#else--><li><a<!--#if expr="${pg-isapp} = '1'"--><!--#endif--> href="<!--#echo encoding='none' var='np-link-${pg-lang1}'-->"><!--#echo encoding='none' var='np-title-${pg-lang1}'--></a><!--#if expr="${gc-hidebtarrow} = '1'"--><!--#else-->&#160;&gt;<!--#endif--></li><!--#endif-->
