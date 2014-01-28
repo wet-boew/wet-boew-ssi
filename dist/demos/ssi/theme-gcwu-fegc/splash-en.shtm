@@ -1,0 +1,13 @@
+<!--#set var="sp-title-en" value="GCWU"-->
+<!--#set var="sp-title-fr" value="FEGC"-->
+<!--#set var="sp-href-en" value="/dist/demos/ssi/theme-gcwu-fegc/content-secnav-en.shtm"-->
+<!--#set var="sp-href-fr" value="/dist/demos/ssi/theme-gcwu-fegc/content-secnav-fr.shtm"-->
+<!--#set var="sp-lang1" value="en"-->
+<!--#set var="sp-lang2" value="fr"-->
+<!--#set var="sp-issued" value="2014-02-01"-->
+<!--#set var="sp-modified" value="YYYY-MM-DD"-->
+<!--#set var="sp-creator-en" value="English name of the content author / Nom en anglais de l'auteur du contenu"-->
+<!--#set var="sp-creator-fr" value="French name of the content author / Nom en français de l'auteur du contenu"-->
+<!--#set var="sp-subject-en" value="English subject terms / Termes de sujet en anglais"-->
+<!--#set var="sp-subject-fr" value="French subject terms / Termes de sujet en français"-->
+<!--#include virtual="/dist/ssi/theme-gcwu-fegc/splash.shtm"-->
