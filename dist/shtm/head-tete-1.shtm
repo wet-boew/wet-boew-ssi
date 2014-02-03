@@ -1,4 +1,10 @@
-<title><!--#echo encoding="none" var="pg-title-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> | <!--#echo encoding="none" var="pg-title-${pg-lang2}"--><!--#endif--></title>
+<title><!--#echo encoding="none" var="pg-title-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> | <!--#echo encoding="none" var="pg-title-${pg-lang2}"--><!--#endif-->
+
+<!--#if expr="${show-siteroot-title} = '1'"--> - <!--#echo encoding="none" var="siteroot-title-${pg-lang1}"-->
+
+<!--#if expr="${pg-lang2}"--> | <!--#echo encoding="none" var="siteroot-title-${pg-lang2}"-->
+<!--#endif--><!--#endif-->
+</title>
 
 <!--#if expr="(${pg-modified} = '') || (${pg-modified} = 'YYYY-MM-DD') || (${pg-modified} = 'AAAA-MM-JJ') || (${pg-modified} = '9999-12-31')"--><!--#set var="pg-modified" value="${pg-issued}"--><!--#endif-->
 <meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
