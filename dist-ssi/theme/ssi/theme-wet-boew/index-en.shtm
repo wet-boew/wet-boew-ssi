@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--#include virtual="/dist-ssi/ssi/html-1.shtm"-->
+<html class="no-js" lang="en">
+<!--#include virtual="/dist-ssi/ssi/html-2.shtm"-->
+<head>
+<meta charset="utf-8" />
+<!--#set var="pg-lang1" value="en"-->
+<!--#set var="pg-title-en" value="WET-BOEW theme"-->
+<!--#set var="pg-creator" value=""-->
+<!--#set var="pg-subject" value=""-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#include virtual="/dist-ssi/ssi/theme-wet-boew/common/css-scripts.shtm"-->
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<!--#include virtual="/dist-ssi/ssi/theme-wet-boew/common/header.shtm"-->
+<section>
+	<h2>English</h2>
+	<ul>
+		<li><a href="content-en.shtm">Content page</a></li>
+		<li><a href="content-secmenu-en.shtm">Content page - Secondary menu</a></li>
+		<li><a href="splashpage-en.shtm">Splash page</a></li>
+	</ul>
+</section>
+
+<section>
+	<h2>French</h2>
+	<ul>
+		<li><a href="content-fr.shtm">Content page</a></li>
+		<li><a href="content-secmenu-fr.shtm">Content page - Secondary menu</a></li>
+		<li><a href="splashpage-fr.shtm">Splash page</a></li>
+	</ul>
+</section>
+<!--#include virtual="/dist-ssi/ssi/theme-wet-boew/common/footer.shtm"-->
+</body>
+</html>
