@@ -16,10 +16,15 @@ This feature adapts the HTML5 core markup structure for use with Server side inc
 
 ##Minimum Requirements
 
-* dist folder from WET v4.0
+* dist folder from WET v4.0 from a supported theme
 * Server Side Includes installed on an Apache 2.x Web Server
+
+##Supported Theme
+
+* GC Web Usability
+* WET-BOEW Base
 
 ##How to install the files
 
-* Make sure that you have the WET v4.0 dist folder in your root directory.  Rename it to /dist-wet-boew (for WET-BOEW theme) or /dist-gcwu-fegc (for GCWU Teheme)
-* Copy the dist folder from this repository to your root directory.  Do not rename it.
+* Make sure that you have the WET v4.0 dist folder from one of the supported themes  in your root directory.  
+* Copy the dist-ssi folder from this repository to your root directory.  Do not rename it.
