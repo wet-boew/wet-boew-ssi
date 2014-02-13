@@ -19,7 +19,7 @@ This feature adapts the HTML5 core markup structure for use with Server side inc
 * dist folder from WET v4.0 from a supported theme
 * Server Side Includes installed on an Apache 2.x Web Server
 
-##Supported Theme
+##Supported Themes
 
 * GC Web Usability
 * WET-BOEW Base
