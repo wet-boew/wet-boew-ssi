@@ -1,0 +1,8 @@
+<!--#if expr="$DOCUMENT_URI = ${sect-href-en} || $DOCUMENT_URI = ${sect-href-fr}"-->
+<!--#else-->
+<li>
+<a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="<!--#echo encoding='none' var='sect-href-${pg-lang1}'-->">
+<!--#echo encoding='none' var='sect-title-${pg-lang1}'-->
+</a>
+</li>
+<!--#endif-->
