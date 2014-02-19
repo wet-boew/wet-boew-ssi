@@ -5,7 +5,7 @@
 <footer role="contentinfo" id="wb-info" class="visible-md visible-lg">
 	<div class="container">
 		<nav role="navigation">
-			<!--#include virtual="../../site-${site-theme}/footer-${pg-lang1}.shtm"-->
+			<!--#include virtual="../../../site/${site-theme}/footer-${pg-lang1}.shtm"-->
 		</nav>
 	</div>
 	<div id="gc-info">
