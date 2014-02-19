@@ -1,9 +1,9 @@
-<div id="wb-sttl">
+<div id="wb-sttl" class="col-md-5">
 	<a href="<!--#echo encoding='none' var='site-href-${pg-lang1}'-->">
 		<span><!--#echo encoding='none' var='site-title-${pg-lang1}'--></span>
 	</a>
-	<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/dist/assets/wmms.svg" aria-label="Symbol of the Government of Canada"></object>
 </div>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/dist/assets/wmms.svg" aria-label="Symbol of the Government of Canada"></object>
 <section id="wb-srch" class="visible-md visible-lg">
 	<h2>Search</h2>
 	<form action="http://recherche-search.gc.ca/rGs/s_r" method="get" role="search" class="form-inline">
