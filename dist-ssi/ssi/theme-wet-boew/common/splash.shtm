@@ -2,6 +2,7 @@
 <!--#include virtual="../../np.shtm"-->
 <!--#elif expr="${subsite-show} = 1"-->
 <!--#else-->
+<!--#include virtual="../../subsite.shtm"-->
 <!--#include virtual="../../splash-vars.shtm"-->
 <!--#set var="wb-splash-langtext-en" value="English"-->
 <!--#set var="wb-splash-langtext-fr" value="Français"-->
