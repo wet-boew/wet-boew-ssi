@@ -5,8 +5,8 @@
 <!--#set var="site-theme" value="gcwu-fegc"-->
 <!--#set var="sect-title-en" value="GCWU theme"-->
 <!--#set var="sect-title-fr" value="Thème de la FEGC"-->
-<!--#set var="sect-href-en" value="/dist-ssi/theme/gcwu-fegc/index-en.shtm"-->
-<!--#set var="sect-href-fr" value="/dist-ssi/theme/gcwu-fegc/index-fr.shtm"-->
+<!--#set var="sect-href-en" value="/demos-ssi/gcwu-fegc/index-en.shtm"-->
+<!--#set var="sect-href-fr" value="/demos-ssi/gcwu-fegc/index-fr.shtm"-->
 <!--#set var="sect-lang1" value="en"-->
 <!--#set var="sect-lang2" value="fr"-->
 <!--#set var="sect-issued" value="2014-02-01"-->
@@ -15,4 +15,5 @@
 <!--#set var="sect-creator-fr" value="French name of the content author / Nom en français de l'auteur du contenu"-->
 <!--#set var="sect-subject-en" value="English subject terms / Termes de sujet en anglais"-->
 <!--#set var="sect-subject-fr" value="French subject terms / Termes de sujet en français"-->
-<!--#include virtual="/dist-ssi/ssi/theme-gcwu-fegc/common/splash.shtm"-->
+<!--#set var="sect-menupath" value="/demos-ssi/gcwu-fegc/nav"-->
+<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/splash.shtm"-->

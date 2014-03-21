@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<!--#include virtual="/dist-ssi/ssi/html-1.shtm"-->
+<!--#include virtual="/dist-ssi/html-1.shtm"-->
 <html class="no-js" lang="en">
-<!--#include virtual="/dist-ssi/ssi/html-2.shtm"-->
+<!--#include virtual="/dist-ssi/html-2.shtm"-->
 <head>
 <meta charset="utf-8" />
 <!--#set var="pg-lang1" value="en"-->
-<!--#set var="pg-title-en" value="Content page - Secondary menu - GCWU theme - SSI variant - Web Experience Toolkit"-->
+<!--#set var="pg-title-en" value="Content page - GCWU theme - SSI variant - Web Experience Toolkit"-->
 <!--#set var="pg-creator" value=""-->
 <!--#set var="pg-subject" value=""-->
 <!--#set var="pg-issued" value="2011-10-31"-->
 <!--#set var="pg-modified" value="YYYY-MM-DD"-->
-<!--#set var="pg-sec" value="/dist-ssi/theme/gcwu-fegc/nav/sec-en.shtm"-->
-<!--#include virtual="/dist-ssi/ssi/theme-gcwu-fegc/common/css-scripts.shtm"-->
+<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/css-scripts.shtm"-->
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
-<!--#include virtual="/dist-ssi/ssi/theme-gcwu-fegc/common/header.shtm"-->
+<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/header.shtm"-->
 <section>
 	<h2>Heading 2 (<code>h2</code>) - default appearance</h2>
 	<section>
@@ -115,6 +114,6 @@
 <blockquote>
 	<p>"<code>blockquote</code> - default appearance"</p>
 </blockquote>
-<!--#include virtual="/dist-ssi/ssi/theme-gcwu-fegc/common/footer.shtm"-->
+<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/footer.shtm"-->
 </body>
 </html>
