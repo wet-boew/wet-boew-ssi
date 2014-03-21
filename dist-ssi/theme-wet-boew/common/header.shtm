@@ -19,11 +19,11 @@
 			</div>
 		</div>
 	</div>
-	<nav role="navigation" id="wb-sm" data-ajax-fetch="/dist-ssi/site/<!--#echo encoding='none' var='site-theme'-->/ajax/sitemenu-<!--#echo encoding='none' var='pg-lang1'-->.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+	<nav role="navigation" id="wb-sm" data-ajax-fetch="<!--#echo encoding='none' var='sect-menupath'-->/ajax/sitemenu-<!--#echo encoding='none' var='pg-lang1'-->.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 		<div class="container nvbar">
 			<h2><!--#echo encoding='none' var='wb-header-sitemenu-${pg-lang1}'--></h2>
 			<div class="row">
-				<!--#include virtual="../../../site/${site-theme}/menu-${pg-lang1}.shtm"-->
+				<!--#include virtual="${sect-menupath}/menu-${pg-lang1}.shtm"-->
 			</div>
 		</div>
 	</nav>
