@@ -3,6 +3,7 @@
 <html class="no-js" lang="fr">
 <!--#include virtual="/dist-ssi/html-2.shtm"-->
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta charset="utf-8" />
 <!--#set var="pg-lang1" value="fr"-->
 <!--#set var="pg-title-fr" value="Page de contenu - Menu Secondaire - Thème de la FEGC - Variant SSI - Boîte à outils de l'expérience Web"-->
