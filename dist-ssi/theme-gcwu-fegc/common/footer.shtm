@@ -1,3 +1,5 @@
+			<!--#set var="wb-footer-secmenu-en" value="Secondary menu"-->
+			<!--#set var="wb-footer-secmenu-fr" value="Menu secondaire"-->
 		</main>
 		<!--#if expr="${pg-sec}"--><!--#include virtual="${pg-sec}"--><!--#endif-->
 	</div>
@@ -17,7 +19,7 @@
 	</div>
 </footer>
 <!--[if gte IE 9 | !IE ]><!-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="/dist/js/wet-boew.min.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>

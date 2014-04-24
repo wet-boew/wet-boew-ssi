@@ -21,7 +21,7 @@
 		<meta charset="utf-8" />
 		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-		<title><!--#echo encoding='none' var='pg-title-${pg-lang1}'--> / <!--#echo encoding='none' var='pg-title-${pg-lang2}'--></title>
+		<title><!--#echo encoding='none' var='pg-title-${pg-lang1}'--> / <!--#echo encoding='none' var='pg-title-${pg-lang2}'--> | <!--#echo encoding='none' var='site-title-${pg-lang1}'--> / <!--#echo encoding='none' var='site-title-${pg-lang2}'--></title>
 		<link href="/dist/assets/favicon.ico" rel="shortcut icon" />
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
@@ -33,7 +33,7 @@
 		<link rel="stylesheet" href="/dist/css/theme-sp-pe.min.css" />
 		<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/dist/css/ie8-wet-boew.min.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="/dist/js/ie8-wet-boew.min.js"></script>
 		<![endif]-->
 		<noscript><link rel="stylesheet" href="/dist/css/noscript.min.css" /></noscript>
@@ -48,12 +48,12 @@
 			<div class="col-md-12">
 				<h1><!--#echo encoding='none' var='wb-splash-welcome-${pg-lang1}'--> / <span lang="<!--#echo encoding='none' var='pg-lang2'-->"><!--#echo encoding='none' var='wb-splash-welcome-${pg-lang2}'--></span></h1>
 				<section class="col-md-6">
-					<h2><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></h2>
+					<h2><!--#echo encoding='none' var='site-title-${pg-lang1}'--><br /><span class="lead"><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></span></h2>
 					<a class="btn btn-lg btn-primary btn-block" href="<!--#echo encoding='none' var='pg-href-${pg-lang1}'-->"><!--#echo encoding='none' var='wb-splash-langtext-${pg-lang1}'--></a>
 				</section>
 				
 				<section class="col-md-6" lang="<!--#echo encoding='none' var='pg-lang2'-->">
-					<h2><!--#echo encoding='none' var='pg-title-${pg-lang2}'--></h2>
+					<h2><!--#echo encoding='none' var='site-title-${pg-lang2}'--><br /><span class="lead"><!--#echo encoding='none' var='pg-title-${pg-lang2}'--></span></h2>
 					<a class="btn btn-lg btn-primary btn-block" href="<!--#echo encoding='none' var='pg-href-${pg-lang2}'-->"><!--#echo encoding='none' var='wb-splash-langtext-${pg-lang2}'--></a>
 				</section>
 			</div>
@@ -62,7 +62,7 @@
 			<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/dist/assets/wmms-alt.svg" aria-label="<!--#echo encoding='none' var='wb-splash-wmms-${pg-lang1}'--> | <!--#echo encoding='none' var='wb-splash-wwms-${pg-lang2}'-->"></object>
 		</footer>
 		<!--[if gte IE 9 | !IE ]><!-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
 		<script src="/dist/js/wet-boew.min.js"></script>
 		<!--<![endif]-->
 		<!--[if lt IE 9]>
