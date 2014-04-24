@@ -4,7 +4,7 @@
 </div>
 <footer role="contentinfo" id="wb-info" class="container visible-md visible-lg">
 	<nav role="navigation" class="row">
-		<!--#include virtual="${sect-menupath}/${site-theme}/footer-${pg-lang1}.shtm"-->		
+		<!--#include virtual="${sect-menupath}/footer-${pg-lang1}.shtm"-->		
 	</nav>
 </footer>
 <!--[if gte IE 9 | !IE ]><!-->
