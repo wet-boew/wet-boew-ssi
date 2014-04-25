@@ -1,6 +1,7 @@
 <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 <title><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></title>
+<!--#if expr="1=0"--><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!--#endif-->
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <meta name="dcterms.creator" content="<!--#echo encoding='none' var='pg-creator-${pg-lang1}'-->" />
 <meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
