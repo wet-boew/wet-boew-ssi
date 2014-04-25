@@ -14,8 +14,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <!--<![endif]-->
 <link rel="stylesheet" href="/dist/css/theme.min.css" />
 <!--[if lt IE 9]>
-<link rel="stylesheet" href="/dist/css/ie8-wet-boew.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+<link rel="stylesheet" href="/dist/css/ie8-wet-boew.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/dist/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
 <noscript><link rel="stylesheet" href="/dist/css/noscript.min.css" /></noscript>
