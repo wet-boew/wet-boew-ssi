@@ -1,4 +1,12 @@
-<!--#if expr="${REQUEST_URI} = /^(.*)-eng[.](.*)$/"-->
+<!--#if expr="${REQUEST_URI} = /^(.*)\/eng\/(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}/fra/${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)\/fra\/(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}/eng/${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)\/en\/(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}/fr/${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)\/fr\/(.*)$/"-->
+<!--#set var="pg-altlangurl" value="${1}/en/${2}"-->
+<!--#elif expr="${REQUEST_URI} = /^(.*)-eng[.](.*)$/"-->
 <!--#set var="pg-altlangurl" value="${1}-fra.${2}"-->
 <!--#elif expr="${REQUEST_URI} = /^(.*)-fra[.](.*)$/"-->
 <!--#set var="pg-altlangurl" value="${1}-eng.${2}"-->
