@@ -1,4 +1,4 @@
-# Web Experience Toolkit (WET) - SSI Variant v4.0 alpha
+# Web Experience Toolkit (WET) - SSI Variant v4.0
 
 ## Overview
 
