@@ -1,6 +1,0 @@
-<!--#include virtual="/dist/shtm/body-corps-2a.shtm"-->
-<ul id="cn-in-links">
-<li><a href="<!--#echo encoding='none' var='gc-inotices-href-${pg-lang1}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-text-${pg-lang1}'--></a></li>
-<!--#if expr="${pg-lang2}"--><li lang="<!--#echo encoding='none' var='wb-meta-${pg-lang2}'-->"><a href="<!--#echo encoding='none' var='gc-inotices-href-${pg-lang2}'-->" rel="license"><!--#echo encoding='none' var='gc-inotices-text-${pg-lang2}'--></a></li><!--#endif-->
-</ul>
-<!--#include virtual="/dist/shtm/body-corps-2b.shtm"-->

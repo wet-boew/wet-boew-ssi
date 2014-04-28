@@ -1,1 +1,0 @@
-<!--#if expr="$DOCUMENT_URI = ${sp-href-eng} || $DOCUMENT_URI = ${sp-href-fra}"--><!--#else--><li><a<!--#if expr="${pg-isapp} = '1'"--> target="_blank"<!--#endif--> href="<!--#echo encoding='none' var='sp-href-${pg-lang1}'-->"><!--#echo encoding='none' var='sp-title-${pg-lang1}'--></a><!--#if expr="${gc-hidebtarrow} = '1'"--><!--#else-->&#160;&gt;<!--#endif--></li><!--#endif-->

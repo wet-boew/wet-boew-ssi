@@ -1,0 +1,21 @@
+<!--#config errmsg=""-->
+<!--#set var="subsite-show" value="1"-->
+<!--#include virtual="/index.shtm"-->
+<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
+<!--#if expr="$1"-->
+<!--#include virtual="/${1}index.shtm"-->
+<!--#endif-->
+<!--#if expr="$2"-->
+<!--#include virtual="/${1}${2}index.shtm"-->
+<!--#endif-->
+<!--#if expr="$3"-->
+<!--#include virtual="/${1}${2}${3}index.shtm"-->
+<!--#endif-->
+<!--#if expr="$4"-->
+<!--#include virtual="/${1}${2}${3}${4}index.shtm"-->
+<!--#endif-->
+<!--#if expr="$5"-->
+<!--#include virtual="/${1}${2}${3}${4}${5}index.shtm"-->
+<!--#endif-->
+<!--#endif-->
+<!--#set var="subsite-show" value="0"-->

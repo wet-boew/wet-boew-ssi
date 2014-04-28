@@ -1,0 +1,26 @@
+<ol class="breadcrumb">
+	<!--#config errmsg=""-->
+	<!--#set var="np-show" value="1"-->
+	<!--#include virtual="/index.shtm?np=1"-->
+	<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
+	<!--#if expr="$1"-->
+	<!--#include virtual="/${1}index.shtm?np=1"-->
+	<!--#endif-->
+	<!--#if expr="$2"-->
+	<!--#include virtual="/${1}${2}index.shtm?np=1"-->
+	<!--#endif-->
+	<!--#if expr="$3"-->
+	<!--#include virtual="/${1}${2}${3}index.shtm?np=1"-->
+	<!--#endif-->
+	<!--#if expr="$4"-->
+	<!--#include virtual="/${1}${2}${3}${4}index.shtm?np=1"-->
+	<!--#endif-->
+	<!--#if expr="$5"-->
+	<!--#include virtual="/${1}${2}${3}${4}${5}index.shtm?np=1"-->
+	<!--#endif-->
+	<!--#if expr="$6"-->
+	<!--#include virtual="/${1}${2}${3}${4}${5}${6}index.shtm?np=1"-->
+	<!--#endif-->
+	<!--#endif-->
+	<li><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></li>
+</ol>

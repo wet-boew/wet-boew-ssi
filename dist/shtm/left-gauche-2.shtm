@@ -1,4 +1,0 @@
-<!--#if expr="${gcwu-left-footer-file}"--><!--#include virtual="${gcwu-left-footer-file}"--><!--#endif-->
-<!-- SideNavLeftEnd -->
-</div>
-</nav></div></div>

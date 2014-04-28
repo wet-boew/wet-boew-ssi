@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--#include virtual="/dist-ssi/html-1.shtm"-->
+<html class="no-js" lang="fr">
+<!--#include virtual="/dist-ssi/html-2.shtm"-->
+<head>
+<meta charset="utf-8" />
+<!-- TemplateBeginEditable name="meta" -->
+<!--#set var="pg-lang1" value="fr"-->
+<!--#set var="pg-title-fr" value="Titre du document"-->
+<!--#set var="pg-creator" value="Gouvernement du Canada, Gendarmerie royale du Canada"-->
+<!--#set var="pg-subject" value="Service de police"-->
+<!--#set var="pg-issued" value="9999-12-31"-->
+<!--#set var="pg-modified" value="9999-12-31"-->
+<!--#set var="pg-sec" value=""-->
+<!-- TemplateEndEditable -->
+<!--#include virtual="/dist-ssi/theme-wet-boew/common/css-scripts.shtm"-->
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<!--#include virtual="/dist-ssi/theme-wet-boew/common/header.shtm"-->
+<!-- TemplateBeginEditable name="cont" -->
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elementum, nisl et aliquam volutpat, orci metus egestas leo, pulvinar varius justo tellus at quam. Aliquam erat volutpat. Duis feugiat est tempor diam. Maecenas luctus auctor quam. Proin eget eros a dolor imperdiet porttitor. Mauris ultricies, nibh quis cursus consectetuer, quam purus venenatis mauris, sed tincidunt massa est id lacus. Vivamus leo libero, adipiscing et, rutrum a, elementum at, eros. Ut ultricies gravida eros. Mauris lectus augue, sollicitudin ac, accumsan a, volutpat vitae, ligula. Phasellus sapien. Vestibulum a est in arcu cursus tempor. Proin pretium, sapien at vulputate bibendum, lectus turpis dignissim orci, in hendrerit lectus nulla quis libero. Praesent lectus justo, ullamcorper non, iaculis eu, cursus non, lorem. Donec sapien magna, molestie non, pharetra non, pretium ac, sem. Vestibulum facilisis ligula vitae risus. Nunc molestie, quam at egestas molestie, dolor sapien consequat leo, a vulputate magna augue vel justo. Etiam facilisis sodales erat. Praesent tincidunt, est a dictum vulputate, ante purus ornare metus, iaculis consequat augue lacus vel tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p>Nam cursus. Suspendisse in nisi. Nullam imperdiet faucibus sem. Quisque vel odio pharetra augue ornare accumsan. Suspendisse magna justo, aliquet ut, sodales ultricies, commodo quis, erat. Proin sodales aliquet enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras feugiat. Sed ac dolor. Vivamus at enim. Donec nunc felis, blandit vitae, pulvinar vel, imperdiet ac, risus. Curabitur vehicula libero in odio. Curabitur rhoncus, velit convallis sodales fermentum, est erat lobortis nibh, vel semper arcu magna eget mauris. Vivamus mi sem, cursus eu, vehicula ut, rhoncus vel, pede. Nullam nisl tellus, malesuada eget, consequat vel, mollis at, arcu. Fusce ac arcu. Nullam eros ligula, tempor eget, euismod in, aliquam vel, mauris. Fusce convallis facilisis felis.</p>
+<p>Praesent arcu libero, adipiscing id, vulputate non, posuere et, velit. Proin hendrerit consectetuer sem. Curabitur ultrices sagittis orci. Integer nunc pede, tempus non, elementum tempus, commodo nec, velit. Donec id metus. Aliquam erat volutpat. In aliquet lacus quis orci. Donec ultricies. Mauris semper. Morbi consequat metus nec ante. Vestibulum sollicitudin nulla ac velit. Pellentesque id augue. Proin dignissim, tellus in euismod consequat, ante lectus lacinia ipsum, sit amet euismod elit tortor iaculis dolor. Quisque mattis arcu. Donec iaculis ante non ipsum.</p>
+<p>Mauris convallis. Aliquam erat volutpat. Donec nec purus. Integer vehicula, est at condimentum blandit, magna ligula venenatis orci, sed consectetuer libero pede ut arcu. Aenean vel est. Vivamus eleifend est quis arcu. Suspendisse potenti. Sed ligula augue, venenatis non, congue non, bibendum at, arcu. Nam urna libero, ornare sit amet, varius vitae, rhoncus et, libero. Etiam semper auctor dolor. Praesent non eros. Ut at tortor. Aliquam dui arcu, iaculis sed, tristique eu, interdum a, odio. Vestibulum leo lorem, mollis vitae, rutrum ut, pulvinar sit amet, lorem.</p>
+<p>Fusce felis odio, placerat id, aliquam sit amet, porta convallis, metus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent enim. Phasellus arcu. Nullam semper. Aenean facilisis, pede quis hendrerit dignissim, diam libero bibendum sem, id vehicula dolor purus vestibulum est. Sed euismod, arcu ac semper viverra, orci lorem egestas nisl, non gravida elit lectus id felis. Proin dictum dolor ac neque. Mauris dignissim, turpis in posuere gravida, massa libero rutrum risus, vitae vehicula urna enim id lorem. Suspendisse tempor molestie urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<!-- TemplateEndEditable -->
+<!--#include virtual="/dist-ssi/theme-wet-boew/common/footer.shtm"-->
+</body>
+</html>

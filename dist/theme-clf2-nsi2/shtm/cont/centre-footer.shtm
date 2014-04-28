@@ -1,1 +1,0 @@
-<!--#if expr="${pg-isapp} = '1'"--><!--#include virtual="/dist/theme-clf2-nsi2/shtm/cont/appversion.shtm"--><!--#else--><!--#include virtual="/dist/theme-clf2-nsi2/shtm/cont/datemod.shtm"--><!--#endif-->

@@ -1,1 +1,0 @@
-<!--#if expr="${pg-isapp} = '1'"--><!--#include virtual="/dist/theme-gcwu-fegc/shtm/cont/appversion.shtm"--><!--#else--><!--#include virtual="/dist/theme-gcwu-fegc/shtm/cont/datemod.shtm"--><!--#endif-->

@@ -1,3 +1,0 @@
-<!--#include virtual="/dist/shtm/body-corps-1a.shtm"-->
-<div id="cn-sig"><img src="/dist/theme-clf2-nsi2/images/<!--#echo encoding='none' var='gc-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="372" height="20" alt="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-sig-${pg-lang2}'-->" title="<!--#echo encoding='none' var='gc-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='gc-sig-${pg-lang2}'-->" /></div>
-<!--#include virtual="/dist/shtm/body-corps-1b.shtm"-->

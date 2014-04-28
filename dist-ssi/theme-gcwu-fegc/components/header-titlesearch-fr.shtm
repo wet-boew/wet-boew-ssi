@@ -1,0 +1,23 @@
+<div id="wb-sttl" class="col-md-5">
+	<a href="<!--#echo encoding='none' var='site-href-${pg-lang1}'-->">
+		<span><!--#echo encoding='none' var='site-title-${pg-lang1}'--></span>
+	</a>
+</div>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/dist/assets/wmms.svg" aria-label="Symbole du gouvernement du Canada"></object>
+<section id="wb-srch" class="visible-md visible-lg">
+	<h2>Recherche</h2>
+	<form action="http://recherche-search.gc.ca/rGs/s_r" method="get" role="search" class="form-inline">
+		<div class="form-group">
+			<label for="wb-srch-q">Recherchez le site Web</label>
+			<input name="cdn" value="<!--#echo encoding='none' var='site-search'-->" type="hidden"/>
+			<input name="st" value="s" type="hidden" />
+			<input name="num" value="10" type="hidden" />
+			<input name="langs" value="fra" type="hidden" />
+			<input name="st1rt" value="0" type="hidden">
+			<input name="s5bm3ts21rch" value="x" type="hidden" />
+			<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150" />
+			<input type="hidden" name="q" value="" />
+		</div>
+		<button type="submit" id="wb-srch-sub" class="btn btn-default">Recherche</button>
+	</form>
+</section>
