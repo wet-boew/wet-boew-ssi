@@ -1,26 +1,34 @@
 <ol class="breadcrumb">
 	<!--#config errmsg=""-->
+	<!--#if expr="${pg-breadcrumb-base}"-->
+		<!--#set var="site-breadcrumb-base" value="${pg-breadcrumb-base}"-->
+	<!--#else-->
+		<!--#set var="site-breadcrumb-base" value="${DOCUMENT_URI}"-->
+	<!--#endif-->
 	<!--#set var="np-show" value="1"-->
 	<!--#include virtual="/index.shtm?np=1"-->
-	<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
-	<!--#if expr="$1"-->
-	<!--#include virtual="/${1}index.shtm?np=1"-->
+	<!--#if expr="${site-breadcrumb-base} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
+		<!--#if expr="$1"-->
+		<!--#include virtual="/${1}index.shtm?np=1"-->
+		<!--#endif-->
+		<!--#if expr="$2"-->
+		<!--#include virtual="/${1}${2}index.shtm?np=1"-->
+		<!--#endif-->
+		<!--#if expr="$3"-->
+		<!--#include virtual="/${1}${2}${3}index.shtm?np=1"-->
+		<!--#endif-->
+		<!--#if expr="$4"-->
+		<!--#include virtual="/${1}${2}${3}${4}index.shtm?np=1"-->
+		<!--#endif-->
+		<!--#if expr="$5"-->
+		<!--#include virtual="/${1}${2}${3}${4}${5}index.shtm?np=1"-->
+		<!--#endif-->
+		<!--#if expr="$6"-->
+		<!--#include virtual="/${1}${2}${3}${4}${5}${6}index.shtm?np=1"-->
+		<!--#endif-->
 	<!--#endif-->
-	<!--#if expr="$2"-->
-	<!--#include virtual="/${1}${2}index.shtm?np=1"-->
-	<!--#endif-->
-	<!--#if expr="$3"-->
-	<!--#include virtual="/${1}${2}${3}index.shtm?np=1"-->
-	<!--#endif-->
-	<!--#if expr="$4"-->
-	<!--#include virtual="/${1}${2}${3}${4}index.shtm?np=1"-->
-	<!--#endif-->
-	<!--#if expr="$5"-->
-	<!--#include virtual="/${1}${2}${3}${4}${5}index.shtm?np=1"-->
-	<!--#endif-->
-	<!--#if expr="$6"-->
-	<!--#include virtual="/${1}${2}${3}${4}${5}${6}index.shtm?np=1"-->
-	<!--#endif-->
-	<!--#endif-->
+	<!--#if expr="${pg-breadcrumb-supl1-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl1-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl1-text'--></a></li><!--#endif-->
+	<!--#if expr="${pg-breadcrumb-supl2-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl2-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl2-text'--></a></li><!--#endif-->
+	<!--#if expr="${pg-breadcrumb-supl3-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl3-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl3-text'--></a></li><!--#endif-->
 	<li><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></li>
 </ol>
