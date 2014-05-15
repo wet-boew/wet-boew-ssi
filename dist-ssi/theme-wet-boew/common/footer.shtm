@@ -1,5 +1,10 @@
 		</main>
-		<!--#if expr="${pg-sec}"--><!--#include virtual="${pg-sec}"--><!--#endif-->
+		<!--#if expr="${pg-sec}"-->
+		<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
+			<h2><!--#echo encoding='none' var='wb-footer-secmenu-${pg-lang1}'--></h2>
+			<!--#include virtual="${pg-sec}"-->
+		</nav>
+		<!--#endif-->
 	</div>
 </div>
 <footer role="contentinfo" id="wb-info" class="container visible-md visible-lg">
