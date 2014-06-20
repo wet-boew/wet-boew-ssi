@@ -3,7 +3,7 @@
 		<span><!--#echo encoding='none' var='site-title-${pg-lang1}'--></span>
 	</a>
 </div>
-<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/dist/assets/wmms.svg" aria-label="Symbole du gouvernement du Canada"></object>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/dist-gcwu-fegc/assets/wmms.svg" aria-label="Symbole du gouvernement du Canada"></object>
 <section id="wb-srch" class="visible-md visible-lg">
 	<h2>Recherche</h2>
 	<form action="http://recherche-search.gc.ca/rGs/s_r" method="get" role="search" class="form-inline">

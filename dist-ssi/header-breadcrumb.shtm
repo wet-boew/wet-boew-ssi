@@ -30,5 +30,7 @@
 	<!--#if expr="${pg-breadcrumb-supl1-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl1-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl1-text'--></a></li><!--#endif-->
 	<!--#if expr="${pg-breadcrumb-supl2-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl2-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl2-text'--></a></li><!--#endif-->
 	<!--#if expr="${pg-breadcrumb-supl3-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl3-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl3-text'--></a></li><!--#endif-->
+	<!--#if expr="${pg-breadcrumb-supl4-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl4-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl4-text'--></a></li><!--#endif-->
+	<!--#if expr="${pg-breadcrumb-supl5-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl5-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl5-text'--></a></li><!--#endif-->
 	<li><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></li>
 </ol>

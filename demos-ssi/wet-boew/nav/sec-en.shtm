@@ -1,19 +1,15 @@
 <ul class="list-group menu list-unstyled">
-	<h3 class="wb-navcurr">Content page - Secondary menu</h3>
-	<li><a class="list-group-item item" href="#sect1">Section 1</a>
-		<ul class="list-group list-unstyled" id="sect1">
-			<li><a class="list-group-item" href="#">Item 1a</a></li>
-			<li><a class="list-group-item" href="#">Item 1b</a></li>
-			<li><a class="list-group-item" href="#">Item 1c</a></li>
-			<li><a class="list-group-item" href="#">Item 1d</a></li>
-			<li><a class="list-group-item" href="#">Item 1e</a></li>
+	<li>
+		<h3 class="wb-navcurr">Content page - Secondary menu</h3>
+		<ul class="list-group menu list-unstyled">
+			<li><a class="list-group-item" href="#">Section 1</a></li>
+			<li><a class="list-group-item" href="#">Section 2</a></li>
+			<li><a class="list-group-item" href="#">Section 3</a></li>
+			<li><a class="list-group-item" href="#">Section 4</a></li>
+			<li><a class="list-group-item" href="#">Section 5</a></li>
+			<li><a class="list-group-item" href="#">Section 6</a></li>
+			<li><a class="list-group-item" href="#">Section 7</a></li>
+			<li><a class="list-group-item" href="#">Section 8</a></li>
 		</ul>
 	</li>
-	<li><a class="list-group-item" href="#">Section 2</a></li>
-	<li><a class="list-group-item" href="#">Section 3</a></li>
-	<li><a class="list-group-item" href="#">Section 4</a></li>
-	<li><a class="list-group-item" href="#">Section 5</a></li>
-	<li><a class="list-group-item" href="#">Section 6</a></li>
-	<li><a class="list-group-item" href="#">Section 7</a></li>
-	<li><a class="list-group-item" href="#">Section 8</a></li>
 </ul>

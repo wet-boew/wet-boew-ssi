@@ -1,0 +1,18 @@
+<!--#set var="site-title-en" value="Web Experience Toolkit"-->
+<!--#set var="site-title-fr" value="Boîte à outils de l'expérience Web"-->
+<!--#set var="site-href-en" value="/dist/index-en.html"-->
+<!--#set var="site-href-fr" value="/dist/index-fr.html"-->
+<!--#set var="sect-title-en" value="GC Intranet theme"-->
+<!--#set var="sect-title-fr" value="Thème de la GC Intranet"-->
+<!--#set var="sect-href-en" value="/demos-ssi/gc-intranet/index-en.shtm"-->
+<!--#set var="sect-href-fr" value="/demos-ssi/gc-intranet/index-fr.shtm"-->
+<!--#set var="sect-lang1" value="en"-->
+<!--#set var="sect-lang2" value="fr"-->
+<!--#set var="sect-issued" value="2014-02-01"-->
+<!--#set var="sect-modified" value="YYYY-MM-DD"-->
+<!--#set var="sect-creator-en" value="English name of the content author / Nom en anglais de l'auteur du contenu"-->
+<!--#set var="sect-creator-fr" value="French name of the content author / Nom en français de l'auteur du contenu"-->
+<!--#set var="sect-subject-en" value="English subject terms / Termes de sujet en anglais"-->
+<!--#set var="sect-subject-fr" value="French subject terms / Termes de sujet en français"-->
+<!--#set var="sect-menupath" value="/demos-ssi/gc-intranet/nav"-->
+<!--#include virtual="/dist-ssi/theme-gc-intranet/common/splash.shtm"-->
