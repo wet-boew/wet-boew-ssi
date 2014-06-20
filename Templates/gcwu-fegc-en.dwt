@@ -1,14 +1,14 @@
 <!DOCTYPE html>
+<!--#set var="pg-lang1" value="en"-->
 <!--#include virtual="/dist-ssi/html-1.shtm"-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="<!--#echo encoding='none' var='pg-lang1'-->" dir="ltr">
 <!--#include virtual="/dist-ssi/html-2.shtm"-->
 <head>
 <meta charset="utf-8" />
 <!-- TemplateBeginEditable name="meta" -->
-<!--#set var="pg-lang1" value="en"-->
 <!--#set var="pg-title-en" value="Title of the document"-->
-<!--#set var="pg-creator" value="Government of Canada, Royal Canadian Mounted Police"-->
-<!--#set var="pg-subject" value="Police services"-->
+<!--#set var="pg-creator-en" value="Government of Canada, Royal Canadian Mounted Police"-->
+<!--#set var="pg-subject-en" value="Police services"-->
 <!--#set var="pg-issued" value="9999-12-31"-->
 <!--#set var="pg-modified" value="9999-12-31"-->
 <!--#set var="pg-sec" value=""-->

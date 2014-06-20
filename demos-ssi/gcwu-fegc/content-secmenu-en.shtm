@@ -1,13 +1,13 @@
 <!DOCTYPE html>
+<!--#set var="pg-lang1" value="en"-->
 <!--#include virtual="/dist-ssi/html-1.shtm"-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="<!--#echo encoding='none' var='pg-lang1'-->" dir="ltr">
 <!--#include virtual="/dist-ssi/html-2.shtm"-->
 <head>
 <meta charset="utf-8" />
-<!--#set var="pg-lang1" value="en"-->
 <!--#set var="pg-title-en" value="Content page - Secondary menu - GCWU theme - SSI variant - Web Experience Toolkit"-->
-<!--#set var="pg-creator" value=""-->
-<!--#set var="pg-subject" value=""-->
+<!--#set var="pg-creator-en" value=""-->
+<!--#set var="pg-subject-en" value=""-->
 <!--#set var="pg-issued" value="2011-10-31"-->
 <!--#set var="pg-modified" value="YYYY-MM-DD"-->
 <!--#set var="pg-sec" value="/demos-ssi/gcwu-fegc/nav/sec-en.shtm"-->

@@ -1,0 +1,23 @@
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></title>
+<!--#if expr="1=0"--><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!--#endif-->
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta name="dcterms.creator" content="<!--#echo encoding='none' var='pg-creator-${pg-lang1}'-->" />
+<meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
+<meta name="dcterms.issued" title="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
+<meta name="dcterms.modified" title="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
+<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='pg-subject-${pg-lang1}'-->" />
+<meta name="dcterms.language" title="ISO639-2" content="<!--#if expr="${pg-lang1} != 'fr'"-->eng<!--#else-->fra<!--#endif-->" />
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/dist-gc-intranet/assets/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="/dist-gc-intranet/css/wet-boew.min.css" />
+<!--<![endif]-->
+<link rel="stylesheet" href="/dist-gc-intranet/css/theme.min.css" />
+<!--[if lt IE 9]>
+<link href="/dist-gc-intranet/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/dist-gc-intranet/css/ie8-wet-boew.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/dist-gc-intranet/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript><link rel="stylesheet" href="/dist-gc-intranet/css/noscript.min.css" /></noscript>

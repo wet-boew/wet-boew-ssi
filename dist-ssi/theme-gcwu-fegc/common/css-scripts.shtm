@@ -7,18 +7,17 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
 <meta name="dcterms.issued" title="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
 <meta name="dcterms.modified" title="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
-<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='pg-subject'-->" />
-<meta name="dcterms.language" title="ISO639-2" content="<!--#echo encoding='none' var='pg-lang1'-->" />
-<link href="/dist/assets/favicon.ico" rel="shortcut icon" />
+<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='pg-subject-${pg-lang1}'-->" />
+<meta name="dcterms.language" title="ISO639-2" content="<!--#if expr="${pg-lang1} != 'fr'"-->eng<!--#else-->fra<!--#endif-->" />
 <!--[if gte IE 9 | !IE ]><!-->
-<link rel="stylesheet" href="/dist/css/wet-boew.min.css" />
+<link rel="stylesheet" href="/dist-gcwu-fegc/css/wet-boew.min.css" />
 <!--<![endif]-->
-<link rel="stylesheet" href="/dist/css/theme.min.css" />
+<link rel="stylesheet" href="/dist-gcwu-fegc/css/theme.min.css" />
 <!--[if lt IE 9]>
-<link href="/dist/assets/favicon.ico" rel="shortcut icon"/>
-<link rel="stylesheet" href="/dist/css/ie8-wet-boew.min.css"/>
-<link rel="stylesheet" href="/dist/css/ie8-theme.min.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/dist/js/ie8-wet-boew.min.js"></script>
+<link href="/dist-gcwu-fegc/assets/favicon.ico" rel="shortcut icon"/>
+<link rel="stylesheet" href="/dist-gcwu-fegc/css/ie8-wet-boew.min.css"/>
+<link rel="stylesheet" href="/dist-gcwu-fegc/css/ie8-theme.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/dist-gcwu-fegc/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
-<noscript><link rel="stylesheet" href="/dist/css/noscript.min.css" /></noscript>
+<noscript><link rel="stylesheet" href="/dist-gcwu-fegc/css/noscript.min.css" /></noscript>
