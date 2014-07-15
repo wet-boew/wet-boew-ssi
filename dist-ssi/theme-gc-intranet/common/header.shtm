@@ -2,7 +2,6 @@
 <!--#set var="wb-header-sitemenu-fr" value="Menu du site"-->
 <!--#set var="wb-header-youarehere-en" value="You are here:"-->
 <!--#set var="wb-header-youarehere-fr" value="Vous êtes dans :"-->
-<!--#include virtual="../../subsite.shtm"-->
 <!--#include virtual="../../header-skip.shtm"-->
 <header role="banner">
 	<div id="wb-bnr">

@@ -1,5 +1,9 @@
 <!--#include virtual="../../lang.shtm"-->
+<!--#if expr="${site-coa}"-->
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/nav/coa/sig-blk-fr.svg" aria-label="Gouvernement du Canada"></object>
+<!--#else-->
 <object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/dist-gc-intranet/assets/sig-blk-fr.svg" aria-label="Gouvernement du Canada"></object>
+<!--#endif-->
 <section id="wb-lng"><h2>Sélection de la langue</h2>
 	<ul class="list-inline">
 		<li><a lang="en" href="<!--#echo encoding='none' var='pg-altlangurl'-->">English</a></li>
