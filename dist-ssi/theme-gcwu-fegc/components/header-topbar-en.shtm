@@ -1,5 +1,9 @@
 <!--#include virtual="../../lang.shtm"-->
+<!--#if expr="${site-coa}"-->
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/nav/coa/sig-en.svg" aria-label="Government of Canada"></object>
+<!--#else-->
 <object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/dist-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
+<!--#endif-->
 <ul id="gc-bar" class="list-inline">
 	<li><a href="http://www.canada.ca/en/index.html" rel="external">Canada.ca</a></li>
 	<li><a href="http://www.canada.ca/en/services/index.html" rel="external">Services</a></li>

@@ -12,6 +12,7 @@
 <!--#set var="wb-splash-sig-fr" value="Gouvernement du Canada"-->
 <!--#set var="wb-splash-wmms-en" value="Symbol of the Government of Canada"-->
 <!--#set var="wb-splash-wwms-fr" value="Symbole du gouvernement du Canada"-->
+<!--#if expr="${site-coa}"--><!--#set var="wb-splash-sig-path" value="/nav/coa"--><!--#else--><!--#set var="wb-splash-sig-path" value="/dist-gcwu-fegc/assets"--><!--#endif-->
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="<!--#echo encoding='none' var='pg-lang1'-->"><![endif]-->
 <!--[if gt IE 8]><!-->
@@ -30,7 +31,7 @@
 		<!--[if gte IE 9 | !IE ]><!-->
 		<link rel="stylesheet" href="/dist-gcwu-fegc/css/wet-boew.min.css" />
 		<!--<![endif]-->
-		<link rel="stylesheet" href="/dist-gcwu-fegc/css/theme-sp-pe.min.css" />
+		<!--#if expr="${site-coa}"--><link rel="stylesheet" href="/dist-gcwu-fegc/css/theme-sp-pe-coa.min.css" /><!--#else--><link rel="stylesheet" href="/dist-gcwu-fegc/css/theme-sp-pe.min.css" /><!--#endif-->
 		<!--[if lt IE 9]>
 		<link href="/dist-gcwu-fegc/assets/favicon.ico" rel="shortcut icon"/>
 		<link rel="stylesheet" href="/dist-gcwu-fegc/css/ie8-wet-boew.min.css" />
@@ -42,7 +43,7 @@
 	<body vocab="http://schema.org/" typeof="WebPage">
 		<header role="banner">
 			<div id="wb-bnr" class="container">
-				<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/dist-gcwu-fegc/assets/sig-alt-<!--#echo encoding='none' var='pg-lang1'-->.svg" aria-label="<!--#echo encoding='none' var='wb-splash-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='wb-splash-sig-${pg-lang2}'-->"></object>
+				<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="<!--#echo encoding='none' var='wb-splash-sig-path'-->/sig-alt-<!--#echo encoding='none' var='pg-lang1'-->.svg" aria-label="<!--#echo encoding='none' var='wb-splash-sig-${pg-lang1}'--> / <!--#echo encoding='none' var='wb-splash-sig-${pg-lang2}'-->"></object>
 			</div>
 		</header>
 		<main role="main" property="mainContentOfPage" class="container">
