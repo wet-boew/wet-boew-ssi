@@ -1,3 +1,4 @@
+<!--#set var="QUERY_STRING_TEMP" value="${QUERY_STRING}"-->
 <!--#config errmsg=""-->
 <!--#set var="subsite-show" value="1"-->
 <!--#include virtual="/index.shtm"-->
@@ -19,3 +20,4 @@
 <!--#endif-->
 <!--#endif-->
 <!--#set var="subsite-show" value="0"-->
+<!--#set var="QUERY_STRING" value="${QUERY_STRING_TEMP}"-->
