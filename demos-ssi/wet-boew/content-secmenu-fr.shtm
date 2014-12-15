@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--#set var="pg-lang1" value="fr"-->
 <!--#include virtual="/dist-ssi/html-1.shtm"-->
-<html class="no-js" lang="<!--#echo encoding='none' var='pg-lang1'-->" dir="ltr">
+<html class="no-js" lang="<!--#echo encoding='none' var='pg-lang1'-->">
 <!--#include virtual="/dist-ssi/html-2.shtm"-->
 <head>
 <meta charset="utf-8" />

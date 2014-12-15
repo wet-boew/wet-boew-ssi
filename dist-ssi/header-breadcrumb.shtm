@@ -1,10 +1,10 @@
-<!--#set var="QUERY_STRING_TEMP" value="${QUERY_STRING}"-->
 <ol class="breadcrumb">
 	<!--#config errmsg=""-->
+	<!--#if expr="$DOCUMENT_URI = /php.cgi\/(.*)/"--><!--#set var="docuri" value="/$1"--><!--#else--><!--#set var="docuri" value="$DOCUMENT_URI"--><!--#endif-->
 	<!--#if expr="${pg-breadcrumb-base}"-->
 		<!--#set var="site-breadcrumb-base" value="${pg-breadcrumb-base}"-->
 	<!--#else-->
-		<!--#set var="site-breadcrumb-base" value="${DOCUMENT_URI}"-->
+		<!--#set var="site-breadcrumb-base" value="${docuri}"-->
 	<!--#endif-->
 	<!--#set var="np-show" value="1"-->
 	<!--#include virtual="/index.shtm?np=1"-->
@@ -35,4 +35,3 @@
 	<!--#if expr="${pg-breadcrumb-supl5-href}"--><li><a href="<!--#echo encoding='none' var='pg-breadcrumb-supl5-href'-->"><!--#echo encoding='none' var='pg-breadcrumb-supl5-text'--></a></li><!--#endif-->
 	<li><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></li>
 </ol>
-<!--#set var="QUERY_STRING" value="${QUERY_STRING_TEMP}"-->
