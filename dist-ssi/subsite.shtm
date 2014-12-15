@@ -1,8 +1,8 @@
-<!--#set var="QUERY_STRING_TEMP" value="${QUERY_STRING}"-->
 <!--#config errmsg=""-->
+<!--#if expr="$DOCUMENT_URI = /php.cgi\/(.*)/"--><!--#set var="docuri" value="/$1"--><!--#else--><!--#set var="docuri" value="$DOCUMENT_URI"--><!--#endif-->
 <!--#set var="subsite-show" value="1"-->
 <!--#include virtual="/index.shtm"-->
-<!--#if expr="${DOCUMENT_URI} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
+<!--#if expr="${docuri} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
 <!--#if expr="$1"-->
 <!--#include virtual="/${1}index.shtm"-->
 <!--#endif-->
@@ -20,4 +20,3 @@
 <!--#endif-->
 <!--#endif-->
 <!--#set var="subsite-show" value="0"-->
-<!--#set var="QUERY_STRING" value="${QUERY_STRING_TEMP}"-->
