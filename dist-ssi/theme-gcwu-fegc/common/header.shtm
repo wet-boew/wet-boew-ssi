@@ -37,5 +37,5 @@
 </header>
 <!--#if expr="${pg-sec}"--><div class="container">
 	<div class="row"><!--#endif-->
-		<main role="main" property="mainContentOfPage" class="container<!--#if expr="${pg-sec}"--> col-md-9 col-md-push-3<!--#endif-->">
+		<main role="main" property="mainContentOfPage" class="<!--#if expr="${pg-sec}"--> col-md-9 col-md-push-3<!--#else-->container<!--#endif-->">
 			<h1 id="wb-cont" property="name"<!--#if expr="${pg-hideh1}"--> class="wb-invisible"<!--#endif-->><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></h1>
