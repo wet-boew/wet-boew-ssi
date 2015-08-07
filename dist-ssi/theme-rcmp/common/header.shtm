@@ -1,5 +1,5 @@
-<!--#set var="wb-header-sitemenu-en" value="Topics menu"-->
-<!--#set var="wb-header-sitemenu-fr" value="Menu des sujets"-->
+<!--#set var="wb-header-sitemenu-en" value="Site menu"-->
+<!--#set var="wb-header-sitemenu-fr" value="Menu du site"-->
 <!--#set var="wb-header-youarehere-en" value="You are here:"-->
 <!--#set var="wb-header-youarehere-fr" value="Vous êtes dans :"-->
 <!--#include virtual="../../header-skip.shtm"-->
@@ -26,13 +26,6 @@
 			</div>
 		</div>
 	</nav>
-	
-	
-	
-	
-	
-	
-	
 	<nav role="navigation" id="wb-bc" property="breadcrumb">
 		<h2><!--#echo encoding='none' var='wb-header-youarehere-${pg-lang1}'--></h2>
 		<div class="container">
@@ -46,8 +39,3 @@
 	<div class="row"><!--#endif-->
 		<main role="main" property="mainContentOfPage" class="<!--#if expr="${pg-sec}"--> col-md-9 col-md-push-3<!--#else-->container<!--#endif-->">
 			<h1 id="wb-cont" property="name" class="<!--#if expr="${pg-hideh1}"--> wb-invisible<!--#endif-->"><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></h1>
-			
-
-
-
-

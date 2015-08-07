@@ -1,0 +1,36 @@
+			<!--#set var="wb-footer-secmenu-en" value="Secondary menu"-->
+			<!--#set var="wb-footer-secmenu-fr" value="Menu secondaire"-->
+			<!--#set var="wb-footer-datemod-en" value="Date modified:"-->
+			<!--#set var="wb-footer-datemod-fr" value="Date de modification :"-->
+			<!--#if expr="${pg-modified} = ''"--><!--#set var="pg-modified" value="${pg-issued}"--><!--#endif-->
+			<dl id="wb-dtmd" property="dateModified"> <dt><!--#echo encoding='none' var='wb-footer-datemod-${pg-lang1}'-->&#32;</dt> <dd><time><!--#echo encoding='none' var='pg-modified'--></time></dd> </dl>
+		</main>
+		<!--#if expr="${pg-sec}"-->
+		<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
+			<h2><!--#echo encoding='none' var='wb-footer-secmenu-${pg-lang1}'--></h2>
+			<!--#include virtual="${pg-sec}"-->
+		</nav>
+		<!--#endif-->
+	<!--#if expr="${pg-sec}"--></div>
+</div><!--#endif-->
+<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+	<div class="container">
+		<nav role="navigation">
+			<!--#include virtual="${sect-menupath}/footer-${pg-lang1}.shtm"-->
+		</nav>
+	</div>
+	<div id="gc-info">
+		<div class="container">
+			<nav role="navigation">
+				<!--#include virtual="../components/footer-gc-${pg-lang1}.shtm"-->
+			</nav>
+		</div>
+	</div>
+</footer>
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/dist-gcwu-fegc/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/dist-gcwu-fegc/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->

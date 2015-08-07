@@ -1,19 +1,17 @@
 <!--#set var="wb-skip-main-en" value="Skip to main content"-->
 <!--#set var="wb-skip-main-fr" value="Passer au contenu principal"-->
-<!--#set var="wb-skip-siteinfo-en" value="Skip to site information"-->
-<!--#set var="wb-skip-siteinfo-fr" value="Passer aux informations sur le site"-->
-<!--#set var="wb-skip-secmenu-en" value="Skip to secondary menu"-->
-<!--#set var="wb-skip-secmenu-fr" value="Passer au menu secondaire"-->
+<!--#set var="wb-skip-siteinfo-en" value="Skip to \"About this site\""-->
+<!--#set var="wb-skip-siteinfo-fr" value="Passer à «&#160;À propos de ce site&#160;»"-->
+<!--#set var="wb-skip-secmenu-en" value="Skip to section menu"-->
+<!--#set var="wb-skip-secmenu-fr" value="Passer au menu de la section"-->
 <ul id="wb-tphp">
 	<li class="wb-slc">
 		<a class="wb-sl" href="#wb-cont"><!--#echo encoding='none' var='wb-skip-main-${pg-lang1}'--></a>
 	</li>
-	<li class="wb-slc visible-md visible-lg">
+	<li class="wb-slc visible-sm visible-md visible-lg">
 		<a class="wb-sl" href="#wb-info"><!--#echo encoding='none' var='wb-skip-siteinfo-${pg-lang1}'--></a>
 	</li>
-	<!--#if expr="${pg-sec}"-->
-	<li class="wb-slc visible-md visible-lg">
+	<!--#if expr="${pg-sec}"--><li class="wb-slc visible-sm visible-md visible-lg">
 		<a class="wb-sl" href="#wb-sec"><!--#echo encoding='none' var='wb-skip-secmenu-${pg-lang1}'--></a>
-	</li>
-	<!--#endif-->
+	</li><!--#endif-->
 </ul>
