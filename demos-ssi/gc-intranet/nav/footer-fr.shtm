@@ -1,16 +1,16 @@
-<h2>Informations sur le site</h2>
+<h2>À propos de ce site</h2>
 <div class="row">
-	<section class="col-sm-3">
-		<h3>À propos</h3>
-		<ul class="list-unstyled">
-			<li><a href="/index-fr.html#apropos">À propos de la Boîte à outils de l'expérience Web</a></li>
-			<li><a href="http://www.tbs-sct.gc.ca/ws-nw/index-fra.asp">À propos des normes Web</a></li>
-		</ul>
-	</section>
 	<section class="col-sm-3">
 		<h3>Contactez-nous</h3>
 		<ul class="list-unstyled">
 			<li><a href="https://github.com/wet-boew/wet-boew/issues/new">Questions ou commentaires?</a></li>
+		</ul>
+	</section>
+	<section class="col-sm-3">
+		<h3>À propos</h3>
+		<ul class="list-unstyled">
+			<li><a href="http://wet-boew.github.io/v4.0-ci/index-fr.html#apropos">À propos de la Boîte à outils de l’expérience Web</a></li>
+			<li><a href="http://www.tbs-sct.gc.ca/ws-nw/index-fra.asp">À propos des normes Web</a></li>
 		</ul>
 	</section>
 	<section class="col-sm-3">
@@ -29,5 +29,5 @@
 </div>
 <ul id="gc-tctr" class="list-inline">
 	<li><a rel="license" href="http://wet-boew.github.io/wet-boew/License-fr.html">Avis</a></li>
-	<li><a href="http://www.tbs-sct.gc.ca/pd-dp/index-fr.asp">Transparence</a></li>
+	<li><a href="http://www.tbs-sct.gc.ca/tbs-sct/common/trans-fra.asp">Transparence</a></li>
 </ul>
