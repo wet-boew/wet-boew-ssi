@@ -5,7 +5,7 @@
 <!--#include virtual="/dist-ssi/html-2.shtm"-->
 <head>
 <meta charset="utf-8" />
-<!--#set var="pg-title-en" value="Content page - Secondary menu - WET-BOEW theme - SSI variant - Web Experience Toolkit"-->
+<!--#set var="pg-title-en" value="Content page - Secondary menu - WET theme - SSI variant - Web Experience Toolkit"-->
 <!--#set var="pg-creator-en" value=""-->
 <!--#set var="pg-subject-en" value=""-->
 <!--#set var="pg-issued" value="2011-10-31"-->
