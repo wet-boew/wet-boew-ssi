@@ -1,5 +1,6 @@
 <!--#set var="pg-lang1" value="fr"-->
 <!--#set var="pg-title-fr" value="Thème de la facilité d’emploi Web du gouvernement du Canada"-->
+<!--#set var="pg-description-fr" value=""-->
 <!--#set var="pg-creator-fr" value=""-->
 <!--#set var="pg-subject-fr" value=""-->
 <!--#set var="pg-issued" value="2011-10-31"-->
@@ -15,20 +16,19 @@
 	<body vocab="http://schema.org/" typeof="WebPage">
 	<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/header.shtm"-->
 	<section>
-		<h2>Anglais</h2>
-		<ul>
-			<li><a href="content-en.shtm">Page de contenu</a></li>
-			<li><a href="content-secmenu-en.shtm">Page de contenu - Menu secondaire</a></li>
-			<li><a href="splashpage-en.shtm">Page d'entrée</a></li>
-		</ul>
-	</section>
-
-	<section>
 		<h2>Français</h2>
 		<ul>
 			<li><a href="content-fr.shtm">Page de contenu</a></li>
 			<li><a href="content-secmenu-fr.shtm">Page de contenu - Menu secondaire</a></li>
 			<li><a href="splashpage-fr.shtm">Page d'entrée</a></li>
+		</ul>
+	</section>
+	<section>
+		<h2>Anglais</h2>
+		<ul>
+			<li><a href="content-en.shtm">Page de contenu</a></li>
+			<li><a href="content-secmenu-en.shtm">Page de contenu - Menu secondaire</a></li>
+			<li><a href="splashpage-en.shtm">Page d'entrée</a></li>
 		</ul>
 	</section>
 	<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/footer.shtm"-->
