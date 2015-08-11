@@ -11,10 +11,10 @@
 <!--#include virtual="/dist-ssi/html-2.shtm"-->
 	<head>
 		<meta charset="utf-8" />
-		<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/css-scripts.shtm"-->
+		<!--#include virtual="/dist-ssi/theme-gc-intranet/common/css-scripts.shtm"-->
 	</head>
 	<body vocab="http://schema.org/" typeof="WebPage">
-	<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/header.shtm"-->
+	<!--#include virtual="/dist-ssi/theme-gc-intranet/common/header.shtm"-->
 	<section>
 		<h2>English</h2>
 		<ul>
@@ -31,6 +31,6 @@
 			<li><a href="splashpage-fr.shtm">Splash page</a></li>
 		</ul>
 	</section>
-	<!--#include virtual="/dist-ssi/theme-gcwu-fegc/common/footer.shtm"-->
+	<!--#include virtual="/dist-ssi/theme-gc-intranet/common/footer.shtm"-->
 	</body>
 </html>
