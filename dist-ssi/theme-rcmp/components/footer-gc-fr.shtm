@@ -1,9 +1,0 @@
-<h2>Pied de page du gouvernement du Canada</h2>
-<ul class="list-inline">
-	<li><a href="http://healthycanadians.gc.ca/index-fra.php"><span>Santé</span></a></li>
-	<li><a href="http://www.travel.gc.ca/index-fra.asp"><span>Voyage</span></a></li>
-	<li><a href="http://www.servicecanada.gc.ca/fra/home.shtml"><span>Service Canada</span></a></li>
-	<li><a href="http://www.jobbank.gc.ca/intro-fra.aspx"><span>Emplois</span></a></li>
-	<li><a href="http://actionplan.gc.ca/fr"><span>Économie</span></a></li>
-	<li id="canada-ca"><a href="http://www.canada.ca/fr/index.html">Canada.ca</a></li>
-</ul>
