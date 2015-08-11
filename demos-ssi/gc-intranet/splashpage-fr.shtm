@@ -2,8 +2,8 @@
 <!--#set var="site-title-fr" value="Boîte à outils de l'expérience Web"-->
 <!--#set var="site-href-en" value="/dist/index-en.html"-->
 <!--#set var="site-href-fr" value="/dist/index-fr.html"-->
-<!--#set var="sect-title-en" value="GC Intranet theme"-->
-<!--#set var="sect-title-fr" value="Thème de la GC Intranet"-->
+<!--#set var="sect-title-en" value="Government of Canada Intranet theme"-->
+<!--#set var="sect-title-fr" value="Thème du gouvernement du Canada pour les sites intranet"-->
 <!--#set var="sect-href-en" value="/demos-ssi/gc-intranet/index-en.shtm"-->
 <!--#set var="sect-href-fr" value="/demos-ssi/gc-intranet/index-fr.shtm"-->
 <!--#set var="sect-lang1" value="fr"-->

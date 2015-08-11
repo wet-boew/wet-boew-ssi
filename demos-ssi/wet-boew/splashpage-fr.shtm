@@ -2,10 +2,10 @@
 <!--#set var="site-title-fr" value="Boîte à outils de l'expérience Web"-->
 <!--#set var="site-href-en" value="/dist/index-en.html"-->
 <!--#set var="site-href-fr" value="/dist/index-fr.html"-->
-<!--#set var="sect-title-en" value="WET theme"-->
-<!--#set var="sect-title-fr" value="Thème de la BOEW"-->
-<!--#set var="sect-href-en" value="/demos-ssi/wet-boew/content-secnav-en.shtm"-->
-<!--#set var="sect-href-fr" value="/demos-ssi/wet-boew/content-secnav-fr.shtm"-->
+<!--#set var="sect-title-en" value="Web Experience Toolkit (WET) theme"-->
+<!--#set var="sect-title-fr" value="Thème de la Boîte à outils de l'expérience Web (BOEW)"-->
+<!--#set var="sect-href-en" value="/demos-ssi/wet-boew/index-en.shtm"-->
+<!--#set var="sect-href-fr" value="/demos-ssi/wet-boew/index-fr.shtm"-->
 <!--#set var="sect-lang1" value="fr"-->
 <!--#set var="sect-lang2" value="en"-->
 <!--#set var="sect-issued" value="2014-02-01"-->

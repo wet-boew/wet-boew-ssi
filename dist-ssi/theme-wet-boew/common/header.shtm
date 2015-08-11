@@ -38,4 +38,4 @@
 <div class="container">
 	<div class="row">
 		<main role="main" property="mainContentOfPage" class="container<!--#if expr="${pg-sec}"--> col-md-9 col-md-push-3<!--#endif-->">
-			<h1 id="wb-cont" property="name"><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></h1>
+			<h1 id="wb-cont" property="name"<!--#if expr="${pg-hideh1}"--> class="wb-invisible"<!--#endif-->><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></h1>

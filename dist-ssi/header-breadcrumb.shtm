@@ -7,7 +7,7 @@
 	<!--#set var="site-breadcrumb-base" value="${docuri}"-->
 <!--#endif-->
 <!--#set var="np-show" value="1"-->
-<ol class="breadcrumb">
+<ol class="breadcrumb mrgn-bttm-0">
 	<!--#include virtual="/index.shtm?np=1"-->
 	<!--#if expr="${site-breadcrumb-base} = /\/([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?([^\/\.]*\/)?/" -->
 		<!--#if expr="$1"-->
