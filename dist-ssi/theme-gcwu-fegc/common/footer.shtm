@@ -13,9 +13,8 @@
 			<h2><!--#echo encoding='none' var='wb-footer-secmenu-${pg-lang1}'--></h2>
 			<!--#include virtual="${pg-sec}"-->
 		</nav>
-		<!--#endif-->		
 		</div>
-	</div>
+	</div><!--#endif-->	
 	<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
 		<div class="container">
 			<nav role="navigation">

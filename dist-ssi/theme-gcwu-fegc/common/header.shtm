@@ -26,13 +26,6 @@
 			</div>
 		</div>
 	</nav>
-	
-	
-	
-	
-	
-	
-	
 	<nav role="navigation" id="wb-bc" property="breadcrumb">
 		<h2><!--#echo encoding='none' var='wb-header-youarehere-${pg-lang1}'--></h2>
 		<div class="container">

@@ -9,7 +9,7 @@
 <!--#set var="pg-creator-fr" value=""-->
 <!--#set var="pg-subject-fr" value=""-->
 <!--#set var="pg-issued" value="2011-10-31"-->
-<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#set var="pg-modified" value="2015-08-11"-->
 <!--#set var="pg-sec" value="/demos-ssi/wet-boew/nav/sec-fr.shtm"-->
 <!--#include virtual="/dist-ssi/theme-wet-boew/common/css-scripts.shtm"-->
 </head>

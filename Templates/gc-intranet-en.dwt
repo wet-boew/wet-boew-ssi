@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <!-- TemplateBeginEditable name="meta" -->
 <!--#set var="pg-title-en" value="Title of the document"-->
+<!--#set var="pg-description-fr" value="Description of the document"-->
 <!--#set var="pg-creator-en" value="Government of Canada, Royal Canadian Mounted Police"-->
 <!--#set var="pg-subject-en" value="Police services"-->
 <!--#set var="pg-issued" value="9999-12-31"-->

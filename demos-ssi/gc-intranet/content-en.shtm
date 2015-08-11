@@ -6,10 +6,11 @@
 <head>
 <meta charset="utf-8" />
 <!--#set var="pg-title-en" value="Content page - GC Intranet theme - SSI variant - Web Experience Toolkit"-->
+<!--#set var="pg-description-en" value=""-->
 <!--#set var="pg-creator-en" value=""-->
 <!--#set var="pg-subject-en" value=""-->
 <!--#set var="pg-issued" value="2011-10-31"-->
-<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#set var="pg-modified" value="2015-08-11"-->
 <!--#include virtual="/dist-ssi/theme-gc-intranet/common/css-scripts.shtm"-->
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
