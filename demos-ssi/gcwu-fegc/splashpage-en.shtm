@@ -2,8 +2,9 @@
 <!--#set var="site-title-fr" value="Boîte à outils de l'expérience Web"-->
 <!--#set var="site-href-en" value="/dist/index-en.html"-->
 <!--#set var="site-href-fr" value="/dist/index-fr.html"-->
-<!--#set var="sect-title-en" value="GCWU theme"-->
-<!--#set var="sect-title-fr" value="Thème de la FEGC"-->
+<!--#set var="site-coa" value=""-->
+<!--#set var="sect-title-en" value="Government of Canada Web Usability theme"-->
+<!--#set var="sect-title-fr" value="Thème de la facilité d’emploi Web du gouvernement du Canada"-->
 <!--#set var="sect-href-en" value="/demos-ssi/gcwu-fegc/index-en.shtm"-->
 <!--#set var="sect-href-fr" value="/demos-ssi/gcwu-fegc/index-fr.shtm"-->
 <!--#set var="sect-lang1" value="en"-->

@@ -1,22 +1,28 @@
 <!--#include virtual="../../subsite.shtm"-->
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-<meta name="dcterms.creator" content="<!--#echo encoding='none' var='pg-creator-${pg-lang1}'-->" />
-<meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
-<meta name="dcterms.issued" title="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
-<meta name="dcterms.modified" title="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
-<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='pg-subject-${pg-lang1}'-->" />
-<meta name="dcterms.language" title="ISO639-2" content="<!--#if expr="${pg-lang1} != 'fr'"-->eng<!--#else-->fra<!--#endif-->" />
-<!--[if gte IE 9 | !IE ]><!-->
-<link rel="stylesheet" href="/dist-wet-boew/css/wet-boew.min.css" />
-<!--<![endif]-->
-<link rel="stylesheet" href="/dist-wet-boew/css/theme.min.css" />
-<!--[if lt IE 9]>
-<link rel="stylesheet" href="/dist-wet-boew/css/ie8-wet-boew.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/dist-wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<noscript><link rel="stylesheet" href="/dist-wet-boew/css/noscript.min.css" /></noscript>
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title><!--#echo encoding='none' var='pg-title-${pg-lang1}'--></title>
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<![endif]-->
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<!-- Meta data -->
+		<meta name="description" content="<!--#echo encoding='none' var='pg-description-${pg-lang1}'-->">
+		<meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->">
+		<meta name="dcterms.creator" content="<!--#echo encoding='none' var='pg-creator-${pg-lang1}'-->">
+		<meta name="dcterms.issued" title="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->">
+		<meta name="dcterms.modified" title="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->">
+		<meta name="dcterms.subject" title="scheme" content="<!--#echo encoding='none' var='pg-subject-${pg-lang1}'-->">
+		<meta name="dcterms.language" title="ISO639-2" content="<!--#if expr="${pg-lang1} != 'fr'"-->eng<!--#else-->fra<!--#endif-->">
+		<!-- Meta data-->
+		<!--[if gte IE 9 | !IE ]><!-->
+		<link href="/dist-wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="/dist-wet-boew/css/theme.css" />
+		<!--<![endif]-->
+		<!--[if lt IE 9]>
+		<link href="/dist-wet-boew/assets/favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" href="/dist-wet-boew/css/ie8-theme.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="/dist-wet-boew/js/ie8-wet-boew.js"></script>
+		<![endif]-->
+		<noscript><link rel="stylesheet" href="/dist-wet-boew/css/noscript.css" /></noscript>

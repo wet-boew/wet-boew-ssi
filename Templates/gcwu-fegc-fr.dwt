@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <!-- TemplateBeginEditable name="meta" -->
 <!--#set var="pg-title-fr" value="Titre du document"-->
+<!--#set var="pg-description-fr" value="Description du document"-->
 <!--#set var="pg-creator-fr" value="Gouvernement du Canada, Gendarmerie royale du Canada"-->
 <!--#set var="pg-subject-fr" value="Service de police"-->
 <!--#set var="pg-issued" value="9999-12-31"-->

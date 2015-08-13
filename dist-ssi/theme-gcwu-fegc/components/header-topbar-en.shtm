@@ -1,14 +1,9 @@
 <!--#include virtual="../../lang.shtm"-->
-<!--#if expr="${site-coa}"-->
-<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/nav/coa/sig-en.svg" aria-label="Government of Canada"></object>
-<!--#else-->
 <object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/dist-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-<!--#endif-->
 <ul id="gc-bar" class="list-inline">
 	<li><a href="http://www.canada.ca/en/index.html" rel="external">Canada.ca</a></li>
 	<li><a href="http://www.canada.ca/en/services/index.html" rel="external">Services</a></li>
 	<li><a href="http://www.canada.ca/en/gov/dept/index.html" rel="external">Departments</a></li>
-	<!-- TODO: Implement i18n language name when WET core is updated to support it -->
 	<li id="wb-lng"><h2>Language selection</h2>
 		<ul class="list-inline">
 			<li><a lang="fr" href="<!--#echo encoding='none' var='pg-altlangurl'-->">Français</a></li>
@@ -16,9 +11,9 @@
 	</li>
 </ul>
 <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-	<h2>Menu</h2>
+	<h2>Search and menus</h2>
 	<ul class="pnl-btn list-inline text-right">
-		<li><a href="#mb-pnl" title="Menu" aria-controls="mb-pnl" class="overlay-lnk btn btn-xs btn-default" role="button"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Menu</span></span></a></li>
+		<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
 	</ul>
 	<div id="mb-pnl"></div>
 </section>
